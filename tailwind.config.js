@@ -31,9 +31,6 @@ module.exports = {
         },
         'success': '#4FC16F',
         'error': '#E94646'
-      },
-      fontFamily: {
-        'body': ['var(--font-source-sans-pro)']
       }
     },
   },

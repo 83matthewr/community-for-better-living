@@ -3,7 +3,7 @@ import Logo from "../../public/cfbl-logo.svg";
 
 export default function Footer() {
     return (
-        <div className="w-full h-[270px] px-8 pt-4 pb-8 bg-secondary-100 justify-between items-start inline-flex">
+        <div className="relative w-full h-[270px] px-8 pt-4 pb-8 bg-secondary-100 justify-between items-start inline-flex">
             <div className="flex-col justify-start items-start gap-2 inline-flex">
                 <Image src={Logo} alt="CBL Logo" height={32} width={70} className="mb-1" />
                 <div className="text-neutral-700 font-body text-xs font-semibold leading-[18px]">The Community for Better Living</div>
