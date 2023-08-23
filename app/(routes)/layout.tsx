@@ -60,7 +60,7 @@ export default function RootLayout({
       <body>
         <main>
           <Navbar />
-          <div className='relative z-0 min-h-screen mt-[72px] py-8'>
+          <div className='relative z-0 min-h-screen'>
             {children}
           </div>
           <Footer />
