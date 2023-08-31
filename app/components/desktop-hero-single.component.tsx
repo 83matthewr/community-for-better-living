@@ -1,6 +1,6 @@
 import Image, { StaticImageData } from "next/image";
 
-export default function MobileHero(
+export default function DesktopHeroSingle(
     { image, alt, title }:
         {
             image: StaticImageData,
@@ -8,7 +8,7 @@ export default function MobileHero(
             title: string
         }) {
     return (
-        <div className="relative w-full h-screen md:hidden">
+        <div className="hidden md:block relative w-full h-screen">
             <Image
                 alt={alt}
                 src={image}

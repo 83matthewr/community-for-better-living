@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link";
 
+import DesktopHeroSingle from "../components/desktop-hero-single.component";
 import MobileHero from "../components/mobile-hero.component"
 import ImageCard from "../components/image-card.component"
 import ImageTile from "../components/image-tile.component";
@@ -15,7 +16,9 @@ import foodbank from '../../public/assets/foodbank.jpg';
 export default function Home() {
   return (
     <div>
-      <MobileHero image={homeHero} />
+      <MobileHero image={homeHero} alt="Hero Image" title="The Community for Better Living" />
+      <DesktopHeroSingle image={foodbank} alt="Hero Image" title="The Community for Better Living" />
+      
       <div className="container mx-auto">
 
         <div className="p-8">
