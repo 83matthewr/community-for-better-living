@@ -55,7 +55,7 @@ export default function Footer() {
             <div className="flex-col justify-start items-end gap-1 inline-flex">
                 {menuLinks.map((link) => {
                     return (
-                        <Link href={link.path}>
+                        <Link key={link.path} href={link.path}>
                             <p className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">
                                 {link.text}
                             </p>

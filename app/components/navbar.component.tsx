@@ -75,7 +75,7 @@ export default function Navbar() {
                 <div className="text-right mt-12 py-4 px-8 display-2 text-neutral-900">
                     {menuLinks.map((link) => {
                         return (
-                            <Link href={link.path} onClick={() => slideOut()}>
+                            <Link key={link.path} href={link.path} onClick={() => slideOut()}>
                                 <p className="mb-4">{link.text}</p>
                             </Link>
                         );
