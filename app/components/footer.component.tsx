@@ -1,5 +1,45 @@
 import Image from "next/image";
+import Link from "next/link";
 import Logo from "../../public/cfbl-logo.svg";
+
+const menuLinks = [
+    {
+        text: 'About Us',
+        path: '/about'
+    },
+    {
+        text: 'Food Bank',
+        path: '/foodbank'
+    },
+    {
+        text: 'Events',
+        path: '/events'
+    },
+    {
+        text: 'Worship',
+        path: '/worship'
+    },
+    {
+        text: 'Other Services',
+        path: '/other'
+    },
+    {
+        text: 'Support Us',
+        path: '/support'
+    },
+    {
+        text: 'Contact Us',
+        path: '/contact'
+    },
+    {
+        text: 'Facebook',
+        path: '/facebook'
+    },
+    {
+        text: 'Privacy Policy',
+        path: '/privacy_policy'
+    }
+];
 
 export default function Footer() {
     return (
@@ -13,14 +53,15 @@ export default function Footer() {
                 <div className="text-neutral-700 font-body text-xs font-normal leading-[18px]">info@communityforbetterliving.org</div>
             </div>
             <div className="flex-col justify-start items-end gap-1 inline-flex">
-                <div className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">About Us</div>
-                <div className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">Events</div>
-                <div className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">Food Bank</div>
-                <div className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">Worship</div>
-                <div className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">Support Us</div>
-                <div className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">Contact</div>
-                <div className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">Facebook</div>
-                <div className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">Privacy Policy</div>
+                {menuLinks.map((link) => {
+                    return (
+                        <Link href={link.path}>
+                            <p className="text-neutral-700 font-body text-sm font-semibold leading-[21px]">
+                                {link.text}
+                            </p>
+                        </Link>
+                    )
+                })}
             </div>
         </div>
     );
