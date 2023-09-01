@@ -60,7 +60,7 @@ export default function Navbar() {
 
     return (
         <div className="z-10 fixed top-0 w-full h-[72px] bg-white">
-            <div className="w-full h-[72px] pt-4 pb-4 px-8 shadow-lg justify-between items-start inline-flex content-center">
+            <div className="w-full h-[72px] py-4 px-8 md:px-14 shadow-lg justify-between items-start inline-flex content-center">
                 <div className="inline-flex">
                     <Link href="/" className='pt-1'>
                         <Image src={Logo} alt="Logo" height={32} width={70} />
