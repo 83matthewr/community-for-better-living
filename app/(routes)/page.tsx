@@ -17,9 +17,15 @@ export default function Home() {
   return (
     <div>
       <MobileHero image={homeHero} alt="Hero Image" title="The Community for Better Living" />
-      <DesktopHeroSingle image={foodbank} alt="Hero Image" title="The Community for Better Living" />
-      
-      <div className="container mx-auto">
+      <DesktopHeroSingle
+        image={worship}
+        alt="Hero Image"
+        title="About Us"
+        subtitle="Our story and how we serve our community"
+        position="center bottom"
+      />
+
+      <div className="w-full md:w-5/6 mx-auto">
 
         <div className="p-8">
           <h2 className="display-s text-primary-900 mb-4">Making a difference</h2>
@@ -45,7 +51,7 @@ export default function Home() {
             <ImageCard image={foodbank} height="250px" alt="Food Bank">
               <h3 className="display-3 text-primary-900 mb-2">Food Bank</h3>
               <p className="body-3r text-neutral-900 mb-4">
-                We operate a Greater Cleveland Food Bank distribution. Our drive-thru distribution service provides 
+                We operate a Greater Cleveland Food Bank distribution. Our drive-thru distribution service provides
                 food to families throughout our community twice each month. All are welcome.
               </p>
               <Link href="/foodbank" className="py-1 px-4 rounded bg-primary-900 text-white display-5">
@@ -66,7 +72,7 @@ export default function Home() {
             <ImageCard image={eventCard} height="250px" alt="Events">
               <h3 className="display-3 text-primary-900 mb-2">Events</h3>
               <p className="body-3r text-neutral-900 mb-6">
-                We host community events and classes ranging from Car Shows to Chili Cook Off Competitions. 
+                We host community events and classes ranging from Car Shows to Chili Cook Off Competitions.
                 Join us for a great time!
               </p>
               <Link href="/events" className="py-1 px-4 rounded bg-primary-900 text-white display-5">
@@ -91,8 +97,8 @@ export default function Home() {
         <div className="px-8 pb-8">
           <h2 className="display-s text-primary-900 mb-4">Our Values</h2>
           <p className="body-2s text-neutral-900 mb-8">
-            Lorem ipsum dolor sit amet consectetur. Suspendisse ipsum nibh nulla venenatis arcu scelerisque 
-            pulvinar habitasse commodo. Turpis adipiscing accumsan aenean ut. In etiam sit mauris id. Quam 
+            Lorem ipsum dolor sit amet consectetur. Suspendisse ipsum nibh nulla venenatis arcu scelerisque
+            pulvinar habitasse commodo. Turpis adipiscing accumsan aenean ut. In etiam sit mauris id. Quam
             venenatis enim pellentesque integer.
           </p>
           <div className="flex flex-col gap-8">

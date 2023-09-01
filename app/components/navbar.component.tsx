@@ -69,7 +69,7 @@ export default function Navbar() {
                         {menuLinks.map((link) => {
                             if (link.path !== '/support' && link.path !== '/') {
                                 return (
-                                    <Link href={link.path}>
+                                    <Link key={link.path} href={link.path}>
                                         <p className="display-4 text-neutral-900 pr-4">{link.text}</p>
                                     </Link>
                                 )
