@@ -44,7 +44,7 @@ const menuLinks = [
 export default function Footer() {
     return (
         <div className="relative w-full h-fit px-8 md:px-14 pt-4 md:pt-8 pb-8 bg-secondary-100 justify-between items-start inline-flex">
-            <div className="inline-flex justify-between w-full md:max-w-[464px]">
+            <div className="flex-col xs:flex-row inline-flex justify-between w-full md:max-w-[464px]">
                 <div className="flex-col justify-start items-start gap-2 inline-flex">
                     <Image src={Logo} alt="CBL Logo" height={32} width={70} className="mb-1" />
                     <div className="text-neutral-700 font-body text-xs font-semibold leading-[18px]">The Community for Better Living</div>
@@ -53,7 +53,7 @@ export default function Footer() {
                     <div className="text-neutral-700 font-body text-xs font-normal leading-[18px]">(440) 541-7829</div>
                     <div className="text-neutral-700 font-body text-xs font-normal leading-[18px]">info@communityforbetterliving.org</div>
                 </div>
-                <div className="flex-col justify-start items-end md:items-start inline-flex">
+                <div className="flex-col justify-start pt-4 xs:pt-0 xs:items-end md:items-start inline-flex">
                     {menuLinks.map((link) => {
                         if (link.path === '/support' || link.path === '/contact') {
                             return (

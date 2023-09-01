@@ -12,7 +12,7 @@ export default function DesktopHeroSingle(
     return (
         <div>
             <div className="hidden md:block relative w-full h-screen bg-primary-100 py-16">
-                <div className="w-fit mt-14 mb-10 mx-auto text-center">
+                <div className="w-fit mt-[72px] mb-10 mx-auto text-center">
                     <h1 className="display-1 text-primary-900 mb-4">{title}</h1>
                     <p className="display-s text-neutral-900">{subtitle}</p>
                 </div>
@@ -23,7 +23,6 @@ export default function DesktopHeroSingle(
                         placeholder="blur"
                         quality={100}
                         sizes="100vw"
-                        // Make the image display full width
                         style={{
                             width: '100%',
                             height: '60vh',

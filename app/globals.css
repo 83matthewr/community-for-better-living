@@ -2,109 +2,111 @@
 @tailwind components;
 @tailwind utilities;
 
-.display-1 {
-    font-family: var(--font-lora);
-    font-weight: 600;
-    font-size: 2.5rem;
-    line-height: 125%;
-}
+@layer utilities {
+    .display-1 {
+        font-family: var(--font-lora);
+        font-weight: 600;
+        font-size: 2.5rem;
+        line-height: 125%;
+    }
 
-.display-2 {
-    font-family: var(--font-lora);
-    font-weight: 600;
-    font-size: 2rem;
-    line-height: 125%;
-}
+    .display-2 {
+        font-family: var(--font-lora);
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 125%;
+    }
 
-.display-3 {
-    font-family: var(--font-lora);
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 125%;
-}
+    .display-3 {
+        font-family: var(--font-lora);
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 125%;
+    }
 
-.display-4 {
-    font-family: var(--font-lora);
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 125%;
-}
+    .display-4 {
+        font-family: var(--font-lora);
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 125%;
+    }
 
-.display-5 {
-    font-family: var(--font-lora);
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 125%;
-}
+    .display-5 {
+        font-family: var(--font-lora);
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 125%;
+    }
 
-.display-s {
-    font-family: var(--font-lora);
-    font-weight: 600;
-    font-size: 1.125rem;
-    line-height: 125%;
-    letter-spacing: 0.125rem;
-}
+    .display-s {
+        font-family: var(--font-lora);
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 125%;
+        letter-spacing: 0.125rem;
+    }
 
-.display-sl {
-    font-family: var(--font-lora);
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 125%;
-    letter-spacing: 0.125rem;
-}
+    .display-sl {
+        font-family: var(--font-lora);
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 125%;
+        letter-spacing: 0.125rem;
+    }
 
-.body-1r {
-    font-family: var(--font-source-sans-pro);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 150%;
-}
+    .body-1r {
+        font-family: var(--font-source-sans-pro);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 150%;
+    }
 
-.body-1b {
-    font-family: var(--font-source-sans-pro);
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 150%;
-}
+    .body-1b {
+        font-family: var(--font-source-sans-pro);
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 150%;
+    }
 
-.body-1s {
-    font-family: var(--font-source-sans-pro);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 175%;
-}
+    .body-1s {
+        font-family: var(--font-source-sans-pro);
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 175%;
+    }
 
-.body-2r {
-    font-family: var(--font-source-sans-pro);
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 150%;
-}
+    .body-2r {
+        font-family: var(--font-source-sans-pro);
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 150%;
+    }
 
-.body-2b {
-    font-family: var(--font-source-sans-pro);
-    font-size: 0.875rem;
-    font-weight: 600;
-    line-height: 150%;
-}
+    .body-2b {
+        font-family: var(--font-source-sans-pro);
+        font-size: 0.875rem;
+        font-weight: 600;
+        line-height: 150%;
+    }
 
-.body-2s {
-    font-family: var(--font-source-sans-pro);
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 175%;
-}
+    .body-2s {
+        font-family: var(--font-source-sans-pro);
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 175%;
+    }
 
-.body-3r {
-    font-family: var(--font-source-sans-pro);
-    font-size: 0.75rem;
-    font-weight: 400;
-    line-height: 150%;
-}
+    .body-3r {
+        font-family: var(--font-source-sans-pro);
+        font-size: 0.75rem;
+        font-weight: 400;
+        line-height: 150%;
+    }
 
-.body-3b {
-    font-family: var(--font-source-sans-pro);
-    font-size: 0.75rem;
-    font-weight: 600;
-    line-height: 150%;
+    .body-3b {
+        font-family: var(--font-source-sans-pro);
+        font-size: 0.75rem;
+        font-weight: 600;
+        line-height: 150%;
+    }
 }
