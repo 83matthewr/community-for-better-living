@@ -1,13 +1,13 @@
 import Image, { StaticImageData } from "next/image";
 
 export default function DesktopHeroSingle(
-    { image, alt, title, subtitle, position }:
+    { image, alt, title, subtitle, position = "" }:
         {
             image: StaticImageData,
             alt: string,
             title: string,
             subtitle: string,
-            position: string
+            position?: string
         }) {
     return (
         <div>
@@ -16,7 +16,7 @@ export default function DesktopHeroSingle(
                     <h1 className="display-1 text-primary-900 mb-4">{title}</h1>
                     <p className="display-s text-neutral-900">{subtitle}</p>
                 </div>
-                <div className="relative w-5/6 lg:w-[60vw] max-w-screen-lg mx-auto">
+                <div className="relative w-5/6 lg:w-[60vw] max-w-screen-xl mx-auto">
                     <Image
                         alt={alt}
                         src={image}
@@ -25,7 +25,7 @@ export default function DesktopHeroSingle(
                         sizes="100vw"
                         style={{
                             width: '100%',
-                            height: '60vh',
+                            height: '65vh',
                             objectFit: 'cover',
                             objectPosition: position,
                             borderRadius: '0.75rem'
