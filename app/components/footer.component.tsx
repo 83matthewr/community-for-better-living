@@ -43,7 +43,7 @@ const menuLinks = [
 
 export default function Footer() {
     return (
-        <div className="relative w-full h-fit px-8 md:px-14 pt-4 md:pt-8 pb-8 bg-secondary-100 justify-between items-start inline-flex">
+        <div className="relative w-full h-fit px-8 md:px-14 pt-4 md:pt-8 pb-8 bg-secondary-100 justify-between items-start inline-flex shadow-[0_-4px_15px_0px_rgba(0,0,0,0.1)]">
             <div className="flex-col xs:flex-row inline-flex justify-between w-full md:max-w-[464px]">
                 <div className="flex-col justify-start items-start gap-2 inline-flex">
                     <Image src={Logo} alt="CBL Logo" height={32} width={70} className="mb-1" />
