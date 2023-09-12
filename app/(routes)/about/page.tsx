@@ -2,6 +2,8 @@
 import MobileHero from "@/app/components/mobile-hero.component"
 import DesktopHeroSingle from "@/app/components/desktop-hero-single.component"
 import ParagraphPicture from "@/app/components/paragraph-picture.component"
+import DesktopDonation from "@/app/components/desktop-donation.component";
+import MobileDonation from "@/app/components/mobile-donation.component";
 
 import desktopHero from "../../../public/assets/about_desktop_hero.jpg";
 import mobileHero from "../../../public/assets/about_mobile_hero.jpg";
@@ -41,7 +43,9 @@ export default function About() {
           </p>
         </ParagraphPicture>
 
+        <MobileDonation/>
       </div>
+      <DesktopDonation/>
     </div>
   )
 }

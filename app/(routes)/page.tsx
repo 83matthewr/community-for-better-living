@@ -6,6 +6,8 @@ import MobileHero from "../components/mobile-hero.component"
 import ImageCard from "../components/image-card.component"
 import ImageTile from "../components/image-tile.component";
 import ParagraphPicture from "../components/paragraph-picture.component";
+import DesktopDonation from "../components/desktop-donation.component";
+import MobileDonation from "../components/mobile-donation.component";
 
 import homeHero from '../../public/assets/home_hero.jpg';
 import donation from '../../public/assets/donation.jpg'
@@ -134,56 +136,11 @@ export default function Home() {
         </div>
 
         {/* Mobile Donation */}
-        <div className="lg:hidden px-8 pb-8">
-          <h2 className="display-s text-primary-900 mb-4">Help Our Cause</h2>
-          <div className="w-full bg-primary-100 rounded-md shadow-md">
-            <div className="w-full">
-              <Image
-                alt="Mountains"
-                src={donation}
-                sizes="100vw"
-                // Make the image display full width
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  borderRadius: '0.375rem 0.375rem 0 0'
-                }}
-              />
-            </div>
-            <div className="p-4">
-              <p className="body-3r text-neutral-900 mb-4">
-                If you can, please help us as we provide groceries and healthy living education free of charge to families
-                in need across Northeast Ohio. Since the COVID-19 pandemic began in the spring of 2020, we have provided
-                food to over 1000 families and continue to increase those numbers with your support.
-              </p>
-              <Link href="/support" >
-                <p className="w-full py-2 text-center rounded bg-primary-900 text-white display-5">Support Us</p>
-              </Link>
-            </div>
-          </div>
-        </div>
+        <MobileDonation/>
       </div>
 
       {/* Desktop Donation */}
-      <div className="hidden lg:block w-full h-[800px] bg-gradient-to-t from-primary-100 from-80% to-white">
-        <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto pt-[200px]">
-          <ParagraphPicture
-            image={donation}
-            alt="Please donate"
-            imageRight={false}
-          >
-            <h2 className="display-sl text-primary-900 mb-8">Help Our Cause</h2>
-            <p className="body-1s text-neutral-900 mb-8">
-              If you can, please help us as we provide groceries and healthy living education free of charge to families
-              in need across Northeast Ohio. Since the COVID-19 pandemic began in the spring of 2020, we have provided
-              food to over 1000 families and continue to increase those numbers with your support.
-            </p>
-            <Link href="/support" >
-              <p className="w-[50%] py-2 text-center rounded bg-primary-900 text-white display-5">Support Us</p>
-            </Link>
-          </ParagraphPicture>
-        </div>
-      </div>
+      <DesktopDonation/>
     </div>
   )
 }
