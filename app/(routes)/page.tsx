@@ -9,11 +9,17 @@ import ParagraphPicture from "../components/paragraph-picture.component";
 
 import homeHero from '../../public/assets/home_hero.jpg';
 import donation from '../../public/assets/donation.jpg'
-import worship from '../../public/assets/worship.jpg';
+import worship from '../../public/assets/worship_service.jpg';
 import workshop from '../../public/assets/workshop.jpg';
 import eventCard from '../../public/assets/events_card.jpg';
 import foodbank from '../../public/assets/foodbank.jpg';
 import handsTogether from '../../public/assets/handsTogether.jpg';
+import familyTile from '../../public/assets/family_tile.jpg';
+import healthTile from '../../public/assets/health_tile.jpg';
+import spiritualityTile from '../../public/assets/spirit_tile.jpg';
+import financeTile from '../../public/assets/finance_tile.jpg';
+import funTile from '../../public/assets/fun_tile.jpg';
+import workTile from '../../public/assets/work_tile.jpg';
 
 export default function Home() {
   return (
@@ -108,35 +114,21 @@ export default function Home() {
         {/* Values */}
         <div className="px-8 pb-8">
           <h2 className="display-s text-primary-900 mb-4">Our Values</h2>
-          <p className="body-2s text-neutral-900 mb-8">
+          <p className="body-2s text-neutral-900 mb-8 md:w-[70%] lg:w-[50%]">
             Lorem ipsum dolor sit amet consectetur. Suspendisse ipsum nibh nulla venenatis arcu scelerisque
             pulvinar habitasse commodo. Turpis adipiscing accumsan aenean ut. In etiam sit mauris id. Quam
             venenatis enim pellentesque integer.
           </p>
-          <div className="flex flex-col gap-8">
-            <div className="h-[200px] flex flex-row gap-8">
-              <div className="rounded-lg bg-clip-content">
-                <ImageTile image={donation} />
-              </div>
-              <div className="rounded-lg bg-clip-content">
-                <ImageTile image={donation} />
-              </div>
+          <div className="flex flex-col xs:flex-row lg:flex-col gap-2 lg:gap-6">
+            <div className="flex flex-col lg:flex-row gap-2 lg:gap-6">
+              <ImageTile image={familyTile} title="Family" />
+              <ImageTile image={healthTile} title="Health" />
+              <ImageTile image={spiritualityTile} title="Spirituality" />
             </div>
-            <div className="h-[200px] flex flex-row gap-8">
-              <div className="rounded-lg bg-clip-content">
-                <ImageTile image={donation} />
-              </div>
-              <div className="rounded-lg bg-clip-content">
-                <ImageTile image={donation} />
-              </div>
-            </div>
-            <div className="h-[200px] flex flex-row gap-8">
-              <div className="rounded-lg bg-clip-content">
-                <ImageTile image={donation} />
-              </div>
-              <div className="rounded-lg bg-clip-content">
-                <ImageTile image={donation} />
-              </div>
+            <div className="flex flex-col lg:flex-row gap-2 lg:gap-6">
+              <ImageTile image={financeTile} title="Finances" />
+              <ImageTile image={funTile} title="Fun/Leisure" position="100% 35%" />
+              <ImageTile image={workTile} title="Work" />
             </div>
           </div>
         </div>
@@ -173,8 +165,8 @@ export default function Home() {
       </div>
 
       {/* Desktop Donation */}
-      <div className="hidden lg:block w-full h-[700px] bg-gradient-to-t from-primary-100 from-80% to-white">
-        <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto pt-32">
+      <div className="hidden lg:block w-full h-[800px] bg-gradient-to-t from-primary-100 from-80% to-white">
+        <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto pt-[200px]">
           <ParagraphPicture
             image={donation}
             alt="Please donate"
