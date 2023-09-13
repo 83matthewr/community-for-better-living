@@ -181,19 +181,19 @@ export default function About() {
         </ParagraphPicture>
 
         {/* Board Members */}
-        <div className="px-8 pt-4 pb-8 md:pb-16">
+        <div className="px-8 pt-4 pb-8 md:pb-16 lg:pb-2">
           <h2 className="display-s text-primary-900 mb-4 lg:mb-8">Our Board</h2>
           <div className="flex flex-col md:flex-row gap-2">
 
             <div className="flex flex-col xl:flex-row gap-2 w-full">
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(0, 3).map((member) => {
-                  return <BoardMember name={member.name} position={member.position} image={member.img} />
+                  return <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
                 })}
               </div>
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(3, 6).map((member) => {
-                  return <BoardMember name={member.name} position={member.position} image={member.img} />
+                  return <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
                 })}
               </div>
             </div>
@@ -201,12 +201,12 @@ export default function About() {
             <div className="flex flex-col xl:flex-row gap-2 w-full">
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(6, 9).map((member) => {
-                  return <BoardMember name={member.name} position={member.position} image={member.img} />
+                  return <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
                 })}
               </div>
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(9, 12).map((member) => {
-                  return <BoardMember name={member.name} position={member.position} image={member.img} />
+                  return <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
                 })}
               </div>
             </div>
