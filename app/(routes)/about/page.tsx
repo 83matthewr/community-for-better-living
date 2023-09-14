@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import SectionHeading from "@/app/components/section-heading.component";
+import Paragraph from "@/app/components/paragraph.component";
 import MobileHero from "@/app/components/mobile-hero.component";
 import DesktopHeroSingle from "@/app/components/desktop-hero-single.component";
 import ParagraphPicture from "@/app/components/paragraph-picture.component";
@@ -13,6 +15,7 @@ import paragraghImage from "../../../public/assets/about_paragraph_picture.jpg";
 import divider1 from "../../../public/assets/about_us_divider_1.jpg";
 import divider2 from "../../../public/assets/about_us_divider_2.jpg";
 import placeholderImage from "../../../public/assets/profile_placeholder.jpg";
+
 
 const BOARD_MEMBERS = [
   {
@@ -95,10 +98,10 @@ export default function About() {
       <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto">
 
         {/* Intro Paragraphs */}
-        <div className="px-8 py-4">
-          <h2 className="display-s text-primary-900 mb-4 md:mb-8">Our Story</h2>
+        <div className="px-8 pt-8 pb-4">
+          <SectionHeading>Our Story</SectionHeading>
           <div className="flex flex-col lg:flex-row gap-6">
-            <p className="body-2s text-neutral-900 basis-1/2">
+            <Paragraph attrs="basis-1/2">
               The Community for Better Living began in the very early 2000s with the challenge to become a beacon
               of help and guidance in the community. We started by offering classes in healthy cooking, CPR,
               autism awareness, financial planning, online identity protection, and healthy, judgment free
@@ -107,15 +110,15 @@ export default function About() {
               In 2010, we settled at our current location off Columbia Rd. While a sister organization, Walk of
               Faith Community center, began to settle its roots on the west side of Cleveland partnering with the Greater
               Cleveland Food Bank in serving that area as a pantry distribution center and hot breakfast for anyone in need.
-            </p>
-            <p className="body-2s text-neutral-900 basis-1/2">
+            </Paragraph>
+            <Paragraph attrs="basis-1/2">
               In 2014, both centers drew a bit closer as they began to share the same board chair and director and in 2016,
               at the urging of the Greater Cleveland Food Bank, the Community for Better Living began food pantry service
               on the second and fourth Thursdays of the month. Shortly thereafter the Walk of Faith Community center lost
               their lease and the two centers merged and became one as the Community for Better Living. We continue to
               run food pantry services twice a month and hold classes and event to help enrich our community. All are welcome
               to join any of our services and become a part of our community.
-            </p>
+            </Paragraph>
           </div>
         </div>
 
@@ -167,8 +170,8 @@ export default function About() {
           image={paragraghImage}
           alt="Picture"
         >
-          <h2 className="display-s xl:display-sl text-primary-900 mb-4 md:mb-8">Serving Our Community</h2>
-          <p className="body-2s xl:body-1s text-neutral-900">
+          <SectionHeading>Serving Our Community</SectionHeading>
+          <Paragraph>
             We have been dedicated to providing a range of services that meet the needs and interests of our community
             members including a food pantry, community family events, classes on various topics and a weekly spiritual
             group that meets on Saturdays.<br /><br />
@@ -177,12 +180,12 @@ export default function About() {
             We operate with integrity, transparency, and accountability in all that we do and all that we offer, and we
             hold ourselves to the highest standards in all that we do. We finance our organization through grants and
             contributions of compassionate donors that share our mission and vision.
-          </p>
+          </Paragraph>
         </ParagraphPicture>
 
         {/* Board Members */}
-        <div className="px-8 pt-4 pb-8 md:pb-16 lg:pb-2">
-          <h2 className="display-s text-primary-900 mb-4 lg:mb-8">Our Board</h2>
+        <div className="px-8 pt-4 pb-12 md:pb-16 lg:pb-2">
+          <SectionHeading>Our Board</SectionHeading>
           <div className="flex flex-col md:flex-row gap-2">
 
             <div className="flex flex-col xl:flex-row gap-2 w-full">

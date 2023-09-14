@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import DesktopHeroSingle from "../components/desktop-hero-single.component";
 import MobileHero from "../components/mobile-hero.component"
+import SectionHeading from "../components/section-heading.component";
+import Paragraph from "../components/paragraph.component";
 import ImageCard from "../components/image-card.component"
 import ImageTile from "../components/image-tile.component";
 import ParagraphPicture from "../components/paragraph-picture.component";
@@ -10,7 +12,6 @@ import DesktopDonation from "../components/desktop-donation.component";
 import MobileDonation from "../components/mobile-donation.component";
 
 import homeHero from '../../public/assets/home_hero.jpg';
-import donation from '../../public/assets/donation.jpg'
 import worship from '../../public/assets/worship_service.jpg';
 import workshop from '../../public/assets/workshop.jpg';
 import eventCard from '../../public/assets/events_card.jpg';
@@ -22,6 +23,39 @@ import spiritualityTile from '../../public/assets/spirit_tile.jpg';
 import financeTile from '../../public/assets/finance_tile.jpg';
 import funTile from '../../public/assets/fun_tile.jpg';
 import workTile from '../../public/assets/work_tile.jpg';
+
+const SERVICES = [
+  {
+    title: "Food Bank",
+    image: foodbank,
+    text:
+      "We operate a Greater Cleveland Food Bank distribution. Our drive-thru distribution service provides" +
+      " food to families throughout our community twice each month. All are welcome.",
+    link: "/foodbank"
+  },
+  {
+    title: "Worship",
+    image: worship,
+    text: "Saturdays from 10:45am-1:30pm with classes being taught on getting to know God better.",
+    link: "/worship"
+  },
+  {
+    title: "Events",
+    image: eventCard,
+    text:
+      "We host community events and classes ranging from Car Shows to Chili Cook Off Competitions. " +
+      "Join us for a great time!",
+    link: "/events"
+  },
+  {
+    title: "Other Services",
+    image: workshop,
+    text:
+      "We offer a range of other services such as couseling, workshops, and classes to help improve " +
+      "peoples lives.",
+    link: "/other_services"
+  }
+];
 
 export default function Home() {
   return (
@@ -43,8 +77,8 @@ export default function Home() {
           alt="All together"
           imageRight={true}
         >
-          <h2 className="display-s xl:display-sl text-primary-900 mb-8">Making a difference</h2>
-          <p className="body-2s xl:body-1s text-neutral-900">
+          <SectionHeading>Making a Difference</SectionHeading>
+          <Paragraph>
             We are a 501c Community Service and Education Center located on the west side of Cleveland. We are supported by a volunteer network
             of wonderful people dedicated to finding ways to serve and care for anyone in need, including education, direct service,
             and family/community support. We host events to serve the community and also organize fun events to raise funds
@@ -52,75 +86,59 @@ export default function Home() {
 
             We are located on the Westside of Cleveland, just West of the Airport, at 7074 Columbia Rd, Olmsted Township, OH 44138.
             Our Phone Number is (440)541-7829 (please be patient as we are updating our number)
-          </p>
+          </Paragraph>
         </ParagraphPicture>
 
         {/* Services */}
         <div className="px-8 pb-8 md:pb-16">
-          <h2 className="display-s text-primary-900 mb-4">Services</h2>
-          <p className="body-2s text-neutral-900 mb-8 md:w-[70%] lg:w-[50%]">
+          <SectionHeading>Services</SectionHeading>
+          <Paragraph attrs="mb-8 md:w-[70%] lg:w-[50%]">
             Lorem ipsum dolor sit amet consectetur. Suspendisse ipsum nibh nulla venenatis arcu scelerisque pulvinar habitasse commodo.
             Turpis adipiscing accumsan aenean ut. In etiam sit mauris id. Quam venenatis enim pellentesque integer.
-          </p>
+          </Paragraph>
 
           <div className="w-full flex flex-col 2xl:flex-row gap-8">
             <div className="w-full mx-auto flex flex-col md:flex-row gap-8">
-              <ImageCard image={foodbank} height="250px" alt="Food Bank">
-                <h3 className="display-3 text-primary-900 mb-2">Food Bank</h3>
-                <p className="body-3r text-neutral-900 h-[88px]">
-                  We operate a Greater Cleveland Food Bank distribution. Our drive-thru distribution service provides
-                  food to families throughout our community twice each month. All are welcome.
-                </p>
-                <Link href="/foodbank" className="py-1 px-4 rounded bg-primary-900 text-white display-5">
-                  Learn More
-                </Link>
-              </ImageCard>
-
-              <ImageCard image={worship} height="250px" alt="Worship classes">
-                <h3 className="display-3 text-primary-900 mb-2">Worship</h3>
-                <p className="body-3r text-neutral-900 h-[88px]">
-                  Saturdays from 10:45am-1:30pm with classes being taught on getting to know God better.
-                </p>
-                <Link href="/worship" className="py-1 px-4 rounded bg-primary-900 text-white display-5">
-                  Learn More
-                </Link>
-              </ImageCard>
+              {SERVICES.slice(0,2).map((service) => {
+                return (
+                  <ImageCard key={service.title} image={service.image} height="250px" alt="">
+                    <h3 className="display-3 text-primary-900 mb-2">{service.title}</h3>
+                    <p className="body-2r text-neutral-900 h-[128px] xs:h-[96px] md:h-[128px]">
+                      {service.text}
+                    </p>
+                    <Link href={service.link} className="py-1 px-4 rounded bg-primary-900 text-white display-5">
+                      Learn More
+                    </Link>
+                  </ImageCard>
+                )
+              })}
             </div>
 
             <div className="w-full mx-auto flex flex-col md:flex-row gap-8">
-              <ImageCard image={eventCard} height="250px" alt="Events">
-                <h3 className="display-3 text-primary-900 mb-2">Events</h3>
-                <p className="body-3r text-neutral-900 h-[88px]">
-                  We host community events and classes ranging from Car Shows to Chili Cook Off Competitions.
-                  Join us for a great time!
-                </p>
-                <Link href="/events" className="py-1 px-4 rounded bg-primary-900 text-white display-5">
-                  Learn More
-                </Link>
-              </ImageCard>
-
-              <ImageCard image={workshop} height="250px" alt="Other services">
-                <h3 className="display-3 text-primary-900 mb-2">Other Services</h3>
-                <p className="body-3r text-neutral-900 h-[88px]">
-                  We offer a range of other services such as couseling, workshops, and classes to help improve
-                  peoples lives.
-                </p>
-                <Link href="/other_services" className="py-1 px-4 rounded bg-primary-900 text-white display-5">
-                  Learn More
-                </Link>
-              </ImageCard>
+              {SERVICES.slice(2,4).map((service) => {
+                return (
+                  <ImageCard key={service.title} image={service.image} height="250px" alt="">
+                    <h3 className="display-3 text-primary-900 mb-2">{service.title}</h3>
+                    <p className="body-2r text-neutral-900 h-[128px] xs:h-[96px] md:h-[128px]">
+                      {service.text}
+                    </p>
+                    <Link href={service.link} className="py-1 px-4 rounded bg-primary-900 text-white display-5">
+                      Learn More
+                    </Link>
+                  </ImageCard>
+                )
+              })}
             </div>
           </div>
         </div>
 
         {/* Values */}
         <div className="px-8 pb-8">
-          <h2 className="display-s text-primary-900 mb-4">Our Values</h2>
-          <p className="body-2s text-neutral-900 mb-8 md:w-[70%] lg:w-[50%]">
-            Lorem ipsum dolor sit amet consectetur. Suspendisse ipsum nibh nulla venenatis arcu scelerisque
-            pulvinar habitasse commodo. Turpis adipiscing accumsan aenean ut. In etiam sit mauris id. Quam
-            venenatis enim pellentesque integer.
-          </p>
+          <SectionHeading>Our Values</SectionHeading>
+          <Paragraph attrs="mb-8 md:w-[70%] lg:w-[50%]">
+            Lorem ipsum dolor sit amet consectetur. Suspendisse ipsum nibh nulla venenatis arcu scelerisque pulvinar habitasse commodo.
+            Turpis adipiscing accumsan aenean ut. In etiam sit mauris id. Quam venenatis enim pellentesque integer.
+          </Paragraph>
           <div className="flex flex-col xs:flex-row lg:flex-col gap-2 lg:gap-6">
             <div className="flex flex-col lg:flex-row gap-2 lg:gap-6">
               <ImageTile image={familyTile} title="Family" />
@@ -136,11 +154,11 @@ export default function Home() {
         </div>
 
         {/* Mobile Donation */}
-        <MobileDonation/>
+        <MobileDonation />
       </div>
 
       {/* Desktop Donation */}
-      <DesktopDonation/>
+      <DesktopDonation />
     </div>
   )
 }

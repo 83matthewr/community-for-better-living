@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import SectionHeading from "./section-heading.component";
 import donation from '../../public/assets/donation.jpg';
 
 export default function MobileDonation() {
     return (
         <div className="lg:hidden px-8 pb-8">
-            <h2 className="display-s text-primary-900 mb-4">Help Our Cause</h2>
+            <SectionHeading>Help Our Cause</SectionHeading>
             <div className="w-full bg-primary-100 rounded-md shadow-md">
                 <div className="w-full">
                     <Image
