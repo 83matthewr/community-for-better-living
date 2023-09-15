@@ -18,7 +18,7 @@ import eventsVolunteerImage from "../../../public/assets/events_volunteering.jpg
 import otherVolunteeringImage from "../../../public/assets/other_volunteering.jpg";
 import spreadTheWordImage from "../../../public/assets/spread_the_word.jpg";
 
-export default function Events() {
+export default function Support() {
   return (
     <div>
       <MobileHero image={mobileHero} alt="Hero Image" title="Support Us" />
@@ -143,7 +143,7 @@ export default function Events() {
 
         <div className="px-8 py-4 lg:py-16">
           <SectionHeading>Volunteer Opportunities</SectionHeading>
-          <div className="flex flex-col lg:flex-row gap-6">
+          <div className="flex flex-col lg:flex-row gap-6 mt-2">
             <ImageCard image={foodbankVolunteerImage} alt="" height="250px">
               <div className="p-2 md:p-4 lg:p-0 xl:p-6">
                 <h3 className="display-4 md:display-3 text-primary-900 mb-6">Food Bank</h3>

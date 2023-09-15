@@ -14,11 +14,6 @@ import CallToAction from "@/app/components/call-to-action.component";
 
 const FOODBANK_DATES = [
   {
-    date: "September 14, 2023",
-    abbr_date: "Sept 14, 2023",
-    time: "5:30pm-6:30pm"
-  },
-  {
     date: "September 28, 2023",
     abbr_date: "Sept 28, 2023",
     time: "5:30pm-6:30pm"
@@ -55,7 +50,7 @@ const FOODBANK_DATES = [
   },
 ]
 
-export default function Home() {
+export default function FoodBank() {
   const [lastDateIndex, setLastDateIndex] = useState(4);
   const [loadDisabled, setLoadDisabled] = useState(false);
 
