@@ -64,7 +64,7 @@ export default function Events() {
           <div className="flex flex-col md:flex-row gap-6 items-center justify-center">
             {EVENTS_DATA.map((event) => {
               return (
-                <ImageCard image={event.image1} height="300px" alt="">
+                <ImageCard key={event.title} image={event.image1} height="300px" alt="">
                   <div className="flex flex-col gap-4 p-8">
                     <div>
                       <h3 className="display-2 text-primary-900">{event.title}</h3>
