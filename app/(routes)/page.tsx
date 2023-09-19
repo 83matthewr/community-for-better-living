@@ -12,6 +12,7 @@ import DesktopDonation from "../components/desktop-donation.component";
 import MobileDonation from "../components/mobile-donation.component";
 
 import homeHero from '../../public/assets/home_hero.jpg';
+import homeHeroDesktop from '../../public/assets/home_hero_desktop.jpg';
 import worship from '../../public/assets/worship_service.jpg';
 import workshop from '../../public/assets/workshop.jpg';
 import eventCard from '../../public/assets/events_card.jpg';
@@ -62,11 +63,10 @@ export default function Home() {
     <div>
       <MobileHero image={homeHero} alt="Hero Image" title="The Community for Better Living" />
       <DesktopHeroSingle
-        image={worship}
+        image={homeHeroDesktop}
         alt="Hero Image"
-        title="About Us"
-        subtitle="Our story and how we serve our community"
-        position="center bottom"
+        title="The Community for Better Living"
+        subtitle="A 501(C)3 making a positive impact in our community"
       />
 
       <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto">
