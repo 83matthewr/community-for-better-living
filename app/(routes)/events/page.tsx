@@ -1,3 +1,4 @@
+import Container from "@/app/components/container.component";
 import MobileHero from "@/app/components/mobile-hero.component";
 import DesktopHeroSingle from "@/app/components/desktop-hero-single.component";
 import ParagraphPicture from "@/app/components/paragraph-picture.component";
@@ -43,7 +44,7 @@ export default function Events() {
       <MobileHero image={mobileHero} alt="Hero Image" title="Events" />
       <DesktopHeroSingle image={desktopHero} alt="Hero Image" title="Events" subtitle="Community events free to the public" />
 
-      <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto">
+      <Container>
         {/* Intro */}
         <ParagraphPicture image={introImage} alt="An outdoor event">
           <SectionHeading>Community Events & Classes</SectionHeading>
@@ -92,7 +93,7 @@ export default function Events() {
 
         {/* Call To Action */}
         <CallToAction text="Have an idea for an event? Interested in helping us make a difference?" />
-      </div>
+      </Container>
     </div>
   )
 }

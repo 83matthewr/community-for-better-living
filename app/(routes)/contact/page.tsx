@@ -1,3 +1,4 @@
+import Container from "@/app/components/container.component";
 import MobileHero from "@/app/components/mobile-hero.component";
 import DesktopHeroSingle from "@/app/components/desktop-hero-single.component";
 import SectionHeading from "@/app/components/section-heading.component";
@@ -23,7 +24,7 @@ export default function ContactUs() {
         position="100% 80%"
       />
 
-      <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto">
+      <Container>
 
         {/* Where to FInd Us */}
         <div className="px-8 py-8">
@@ -65,7 +66,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-      </div>
+      </Container>
     </div>
   )
 }

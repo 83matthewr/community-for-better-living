@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 
+import Container from "@/app/components/container.component";
 import MobileHero from "@/app/components/mobile-hero.component";
 import DesktopHeroSingle from "@/app/components/desktop-hero-single.component";
 import ParagraphPicture from "@/app/components/paragraph-picture.component";
@@ -77,7 +78,7 @@ export default function FoodBank() {
         subtitle="In partnership with the Greater Cleveland Food Bank"
       />
 
-      <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto">
+      <Container>
         {/* Upcoming Dates */}
         <div className="px-8 pt-8 pb-4">
           <SectionHeading>Upcoming Dates</SectionHeading>
@@ -180,7 +181,7 @@ export default function FoodBank() {
 
         {/* Call to Action */}
         <CallToAction text="Interested in helping provide food to hundreds of families in need?" />
-      </div>
+      </Container>
     </div>
   )
 }

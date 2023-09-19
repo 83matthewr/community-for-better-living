@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link";
 
+import Container from "../components/container.component";
 import DesktopHeroSingle from "../components/desktop-hero-single.component";
 import MobileHero from "../components/mobile-hero.component"
 import SectionHeading from "../components/section-heading.component";
@@ -69,7 +70,7 @@ export default function Home() {
         subtitle="A 501(C)3 making a positive impact in our community"
       />
 
-      <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto">
+      <Container>
 
         {/* Intro Section */}
         <ParagraphPicture
@@ -155,7 +156,7 @@ export default function Home() {
 
         {/* Mobile Donation */}
         <MobileDonation />
-      </div>
+      </Container>
 
       {/* Desktop Donation */}
       <DesktopDonation />

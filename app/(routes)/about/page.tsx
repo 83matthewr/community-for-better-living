@@ -1,5 +1,6 @@
 import Image from "next/image";
 
+import Container from "@/app/components/container.component";
 import SectionHeading from "@/app/components/section-heading.component";
 import Paragraph from "@/app/components/paragraph.component";
 import MobileHero from "@/app/components/mobile-hero.component";
@@ -95,7 +96,7 @@ export default function About() {
         subtitle="Our story and how we serve our community"
       />
 
-      <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto">
+      <Container>
 
         {/* Intro Paragraphs */}
         <div className="px-8 pt-8 pb-4">
@@ -219,7 +220,7 @@ export default function About() {
         </div>
 
         <MobileDonation />
-      </div>
+      </Container>
       <DesktopDonation />
     </div>
   )

@@ -1,3 +1,7 @@
+import Image from "next/image";
+import Link from "next/link";
+
+import Container from "@/app/components/container.component";
 import MobileHero from "@/app/components/mobile-hero.component";
 import DesktopHeroSingle from "@/app/components/desktop-hero-single.component";
 import ParagraphPicture from "@/app/components/paragraph-picture.component";
@@ -5,8 +9,6 @@ import SectionHeading from "@/app/components/section-heading.component";
 import Paragraph from "@/app/components/paragraph.component";
 import CallToAction from "@/app/components/call-to-action.component";
 import ImageCard from "@/app/components/image-card.component";
-import Image from "next/image";
-import Link from "next/link";
 
 import mobileHero from "../../../public/assets/support_mobile_hero.jpg";
 import desktopHero from "../../../public/assets/support_desktop_hero.jpg";
@@ -24,7 +26,7 @@ export default function Support() {
       <MobileHero image={mobileHero} alt="Hero Image" title="Support Us" />
       <DesktopHeroSingle image={desktopHero} alt="Hero Image" title="Support Us" subtitle="Help us make our community a better place" />
 
-      <div className="w-full md:w-5/6 max-w-screen-2xl mx-auto">
+      <Container>
         {/* Intro */}
         <ParagraphPicture image={introImage} alt="An outdoor event">
           <SectionHeading>How You Can Help</SectionHeading>
@@ -207,7 +209,7 @@ export default function Support() {
           </Paragraph>
         </ParagraphPicture>
         <div className="px-8 pb-16"></div>
-      </div>
+      </Container>
     </div>
   )
 }

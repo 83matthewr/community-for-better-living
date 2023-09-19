@@ -1,8 +1,19 @@
 
-export default function Home() {
+import Container from "@/app/components/container.component"
+import MobileHero from "@/app/components/mobile-hero.component"
+import DesktopHeroSingle from "@/app/components/desktop-hero-single.component"
+import SectionHeading from "@/app/components/section-heading.component"
+import Paragraph from "@/app/components/paragraph.component"
+import ParagraphPicture from "@/app/components/paragraph-picture.component"
+import CallToAction from "@/app/components/call-to-action.component"
+
+export default function Worship() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <p>Worship</p>
-    </main>
+    <div>
+      
+      <Container>
+
+      </Container>
+    </div>
   )
 }
