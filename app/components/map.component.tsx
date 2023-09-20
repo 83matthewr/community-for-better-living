@@ -20,7 +20,7 @@ function Map({
         }
     });
   
-    return <div className="h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px]" ref={ref} id="map" />
+    return <div className="h-full w-full" ref={ref} id="map" />
   }
   
 export default Map;

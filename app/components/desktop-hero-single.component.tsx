@@ -14,9 +14,9 @@ export default function DesktopHeroSingle(
             <div className="hidden md:block relative w-full h-screen bg-primary-100 py-16">
                 <div className="w-fit mt-[72px] mb-10 mx-auto text-center">
                     <h1 className="display-1 text-primary-900 mb-4">{title}</h1>
-                    <p className="display-s text-neutral-900">{subtitle}</p>
+                    <p className="display-s text-neutral-900 max-w-[600px] text-center mx-auto">{subtitle}</p>
                 </div>
-                <div className="relative w-5/6 lg:w-[60vw] max-w-screen-xl mx-auto">
+                <div className="relative w-5/6 lg:w-[60vw] max-w-screen-xl mx-auto rounded">
                     <Image
                         alt={alt}
                         src={image}
