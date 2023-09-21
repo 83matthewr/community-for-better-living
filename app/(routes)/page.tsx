@@ -1,6 +1,6 @@
 'use client'
 
-import { Dispatch, Key, MouseEvent, MouseEventHandler, SetStateAction, useState } from "react";
+import { useState } from "react";
 import Image from "next/image"
 import Link from "next/link";
 
@@ -30,7 +30,6 @@ import funTile from '../../public/assets/fun_tile.jpg';
 import workTile from '../../public/assets/work_tile.jpg';
 import closeButtonWhite from '../../public/closeButtonWhite.svg';
 import closeButtonBlack from '../../public/closeButtonBlack.svg';
-import { IndexType } from "typescript";
 
 const SERVICES = [
   {
@@ -61,15 +60,9 @@ const SERVICES = [
     text:
       "We offer a range of other services such as couseling, workshops, and classes to help improve " +
       "peoples lives.",
-    link: "/other_services"
+    link: "/other"
   }
 ];
-
-const familyValueContent = (
-  <div>
-
-  </div>
-)
 
 const VALUE_CONTENT = {
   "family": {
