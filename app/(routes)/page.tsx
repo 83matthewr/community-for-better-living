@@ -104,7 +104,7 @@ const VALUE_CONTENT = {
     text1: "Lorem ipsum dolor sit amet consectetur. Ornare elementum condimentum a interdum. Sed ut justo nunc metus. Aliquet sapien sed massa sollicitudin. Mattis malesuada sodales odio amet. Proin vitae aliquet arcu facilisi ipsum felis quam. Proin hac ipsum mauris sit laoreet massa mauris magna. Volutpat faucibus at aliquam diam risus. Felis porta nunc nisi pharetra amet amet elementum id. Libero nisl adipiscing ullamcorper quisque.",
     text2: "Lorem ipsum dolor sit amet consectetur. Ornare elementum condimentum a interdum. Sed ut justo nunc metus. Aliquet sapien sed massa sollicitudin. Mattis malesuada sodales odio amet. Proin vitae aliquet arcu facilisi ipsum felis quam. Proin hac ipsum mauris sit laoreet massa mauris magna. Volutpat faucibus at aliquam diam risus. Felis porta nunc nisi pharetra amet amet elementum id. Libero nisl adipiscing ullamcorper quisque.",
     image: financeTile,
-    link: "", 
+    link: "",
     linkText: "Link",
     closeButtonColor: "white"
   },
@@ -156,18 +156,90 @@ export default function Home() {
         <Image src={closeButtonBlack} alt="Close" height={28} width={27} className="absolute right-9 top-9 cursor-pointer" onClick={closeDialog} />
         <div className="flex flex-col lg:flex-row bg-secondary-100">
           <div className="w-full h-[400px] lg:h-[624px] lg:basis-1/2">
-            <Image
-              alt="Dialog Image"
-              // @ts-ignore
-              src={VALUE_CONTENT[currentDialog].image}
-              sizes="100vw"
-              style={{
-                width: '100%',
-                height: '100%',
-                borderRadius: '0.375rem 0.375rem 0 0',
-                objectFit: 'cover'
-              }}
-            />
+            {currentDialog === "family" && (
+              <Image
+                alt="Dialog Image"
+                // @ts-ignore
+                src={familyTile}
+                sizes="100vw"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '0.375rem 0.375rem 0 0',
+                  objectFit: 'cover'
+                }}
+              />
+            )}
+            {currentDialog === "health" && (
+              <Image
+                alt="Dialog Image"
+                // @ts-ignore
+                src={healthTile}
+                sizes="100vw"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '0.375rem 0.375rem 0 0',
+                  objectFit: 'cover'
+                }}
+              />
+            )}
+            {currentDialog === "spirituality" && (
+              <Image
+                alt="Dialog Image"
+                // @ts-ignore
+                src={spiritualityTile}
+                sizes="100vw"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '0.375rem 0.375rem 0 0',
+                  objectFit: 'cover'
+                }}
+              />
+            )}
+            {currentDialog === "finances" && (
+              <Image
+                alt="Dialog Image"
+                // @ts-ignore
+                src={financeTile}
+                sizes="100vw"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '0.375rem 0.375rem 0 0',
+                  objectFit: 'cover'
+                }}
+              />
+            )}
+            {currentDialog === "fun" && (
+              <Image
+                alt="Dialog Image"
+                // @ts-ignore
+                src={funTile}
+                sizes="100vw"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '0.375rem 0.375rem 0 0',
+                  objectFit: 'cover'
+                }}
+              />
+            )}
+            {currentDialog === "work" && (
+              <Image
+                alt="Dialog Image"
+                // @ts-ignore
+                src={workTile}
+                sizes="100vw"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  borderRadius: '0.375rem 0.375rem 0 0',
+                  objectFit: 'cover'
+                }}
+              />
+            )}
           </div>
           <div className="flex flex-col gap-4 p-4 xl:pr-24 lg:px-8 lg:py-12 lg:basis-1/2">
             {/* @ts-ignore */}
@@ -177,10 +249,10 @@ export default function Home() {
             {/* @ts-ignore */}
             <p className="body-2s lg:body-1s text-neutral-900">{VALUE_CONTENT[currentDialog].text2}</p>
             {/* @ts-ignore */}
-            <Link href={VALUE_CONTENT[currentDialog].link} 
+            <Link href={VALUE_CONTENT[currentDialog].link}
               className="lg:w-[60%] mt-4 py-2 px-4 rounded bg-primary-900 text-white display-4 text-center">
-                {/* @ts-ignore */}
-                {VALUE_CONTENT[currentDialog].linkText}
+              {/* @ts-ignore */}
+              {VALUE_CONTENT[currentDialog].linkText}
             </Link>
           </div>
         </div>
