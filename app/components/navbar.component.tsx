@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Logo from '../../public/cfbl-logo.svg';
-import CloseButton from '../../public/closeButton.svg';
+import CloseButton from '../../public/closeButtonBlack.svg';
 
 const menuLinks = [
     {

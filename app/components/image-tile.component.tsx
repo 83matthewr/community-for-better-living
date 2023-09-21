@@ -1,8 +1,16 @@
 import Image, { StaticImageData } from "next/image";
 
-export default function ImageTile({ image, title, position = "" }: { image: StaticImageData, title: string, position?: string }) {
+export default function ImageTile(
+    { image, title, position = "", value, dialogClick }:
+        { image: StaticImageData, title: string, position?: string, value: string, dialogClick: (value: string) => void }
+) {
+
+    const tileClick = () => {
+        dialogClick(value);
+    }
+
     return (
-        <div className="h-[180px] md:h-[250px] lg:h-[300px] 2xl:h-[390px] w-full shadow cursor-pointer">
+        <div onClick={() => tileClick()} className="h-[180px] md:h-[250px] lg:h-[300px] 2xl:h-[390px] w-full shadow cursor-pointer">
             <Image
                 alt=""
                 src={image}

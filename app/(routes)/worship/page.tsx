@@ -81,7 +81,7 @@ export default function Worship() {
             Anyone and everyone is welcome to join us at the Community for Better Living for worship
             services. We believe in learning more about the God who created and loves us all.
             Our goal is to help people from different backgrounds develop a personal relationship
-            with Him by studying Jesus' time on earth and the men who were closest to Him. If you're
+            with Him by studying Jesus&apos; time on earth and the men who were closest to Him. If you&apos;re
             seeking a relationship with Christ, you are more than welcome to join us. No obligations,
             just an open mind, an open heart, and a desire to learn. We have no hidden agendas and we
             strive not to judge others. Instead, our focus is on gaining knowledge of God through the
