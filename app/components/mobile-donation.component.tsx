@@ -15,6 +15,7 @@ export default function MobileDonation() {
                         src={donation}
                         sizes="100vw"
                         // Make the image display full width
+                        quality={60}
                         style={{
                             width: '100%',
                             height: 'auto',

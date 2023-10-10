@@ -92,7 +92,7 @@ export default function Support() {
             alt="Donation Image"
             src={donationImage}
             placeholder="blur"
-            quality={100}
+            quality={60}
             sizes="100vw"
             style={{
               width: '100%',
@@ -188,7 +188,7 @@ export default function Support() {
             alt=""
             src={spreadTheWordImage}
             placeholder="blur"
-            quality={100}
+            quality={60}
             sizes="100vw"
             style={{
               width: '100%',

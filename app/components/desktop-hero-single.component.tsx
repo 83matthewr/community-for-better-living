@@ -21,7 +21,7 @@ export default function DesktopHeroSingle(
                         alt={alt}
                         src={image}
                         placeholder="blur"
-                        quality={100}
+                        quality={70}
                         sizes="100vw"
                         style={{
                             width: '100%',
@@ -30,6 +30,7 @@ export default function DesktopHeroSingle(
                             objectPosition: position,
                             borderRadius: '0.75rem'
                         }}
+                        priority
                     />
                 </div>
             </div>

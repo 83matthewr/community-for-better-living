@@ -15,7 +15,7 @@ export default function ImageTile(
                 alt=""
                 src={image}
                 placeholder="blur"
-                quality={100}
+                quality={60}
                 style={{
                     objectFit: 'cover',
                     width: '100%',

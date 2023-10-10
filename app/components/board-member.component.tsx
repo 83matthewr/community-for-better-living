@@ -8,7 +8,7 @@ export default function BoardMember({ name, position, image }: { name: string, p
                     alt="Board Member Profile Image"
                     src={image}
                     placeholder="blur"
-                    quality={100}
+                    quality={60}
                     style={{
                         objectFit: 'cover',
                         width: '100%',

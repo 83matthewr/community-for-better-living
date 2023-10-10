@@ -161,6 +161,7 @@ export default function Home() {
                   borderRadius: '0.375rem 0.375rem 0 0',
                   objectFit: 'cover'
                 }}
+                quality={60}
               />
             )}
             {currentDialog === "health" && (
@@ -175,6 +176,7 @@ export default function Home() {
                   borderRadius: '0.375rem 0.375rem 0 0',
                   objectFit: 'cover'
                 }}
+                quality={60}
               />
             )}
             {currentDialog === "spirituality" && (
@@ -189,6 +191,7 @@ export default function Home() {
                   borderRadius: '0.375rem 0.375rem 0 0',
                   objectFit: 'cover'
                 }}
+                quality={60}
               />
             )}
             {currentDialog === "finances" && (
@@ -203,6 +206,7 @@ export default function Home() {
                   borderRadius: '0.375rem 0.375rem 0 0',
                   objectFit: 'cover'
                 }}
+                quality={60}
               />
             )}
             {currentDialog === "fun" && (
@@ -217,6 +221,7 @@ export default function Home() {
                   borderRadius: '0.375rem 0.375rem 0 0',
                   objectFit: 'cover'
                 }}
+                quality={60}
               />
             )}
             {currentDialog === "work" && (
@@ -231,6 +236,7 @@ export default function Home() {
                   borderRadius: '0.375rem 0.375rem 0 0',
                   objectFit: 'cover'
                 }}
+                quality={60}
               />
             )}
           </div>

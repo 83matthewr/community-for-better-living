@@ -92,7 +92,15 @@ export default function Navbar() {
                 id="side_menu"
                 className='fixed w-80 z-20 min-h-screen bg-secondary-100 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] invisible right-[-256px] top-0 duration-300'
             >
-                <Image src={CloseButton} alt="Close" height={28} width={27} className="relative right-[-260px] top-9 cursor-pointer" onClick={() => slideOut()} />
+                <Image 
+                    src={CloseButton} 
+                    alt="Close" 
+                    height={28} 
+                    width={27} 
+                    className="relative right-[-260px] top-9 cursor-pointer" 
+                    onClick={() => slideOut()} 
+                    quality={60}
+                />
                 <div className="text-right mt-12 py-4 px-8 display-2 text-neutral-900">
                     {menuLinks.map((link) => {
                         return (

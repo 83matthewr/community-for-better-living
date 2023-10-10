@@ -9,6 +9,7 @@ export default function ImageCard({ image, height, alt, children }: {image: Stat
                     alt={alt}
                     src={image}
                     sizes="100vw"
+                    quality={60}
                     style={{
                         width: '100%',
                         height: height,
