@@ -21,7 +21,7 @@ export default function DesktopHeroSingle(
                         alt={alt}
                         src={image}
                         placeholder="blur"
-                        quality={70}
+                        quality={50}
                         sizes="100vw"
                         style={{
                             width: '100%',

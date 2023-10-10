@@ -99,7 +99,7 @@ export default function Navbar() {
                     width={27} 
                     className="relative right-[-260px] top-9 cursor-pointer" 
                     onClick={() => slideOut()} 
-                    quality={60}
+                    quality={30}
                 />
                 <div className="text-right mt-12 py-4 px-8 display-2 text-neutral-900">
                     {menuLinks.map((link) => {

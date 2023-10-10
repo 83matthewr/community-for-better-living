@@ -131,7 +131,7 @@ export default function About() {
                 alt=""
                 src={divider1}
                 placeholder="blur"
-                quality={60}
+                quality={40}
                 style={{
                   objectFit: 'cover',
                   width: '100%',
@@ -145,7 +145,7 @@ export default function About() {
                 alt=""
                 src={divider2}
                 placeholder="blur"
-                quality={60}
+                quality={40}
                 style={{
                   objectFit: 'cover',
                   width: '100%',

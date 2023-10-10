@@ -46,7 +46,7 @@ export default function Footer() {
         <div className="relative w-full h-fit px-8 md:px-14 pt-4 md:pt-8 pb-12 bg-secondary-100 justify-between items-start inline-flex shadow-[0_-4px_15px_0px_rgba(0,0,0,0.1)]">
             <div className="flex-col xs:flex-row inline-flex justify-between w-full md:max-w-[464px]">
                 <div className="flex-col justify-start items-start gap-2 inline-flex">
-                    <Image src={Logo} alt="CBL Logo" height={32} width={70} quality={80} className="mb-1" />
+                    <Image src={Logo} alt="CBL Logo" height={32} width={70} quality={60} className="mb-1" />
                     <div className="text-neutral-700 body-3b md:body-1b">The Community for Better Living</div>
                     <div className="text-neutral-700 body-3r md:body-1r">7074 Columbia Rd</div>
                     <div className="text-neutral-700 body-3r md:body-1r">Olmsted Twnshp, OH 44138</div>

@@ -17,7 +17,7 @@ export default function ParagraphPicture(
                     alt={alt}
                     src={image}
                     placeholder="blur"
-                    quality={60}
+                    quality={40}
                     sizes="100vw"
                     style={{
                         width: '100%',

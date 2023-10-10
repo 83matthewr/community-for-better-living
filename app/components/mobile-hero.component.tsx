@@ -13,7 +13,7 @@ export default function MobileHero(
                 alt={alt}
                 src={image}
                 placeholder="blur"
-                quality={70}
+                quality={50}
                 fill
                 sizes="100vw"
                 style={{
