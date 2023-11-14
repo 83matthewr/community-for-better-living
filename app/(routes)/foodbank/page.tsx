@@ -15,33 +15,58 @@ import CallToAction from "@/app/components/call-to-action.component";
 
 const FOODBANK_DATES = [
   {
-    date: "October 12, 2023",
-    abbr_date: "Oct 12, 2023",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "October 26, 2023",
-    abbr_date: "Oct 26, 2023",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "November 2, 2023",
-    abbr_date: "Nov 2, 2023",
-    time: "5:30pm-6:30pm"
-  },
-  {
     date: "November 16, 2023",
     abbr_date: "Nov 16, 2023",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "December 7, 2023",
-    abbr_date: "Dec 7, 2023",
+    date: "November 30, 2023",
+    abbr_date: "Nov 30, 2023",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "December 21, 2023",
-    abbr_date: "Dec 21, 2023",
+    date: "December 14, 2023",
+    abbr_date: "Dec 14, 2023",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "January 11, 2024",
+    abbr_date: "Jan 11, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "January 25, 2024",
+    abbr_date: "Jan 25, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "February 8, 2024",
+    abbr_date: "Feb 8, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "February 22, 2024",
+    abbr_date: "Feb 22, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "March 14, 2024",
+    abbr_date: "Mar 14, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "March 28, 2024",
+    abbr_date: "Mar 28, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "April 11, 2024",
+    abbr_date: "Apr 11, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "April 25, 2024",
+    abbr_date: "Apr 25, 2024",
     time: "5:30pm-6:30pm"
   },
 ]
