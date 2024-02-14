@@ -141,6 +141,7 @@ export default function Home() {
 
   return (
     <div>
+      {/*
       <dialog
         id="valuesDialog"
         className="w-[90vw] md:w-[79vw] max-w-[1156px] mx-auto lg:h-[624px]
@@ -241,21 +242,21 @@ export default function Home() {
             )}
           </div>
           <div className="flex flex-col gap-4 p-4 xl:pr-24 lg:px-8 lg:py-12 lg:basis-1/2">
-            {/* @ts-ignore */}
             <h3 className="display-3 text-primary-900">{VALUE_CONTENT[currentDialog].title}</h3>
-            {/* @ts-ignore */}
+            {/* @ts-ignore
             <p className="body-2s lg:body-1s text-neutral-900">{VALUE_CONTENT[currentDialog].text1}</p>
-            {/* @ts-ignore */}
+            {/* @ts-ignore
             <p className="body-2s lg:body-1s text-neutral-900">{VALUE_CONTENT[currentDialog].text2}</p>
-            {/* @ts-ignore */}
+            {/* @ts-ignore
             <Link href={VALUE_CONTENT[currentDialog].link}
               className="lg:w-[60%] mt-4 py-2 px-4 rounded bg-primary-900 text-white display-4 text-center">
-              {/* @ts-ignore */}
+              {/* @ts-ignore
               {VALUE_CONTENT[currentDialog].linkText}
             </Link>
           </div>
         </div>
       </dialog>
+      */}
 
       <MobileHero image={homeHero} alt="Hero Image" title="The Community for Better Living" />
       <DesktopHeroSingle
@@ -328,7 +329,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Values */}
+        {/* Values 
         <div className="px-8 pb-8">
           <SectionHeading>Our Values</SectionHeading>
           <Paragraph attrs="mb-8 md:w-[70%] lg:w-[50%]">
@@ -348,6 +349,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        */}
 
         {/* Mobile Donation */}
         <MobileDonation />

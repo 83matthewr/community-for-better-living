@@ -27,10 +27,6 @@ const menuLinks = [
         path: '/worship'
     },
     {
-        text: 'Other Services',
-        path: '/other'
-    },
-    {
         text: 'Support Us',
         path: '/support'
     },

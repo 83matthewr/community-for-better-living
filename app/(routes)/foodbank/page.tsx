@@ -15,36 +15,6 @@ import CallToAction from "@/app/components/call-to-action.component";
 
 const FOODBANK_DATES = [
   {
-    date: "November 16, 2023",
-    abbr_date: "Nov 16, 2023",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "November 30, 2023",
-    abbr_date: "Nov 30, 2023",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "December 14, 2023",
-    abbr_date: "Dec 14, 2023",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "January 11, 2024",
-    abbr_date: "Jan 11, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "January 25, 2024",
-    abbr_date: "Jan 25, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "February 8, 2024",
-    abbr_date: "Feb 8, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
     date: "February 22, 2024",
     abbr_date: "Feb 22, 2024",
     time: "5:30pm-6:30pm"
