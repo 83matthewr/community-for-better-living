@@ -113,7 +113,7 @@ export default function Worship() {
             We are a small, service oriented church located in the same building that serves 
             as our food bank distribution center. As such, our meeting place is modest and 
             humble, sharing space with storage freezers and other food bank supplies out of 
-            necessity. This setup represents our strong belief in serving Christ well. We don't 
+            necessity. This setup represents our strong belief in serving Christ well. We don&apos;t 
             follow or require any dress code and encourage visiters to dress however they feel 
             comfortable. Sometimes we start our study by singing worship songs, other times 
             we jump right into Bible Study. Our focus is intentionally non-doctrinal, 

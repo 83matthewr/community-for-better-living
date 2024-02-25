@@ -66,8 +66,8 @@ export default function Support() {
                 This has put a great strain on the finances available to us for serving our community. 
                 Though our affiliation with the Cleveland food bank does help us purchase food very cheaply, 
                 we still must cover expenses to keep the center open and running due to rent and operating costs 
-                to transport and store food in our building. We've had help from many charitable donors and 
-                we're always looking for others that are interested in helping serve our community. Every donation 
+                to transport and store food in our building. We&apos;ve had help from many charitable donors and 
+                we&apos;re always looking for others that are interested in helping serve our community. Every donation 
                 has a large impact on our operation and puts food on the table for families in need.
               </Paragraph>
             </div>
@@ -177,8 +177,8 @@ export default function Support() {
                 <h3 className="display-4 md:display-3 text-primary-900 mb-4">Other</h3>
                 <p className="body-2r md:body-1r text-neutral-900">
                   Keep your eyes open to our <Link href="" className="text-blue underline">social media feeds</Link> for other 
-                  opportunities to volunteer with the center. if you have a thought or an idea of something you'd like to see 
-                  done that you'd be willing to be involved in, please contact us.
+                  opportunities to volunteer with the center. if you have a thought or an idea of something you&apos;d like to see 
+                  done that you&apos;d be willing to be involved in, please contact us.
                 </p>
               </div>
             </ImageCard>

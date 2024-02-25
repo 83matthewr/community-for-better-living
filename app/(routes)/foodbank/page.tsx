@@ -160,8 +160,8 @@ export default function FoodBank() {
         >
           <SectionHeading>All Are Welcome</SectionHeading>
           <Paragraph>
-            As a member of the Greater Cleveland Food Bank and it's Affiliates with the USDA and FDA, 
-            we follow Civil Rights regulations and policies. In this way, we don't discriminate 
+            As a member of the Greater Cleveland Food Bank and it&apos;s Affiliates with the USDA and FDA, 
+            we follow Civil Rights regulations and policies. In this way, we don&apos;t discriminate 
             on the basis of race, color, national origin, sex, age, or disability. We also have 
             provisions to accomodate those who do not speak English. All are welcome.
           </Paragraph>
@@ -202,7 +202,7 @@ export default function FoodBank() {
                   We open our doors for service at 5:30pm and begin checking in and loading cars. 
                   When you arrive, pull into the drive-thru line and stay in your car. 
                   Please be respectful of others in line and those in the parking lot as 
-                  there are other businesses open during our distribution. When your turn comes, you'll 
+                  there are other businesses open during our distribution. When your turn comes, you&apos;ll 
                   move slowly forward to the check-in area where a volunteer will greet you 
                   at your car and begin the check-in process.
                 </p>
@@ -210,7 +210,7 @@ export default function FoodBank() {
               <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow basis-1/2">
                 <h3 className="display-5 lg:display-4 text-primary-900 mb-2">Walk-Ins Welcome</h3>
                 <p className="body-2r lg:body-1r text-neutral-900 lg:h-[220px] xl:h-[150px] 2xl:[h-130px]">
-                  If you don't have a car, but you have an alternate way to transport 2-3 large 
+                  If you don&apos;t have a car, but you have an alternate way to transport 2-3 large 
                   bags of groceries to your home, you are welcome to check-in and receive food. 
                   Walk up to the front of the building and notify a volunteer that you would 
                   like to check-in.
