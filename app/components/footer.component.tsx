@@ -29,11 +29,7 @@ const menuLinks = [
     },
     {
         text: 'Facebook',
-        path: '/facebook'
-    },
-    {
-        text: 'Privacy Policy',
-        path: '/privacy_policy'
+        path: 'https://www.facebook.com/BetterLivingCLE'
     }
 ];
 

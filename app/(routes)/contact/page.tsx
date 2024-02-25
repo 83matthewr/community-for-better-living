@@ -50,17 +50,18 @@ export default function ContactUs() {
         <div className="px-8 py-8">
           <SectionHeading>How to Get In Touch</SectionHeading>
           <p className="body-2r text-neutral-900 md:w-[70%] lg:w-[50%]">
-            Lorem ipsum dolor sit amet consectetur. Quis mauris turpis ut in pharetra vitae.
-            Pellentesque et tellus fusce elit senectus ac nulla eu.
+            You can reach us through any of the following contacts. Our
+            preference is that you contact us by email, as we are a volunteer-run 
+            organization and can not always respond to every message immediately.
+            
           </p>
-          <div className="flex flex-col lg:flex-row gap-4 py-8">
-            <Link href="" className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md">
+          <div className="flex flex-col lg:flex-row gap-4 py-8 lg:w-2/3">
+            <Link 
+              href="mailto:info@communityforbetterliving.org" 
+              className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md">
               info@communityforbetterliving.org
             </Link>
-            <Link href="" className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md">
-              volunteer@communityforbetterliving.org
-            </Link>
-            <Link href="" className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md">
+            <Link href="tel:+14405417829" className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md">
               (440) 541 - 7829
             </Link>
           </div>

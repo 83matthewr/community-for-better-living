@@ -20,9 +20,9 @@ const EVENTS_DATA = [
     image2: craftsImage,
     title: "Car & Craft Show Fundraiser",
     subtitle: undefined,
-    date: "October 1, 2023",
+    date: "October 6, 2024",
     time: "1:00pm - 4:00pm",
-    extra_date_info: "(Rain Date October 15)",
+    extra_date_info: "(Rain Date October 13)",
     location1: "7074 Columbia Rd",
     location2: "Olmsted Township, OH 44138"
   },
@@ -32,20 +32,18 @@ export default function Events() {
   return (
     <div>
       <MobileHero image={mobileHero} alt="Hero Image" title="Events" />
-      <DesktopHeroSingle image={desktopHero} alt="Hero Image" title="Events" subtitle="Community events free to the public" />
+      <DesktopHeroSingle image={desktopHero} alt="Hero Image" title="Events" subtitle="Community Events free and open to the public" />
 
       <Container>
         {/* Intro */}
         <ParagraphPicture image={introImage} alt="An outdoor event">
           <SectionHeading>Community Events & Classes</SectionHeading>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Ornare elementum condimentum a interdum.
-            Sed ut justo nunc metus. Aliquet sapien sed massa sollicitudin. Mattis malesuada
-            sodales odio amet. Proin vitae aliquet arcu facilisi ipsum felis quam. Proin hac
-            ipsum mauris sit laoreet massa mauris magna. Volutpat faucibus at aliquam diam risus.
-            Felis porta nunc nisi pharetra amet amet elementum id. Libero nisl adipiscing ullamcorper
-            quisque. In amet convallis tristique nulla aliquet semper pharetra. Convallis lobortis
-            mattis arcu quis. Convallis id iaculis dolor leo quam turpis.
+            The Community for Better Living seeks to host events to enrich our surrounding 
+            community. We plan events to get to know our community better, to find different 
+            ways that we can provide services to help the community, to have fun, and occasionally 
+            to raise funds for our center. All of our events, including fund raisers, are free 
+            and open to the public. We welcome anyone and everyone to join in on our events.
           </Paragraph>
         </ParagraphPicture>
 

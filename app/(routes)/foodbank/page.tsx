@@ -39,6 +39,51 @@ const FOODBANK_DATES = [
     abbr_date: "Apr 25, 2024",
     time: "5:30pm-6:30pm"
   },
+  {
+    date: "May 9, 2024",
+    abbr_date: "May 9, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "May 23, 2024",
+    abbr_date: "May 23, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "June 13, 2024",
+    abbr_date: "June 13, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "June 27, 2024",
+    abbr_date: "June 27, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "July 11, 2024",
+    abbr_date: "July 11, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "August 8, 2024",
+    abbr_date: "Aug 8, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "August 22, 2024",
+    abbr_date: "Aug 22, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "September 12, 2024",
+    abbr_date: "Sept 12, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "September 26, 2024",
+    abbr_date: "Sept 26, 2024",
+    time: "5:30pm-6:30pm"
+  },
 ]
 
 export default function FoodBank() {
@@ -73,8 +118,9 @@ export default function FoodBank() {
         <div className="px-8 pt-8 pb-4">
           <SectionHeading>Upcoming Dates</SectionHeading>
           <Paragraph attrs="mb-4 md:mb-8 md:w-[70%] lg:w-[50%]">
-            We operate a Greater Cleveland Food Bank distribution. Our drive-thru
-            distribution service provides food to families throughout our community twice each month.
+            We are the westernmost distribution center for the Greater Cleveland Food Bank. 
+            Our drive-thru service provides food to families throughout our community twice each month. 
+            All are welcome to register and get food.
           </Paragraph>
           <div className="flex flex-col gap-4 pb-4 md:pb-8">
             {FOODBANK_DATES.slice(0, lastDateIndex).map((date) => {
@@ -114,11 +160,10 @@ export default function FoodBank() {
         >
           <SectionHeading>All Are Welcome</SectionHeading>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Eget libero semper nulla leo habitant facilisis urna adipiscing.
-            Nascetur morbi neque eget neque rutrum nulla eget orci. Mattis id adipiscing eget vitae dictumst nulla amet.
-            Tristique gravida aliquet velit amet convallis auctor a facilisi. Non neque ac faucibus vulputate pharetra
-            pellentesque nulla. Aliquam amet in consectetur gravida lectus faucibus tortor lectus. Fermentum nunc risus
-            faucibus vestibulum et venenatis pharetra leo consectetur.
+            As a member of the Greater Cleveland Food Bank and it's Affiliates with the USDA and FDA, 
+            we follow Civil Rights regulations and policies. In this way, we don't discriminate 
+            on the basis of race, color, national origin, sex, age, or disability. We also have 
+            provisions to accomodate those who do not speak English. All are welcome.
           </Paragraph>
         </ParagraphPicture>
 
@@ -127,40 +172,48 @@ export default function FoodBank() {
           <SectionHeading>What to Expect</SectionHeading>
           <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
 
-            <div className="flex flex-col gap-4 lg:gap-6">
-              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow">
+            <div className="flex flex-col gap-4 lg:gap-6 basis-1/2">
+              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow basis-1/2">
                 <h3 className="display-5 lg:display-4 text-primary-900 mb-2">Registration/Sign In</h3>
-                <p className="body-2r lg:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Sit venenatis nunc aliquam quisque. At magnis
-                  cursus feugiat dolor cursus dolor purus. Ut ut tellus vitae vitae. Morbi placerat eu
-                  vestibulum semper at in lectus.
+                <p className="body-2r lg:body-1r text-neutral-900 lg:h-[220px] xl:h-[150px] 2xl:[h-130px]">
+                  If you are making your first visit to a Greater Cleveland Food Bank Distribution Center, 
+                  we will need the following information to register your family: Name, Address, 
+                  Phone Number, Date of Birth, and the number of people in your household. Volunteers 
+                  will check in registered families and load their car with groceries at the front of 
+                  the drive-thru line.
                 </p>
               </div>
-              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow">
-                <h3 className="display-5 lg:display-4 text-primary-900 mb-2">What You Get</h3>
-                <p className="body-2r lg:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Sit venenatis nunc aliquam quisque. At magnis
-                  cursus feugiat dolor cursus dolor purus. Ut ut tellus vitae vitae. Morbi placerat eu
-                  vestibulum semper at in lectus.
+              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow basis-1/2">
+                <h3 className="display-5 lg:display-4 text-primary-900 mb-2">Groceries</h3>
+                <p className="body-2r lg:body-1r text-neutral-900 lg:h-[220px] xl:h-[150px] 2xl:[h-130px]">
+                  Each food bank service, we purchase and transport fresh food from the Greater 
+                  Cleveland Food Bank to our center. We typically provide two or three bags of 
+                  groceries containing dry goods, produce, and meat to each family. Our supply 
+                  can run low depending on the volume of families coming through, 
+                  but we do our best to provide groceries to everyone that comes to get food.
                 </p>
               </div>
             </div>
 
-            <div className="flex flex-col gap-4 lg:gap-6">
-              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow">
+            <div className="flex flex-col gap-4 lg:gap-6 basis-1/2">
+              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow basis-1/2">
                 <h3 className="display-5 lg:display-4 text-primary-900 mb-2">Drive-Thru</h3>
-                <p className="body-2r lg:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Sit venenatis nunc aliquam quisque. At magnis
-                  cursus feugiat dolor cursus dolor purus. Ut ut tellus vitae vitae. Morbi placerat eu
-                  vestibulum semper at in lectus.
+                <p className="body-2r lg:body-1r text-neutral-900 lg:h-[220px] xl:h-[150px] 2xl:[h-130px]">
+                  We open our doors for service at 5:30pm and begin checking in and loading cars. 
+                  When you arrive, pull into the drive-thru line and stay in your car. 
+                  Please be respectful of others in line and those in the parking lot as 
+                  there are other businesses open during our distribution. When your turn comes, you'll 
+                  move slowly forward to the check-in area where a volunteer will greet you 
+                  at your car and begin the check-in process.
                 </p>
               </div>
-              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow">
+              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow basis-1/2">
                 <h3 className="display-5 lg:display-4 text-primary-900 mb-2">Walk-Ins Welcome</h3>
-                <p className="body-2r lg:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Sit venenatis nunc aliquam quisque. At magnis
-                  cursus feugiat dolor cursus dolor purus. Ut ut tellus vitae vitae. Morbi placerat eu
-                  vestibulum semper at in lectus.
+                <p className="body-2r lg:body-1r text-neutral-900 lg:h-[220px] xl:h-[150px] 2xl:[h-130px]">
+                  If you don't have a car, but you have an alternate way to transport 2-3 large 
+                  bags of groceries to your home, you are welcome to check-in and receive food. 
+                  Walk up to the front of the building and notify a volunteer that you would 
+                  like to check-in.
                 </p>
               </div>
             </div>

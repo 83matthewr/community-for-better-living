@@ -31,56 +31,66 @@ export default function Support() {
         <ParagraphPicture image={introImage} alt="An outdoor event">
           <SectionHeading>How You Can Help</SectionHeading>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Ornare elementum condimentum a interdum.
-            Sed ut justo nunc metus. Aliquet sapien sed massa sollicitudin. Mattis malesuada
-            sodales odio amet. Proin vitae aliquet arcu facilisi ipsum felis quam. Proin hac
-            ipsum mauris sit laoreet massa mauris magna. Volutpat faucibus at aliquam diam risus.
-            Felis porta nunc nisi pharetra amet amet elementum id. Libero nisl adipiscing ullamcorper
-            quisque. In amet convallis tristique nulla aliquet semper pharetra. Convallis lobortis
-            mattis arcu quis. Convallis id iaculis dolor leo quam turpis.
+            Any worthwhile endeavor starts with an idea. But to thrive and grow, a community of 
+            investors and like-minded people are always needed to carry it forward! The 
+            Community for Better Living was born by an idea and was supported by a few 
+            caring families. We have grown beyond our dreams and are now a living, breathing, 
+            and vital part of the Olmsted Township community, with a reach into Cuyahoga and 
+            Lorain counties. We now serve 300 families biweekly with our food pantry alone, 
+            and have other programs and offerings to enrich lives. Please consider 
+            joining our cause to make our community a better place.
           </Paragraph>
         </ParagraphPicture>
 
         {/* Donation Section */}
         <div className="px-8 py-4 md:py-16">
-          <div className="flex flex-col lg:flex-row justify-between gap-8">
+          <div className="flex flex-col lg:flex-row justify-between gap-12">
             <div className="basis-1/2">
               <SectionHeading>Donations</SectionHeading>
               <Paragraph>
-                Lorem ipsum dolor sit amet consectetur. Tellus dolor leo orci non erat turpis lorem vulputate mauris.
-                Tristique iaculis sollicitudin commodo massa vel viverra rutrum. In lacus sit vulputate fringilla mus
-                integer duis. Arcu integer nibh et ac turpis at cursus consequat. Blandit viverra pellentesque lorem
-                sed non morbi a ridiculus. Nibh sed cursus adipiscing venenatis. Urna lobortis feugiat cursus amet
-                aliquet orci fermentum eu. Luctus neque faucibus non at orci. Sit neque etiam egestas tempus elit
-                quis in urna ipsum. Morbi sit venenatis semper eu. Felis tellus ultricies gravida cursus ut tortor.
-                Malesuada leo enim hac velit. Urna varius faucibus mattis vitae sit ac.
+                The food bank portion of the Community for Better Living began in 2016, with the idea of 
+                serving around 10 or 15 families throught the course of that first year. We quickly realized 
+                that there was much more need in our community than anticipated and we had to open more space 
+                in our center to provide for what was needed. Over the first four years of service, we saw 
+                our numbers served grow to around 75 families for each food bank service. While many food banks 
+                and service centers throughout Ohio closed their doors during the Covid-19 outbreak of 2020, 
+                the Community for Better Living was committed to providing food to our community and continued 
+                our food distributions twice each month. Our numbers served skyrocketed to as many as 300 
+                families each service.
               </Paragraph>
-              <h3 className="display-3 lg:display-2 text-primary-900 py-8">
-                “Lorem ipsum dolor sit amet consectetur. Faucibus eget quis vitae pulvinar”
+              <h3 className="display-3 lg:display-3 text-primary-900 py-8">
+                “While other centers closed during the Covid-19 outbreak, 
+                we committed to providing food to our community”
               </h3>
               <Paragraph>
-                Lorem ipsum dolor sit amet consectetur. Enim fermentum tellus quisque ridiculus leo sapien.
-                Nullam pharetra a vitae aliquet diam pellentesque. Neque viverra egestas a id. Aenean mattis
-                facilisis elementum velit bibendum tellus nulla. Est tincidunt hac aliquet massa viverra quis
-                consequat aliquet sollicitudin. Est sed eget sollicitudin habitant aenean nunc. Aliquam amet
-                mi sed ullamcorper arcu.
+                This has put a great strain on the finances available to us for serving our community. 
+                Though our affiliation with the Cleveland food bank does help us purchase food very cheaply, 
+                we still must cover expenses to keep the center open and running due to rent and operating costs 
+                to transport and store food in our building. We've had help from many charitable donors and 
+                we're always looking for others that are interested in helping serve our community. Every donation 
+                has a large impact on our operation and puts food on the table for families in need.
               </Paragraph>
             </div>
 
-            <div className="px-4 md:px-16 lg:px-20 py-8 bg-secondary-100 shadow">
+            <div className="px-4 md:px-16 py-8 bg-secondary-100 shadow basis-1/2">
               <h3 className="display-3 text-primary-900 mb-8">Donations We Accept:</h3>
               <ul className="display-4 text-neutral-900 list-disc list-inside">
                 <li className="mb-3">Monetary Donations</li>
-                <p className="body-1r pl-12 mb-6">Lorem ipsum dolor sit amet consectetur.</p>
-                <li className="mb-3">Gift Cards</li>
-                <p className="body-1r pl-12 mb-6">Lorem ipsum dolor sit amet consectetur.</p>
-                <li className="mb-3">Raffle Baskets</li>
-                <p className="body-1r pl-12 mb-6">Lorem ipsum dolor sit amet consectetur.</p>
-                <li className="mb-3">Canned Goods</li>
-                <p className="body-1r pl-12 mb-6">Lorem ipsum dolor sit amet consectetur.</p>
-                <li className="mb-3">Cat/Dog Food</li>
-                <p className="body-1r pl-12 mb-6">Lorem ipsum dolor sit amet consectetur.</p>
+                <p className="body-1r pl-12 mb-6">
+                  All monetary donations are welcome. Follow the links to below for more information on how to send a donation.
+                </p>
+                <li className="mb-3">Gift Cards & Raffle Baskets</li>
+                <p className="body-1r pl-12 mb-6">
+                  We hold several fundraiser events each year and we use any donated gift cards and gift baskets as raffle prizes.
+                </p>
+                <li className="mb-3">Pet Food</li>
+                <p className="body-1r pl-12 mb-6">
+                  Many of the families we provide food to are also in need of pet food, so we always have a high demand for cat and dog food.
+                </p>
                 <li className="mb-3">Etc.</li>
+                <p className="body-1r pl-12 mb-6">
+                  If you have a donation not listed above, contact us using the links below and we will find a way to put it to use.
+                </p>
               </ul>
             </div>
           </div>
@@ -109,14 +119,18 @@ export default function Support() {
             to families in need across Northeast Ohio. Since the COVID-19 pandemic began in the spring of
             2020, we have provided food to over 1000 families and continue to increase those numbers with
             your support. You can make a monetary donation by following the link below to our PayPal. To make
-            a physical donation (gift cards, canned goods, etc), email us using the link below to confirm your
+            a physical donation (cash, check, gift cards, pet food, etc), email us using the link below to confirm your
             donation and set up a time to drop off the donation.
           </Paragraph>
           <div className="flex flex-col md:flex-row lg:flex-col xl:flex-row gap-4 md:gap-6">
-            <Link href="" className="w-full py-2 bg-primary-900 text-primary-100 display-4 text-center rounded-md">
+            <Link 
+              href="https://www.paypal.com/donate/?hosted_button_id=X4L4Q9CAXKVYC" 
+              className="w-full py-2 bg-primary-900 text-primary-100 display-4 text-center rounded-md">
               Monetary Donations
             </Link>
-            <Link href="" className="w-full py-2 bg-primary-900 text-primary-100 display-4 text-center rounded-md">
+            <Link 
+              href="mailto:info@communityforbetterliving.org" 
+              className="w-full py-2 bg-primary-900 text-primary-100 display-4 text-center rounded-md">
               Other Donations
             </Link>
           </div>
@@ -127,52 +141,44 @@ export default function Support() {
         <ParagraphPicture image={volunteerIntroImage} alt="Volunteer with us">
           <SectionHeading>Volunteer With Us</SectionHeading>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Cras aliquet ultrices faucibus feugiat morbi egestas
-            aliquam. Facilisis sed vestibulum ut justo nibh. Penatibus ac auctor bibendum pretium ultrices
-            nunc eget. Eu lobortis nam vel nunc ornare. Ac augue purus lacus et eget mi. Mi tortor odio non
-            vitae. Potenti elementum mi dui quis urna sagittis pharetra faucibus. Rutrum suspendisse mi id
-            nulla sociis sit lectus suspendisse.
+            The Community for Better Living is always happy to welcome new volunteers. We strive to offer a wide variety 
+            of services and events in service to our community and we are always in need of helping hands. We will find 
+            a place and role for anybody willing to contribute their time and put it to good use. Consider 
+            getting involved with any of the opportunities listed below!
           </Paragraph>
         </ParagraphPicture>
-
-        <div className="px-8 py-4 lg:pb-16">
-          <div className="bg-primary-100 p-4 md:p-8">
-            <h3 className="display-3 md:display-2 lg:display-1 text-primary-900 text-center">
-              It takes a village and we&#39;d love you to be a part of ours!
-            </h3>
-          </div>
-        </div>
 
         <div className="px-8 py-4 lg:py-16">
           <SectionHeading>Volunteer Opportunities</SectionHeading>
           <div className="flex flex-col lg:flex-row gap-6 mt-2">
             <ImageCard image={foodbankVolunteerImage} alt="" height="250px">
               <div className="p-2 md:p-4 lg:p-0 xl:p-6">
-                <h3 className="display-4 md:display-3 text-primary-900 mb-6">Food Bank</h3>
+                <h3 className="display-4 md:display-3 text-primary-900 mb-4">Food Bank</h3>
                 <p className="body-2r md:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Libero posuere id id convallis vivamus nunc
-                  a sit sit. Lobortis gravida orci elementum praesent. Sit nisl et vitae ultrices
-                  condimentum arcu purus.
+                  There are many volunteer opportunities for our food bank service. We are always in need of 
+                  extra hands to help pack bags with groceries, to unload our food delivery the morning of every service,
+                  to load cars with groceries, to check people in during service, and much more. Reach out to see how 
+                  you can help.
                 </p>
               </div>
             </ImageCard>
             <ImageCard image={eventsVolunteerImage} alt="" height="250px">
               <div className="p-2 md:p-4 lg:p-0 xl:p-6">
-                <h3 className="display-4 md:display-3 text-primary-900 mb-6">Events</h3>
+                <h3 className="display-4 md:display-3 text-primary-900 mb-4">Events</h3>
                 <p className="body-2r md:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Libero posuere id id convallis vivamus nunc
-                  a sit sit. Lobortis gravida orci elementum praesent. Sit nisl et vitae ultrices
-                  condimentum arcu purus.
+                  Hosting a wide range of different events, there are many opportunities to volunteer and 
+                  become a part of the fun. From playing a character role in a Murder Mystery event, to helping direct 
+                  classic muscle cars in a car show, there are many ways to help.
                 </p>
               </div>
             </ImageCard>
             <ImageCard image={otherVolunteeringImage} alt="" height="250px">
               <div className="p-2 md:p-4 lg:p-0 xl:p-6">
-                <h3 className="display-4 md:display-3 text-primary-900 mb-6">Other</h3>
+                <h3 className="display-4 md:display-3 text-primary-900 mb-4">Other</h3>
                 <p className="body-2r md:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Libero posuere id id convallis vivamus nunc
-                  a sit sit. Lobortis gravida orci elementum praesent. Sit nisl et vitae ultrices
-                  condimentum arcu purus.
+                  Keep your eyes open to our <Link href="" className="text-blue underline">social media feeds</Link> for other 
+                  opportunities to volunteer with the center. if you have a thought or an idea of something you'd like to see 
+                  done that you'd be willing to be involved in, please contact us.
                 </p>
               </div>
             </ImageCard>
@@ -201,11 +207,8 @@ export default function Support() {
         <ParagraphPicture image={spreadTheWordImage} alt="">
           <SectionHeading>Spread the Word</SectionHeading>
           <Paragraph>
-            Lorem ipsum dolor sit amet consectetur. Cras aliquet ultrices faucibus feugiat morbi egestas aliquam. 
-            Facilisis sed vestibulum ut justo nibh. Penatibus ac auctor bibendum pretium ultrices nunc eget. 
-            Eu lobortis nam vel nunc ornare. Ac augue purus lacus et eget mi. Mi tortor odio non vitae. 
-            Potenti elementum mi dui quis urna sagittis pharetra faucibus. Rutrum suspendisse mi id nulla 
-            sociis sit lectus suspendisse.
+            Help us network! Be so kind as to tell your friends and co-workers about the work we are doing 
+            to improve our community. You never know who may need assistance or who may want to get involved to help us reach our goals.
           </Paragraph>
         </ParagraphPicture>
         <div className="px-8 pb-16"></div>

@@ -10,10 +10,10 @@ export default function CallToAction({ text }: { text: string }) {
             <p className="display-5 lg:display-3 text-neutral-900 text-center mb-6 lg:mb-10">Reach out to see how you can get involved</p>
             <div className="flex flex-col lg:flex-row gap-2 lg:gap-6 justify-center">
                 <Link
-                    href="mailto:volunteer@communityforbetterliving.org"
+                    href="mailto:info@communityforbetterliving.org"
                     className="py-2 lg:py-4 rounded bg-primary-900 text-white body-2b lg:body-1b text-center lg:w-[350px]"
                 >
-                    volunteer@communityforbetterliving.org
+                    info@communityforbetterliving.org
                 </Link>
                 <Link
                     href="tel:+14405417829"

@@ -6,11 +6,12 @@ import SectionHeading from "@/app/components/section-heading.component"
 import Paragraph from "@/app/components/paragraph.component"
 import ParagraphPicture from "@/app/components/paragraph-picture.component"
 import CallToAction from "@/app/components/call-to-action.component"
-import MapWrapper from "@/app/components/map-wrapper.component";
+import MapWrapper from "@/app/components/map-wrapper.component"
 
 import mobileHero from "../../../public/assets/worship_hero_mobile.jpg"
 import desktopHero from "../../../public/assets/worship_hero_desktop.jpg"
 import introImage from "../../../public/assets/worship_service.jpg"
+import expectImage from "../../../public/assets/worship_what_to_expect.jpg"
 import BeliefContainer from "@/app/components/belief-container.component"
 import BeliefStatement from "@/app/components/belief-statement.component"
 
@@ -41,9 +42,9 @@ const BELIEF_STATEMENTS = [
       "We hold Jesus Christ as the ultimate example of the kind of people we are called to be. His love, compassion, humility, and selflessness guide us in our journey of faith. We seek to reflect these qualities in our interactions with others and our approach to life"
   },
   {
-    title: "Inclusivity and Diversity",
+    title: "All Are Welcome",
     text:
-      "Just as Christ called all people to follow Him without exception, we embrace the diversity of humanity. Regardless of one’s background, identity, history, or life circumstances, we affirm the inherent worth and dignity of every individual. All are invited to learn about the God of love and grace"
+      "Just as Christ called all people to follow Him without exception, we embrace the differences of humanity. Regardless of one’s background, identity, history, or life circumstances, we acknowledge the inherent worth and dignity of every individual. All are invited to learn about the God of love and grace"
   },
   {
     title: "Sharing Knowledge with Humility",
@@ -70,8 +71,8 @@ export default function Worship() {
         image={desktopHero}
         alt="Hero Image"
         title="Worship & Bible Study"
-        subtitle="Saturdays from 10:45am-1:30pm with 
-          classes being taught on getting to know God better"
+        subtitle="Saturdays from 11:00am-12:30pm with 
+          classes focused on getting to know God better"
       />
 
       <Container>
@@ -95,7 +96,7 @@ export default function Worship() {
             <div className="mb-4 lg:mb-0 h-[400px] w-full lg:basis-1/2 lg:order-last shadow-md">
               <MapWrapper apiKey={process.env.MAPS_API_KEY} />
             </div>
-            <div className="p-8 xl:mr-[100px] w-full bg-secondary-100 shadow-md rounded lg:basis-1/2 ">
+            <div className="p-8 xl:mr-[100px] w-full bg-primary-100 shadow-md rounded lg:basis-1/2 ">
               <h3 className="display-3 lg:display-2 text-primary-900 mb-4">Service Times:</h3>
               <h4 className="display-4 lg:display-3 text-neutral-900 mb-8">Saturdays @ 11:00am</h4>
               <h3 className="display-3 lg:display-2 text-primary-900 mb-4">Address:</h3>
@@ -106,49 +107,22 @@ export default function Worship() {
         </div>
 
         {/* What to Expect */}
-        <div className="px-8 py-4 lg:py-16">
-          <SectionHeading>What to Expect</SectionHeading>
-          <div className="flex flex-col lg:flex-row gap-4 lg:gap-6">
-
-            <div className="flex flex-col gap-4 lg:gap-6">
-              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow">
-                <h3 className="display-5 lg:display-4 text-primary-900 mb-2">Music & Worship</h3>
-                <p className="body-2r lg:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Sit venenatis nunc aliquam quisque. At magnis
-                  cursus feugiat dolor cursus dolor purus. Ut ut tellus vitae vitae. Morbi placerat eu
-                  vestibulum semper at in lectus.
-                </p>
-              </div>
-              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow">
-                <h3 className="display-5 lg:display-4 text-primary-900 mb-2">Bible Study</h3>
-                <p className="body-2r lg:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Sit venenatis nunc aliquam quisque. At magnis
-                  cursus feugiat dolor cursus dolor purus. Ut ut tellus vitae vitae. Morbi placerat eu
-                  vestibulum semper at in lectus.
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-col gap-4 lg:gap-6">
-              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow">
-                <h3 className="display-5 lg:display-4 text-primary-900 mb-2">Dress Code</h3>
-                <p className="body-2r lg:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Sit venenatis nunc aliquam quisque. At magnis
-                  cursus feugiat dolor cursus dolor purus. Ut ut tellus vitae vitae. Morbi placerat eu
-                  vestibulum semper at in lectus.
-                </p>
-              </div>
-              <div className="w-full bg-primary-100 p-4 lg:p-8 rounded shadow">
-                <h3 className="display-5 lg:display-4 text-primary-900 mb-2">No Motives</h3>
-                <p className="body-2r lg:body-1r text-neutral-900">
-                  Lorem ipsum dolor sit amet consectetur. Sit venenatis nunc aliquam quisque. At magnis
-                  cursus feugiat dolor cursus dolor purus. Ut ut tellus vitae vitae. Morbi placerat eu
-                  vestibulum semper at in lectus.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <ParagraphPicture image={expectImage} alt="Bible Study">
+          <SectionHeading>What To Expect</SectionHeading>
+          <Paragraph>
+            We are a small, service oriented church located in the same building that serves 
+            as our food bank distribution center. As such, our meeting place is modest and 
+            humble, sharing space with storage freezers and other food bank supplies out of 
+            necessity. This setup represents our strong belief in serving Christ well. We don't 
+            follow or require any dress code and encourage visiters to dress however they feel 
+            comfortable. Sometimes we start our study by singing worship songs, other times 
+            we jump right into Bible Study. Our focus is intentionally non-doctrinal, 
+            understanding that people come from all different backgrounds. Our goal is 
+            to help you grow closer to God, not to make you fit a mold. We dive deep 
+            into a wide variety of topics with the goal of understanding what it means 
+            to be a true follower of Christ. Everyone is welcome to join our study.
+          </Paragraph>
+        </ParagraphPicture>
 
         {/* Beliefs Section */}
         <div className="px-8 py-8 lg:py-16">
