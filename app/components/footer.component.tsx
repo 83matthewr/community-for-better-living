@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "../../public/cfbl-logo.svg";
+import partnerLogo from "../../public/assets/partner_logo.png";
 
 const menuLinks = [
     {
@@ -44,6 +45,11 @@ export default function Footer() {
                     <div className="text-neutral-700 body-3r md:body-1r">Olmsted Twnshp, OH 44138</div>
                     <div className="text-neutral-700 body-3r md:body-1r">(440) 541-7829</div>
                     <div className="text-neutral-700 body-3r md:body-1r">info@communityforbetterliving.org</div>
+                    <div className="md:hidden mt-8">
+                        <Image
+                            src={partnerLogo}
+                            alt="Greater Cleveland Food Bank Logo" height={60} width={192} quality={60} className="mb-1" />
+                    </div>
                 </div>
                 <div className="flex-col justify-start pt-4 xs:pt-0 xs:items-end md:items-start inline-flex">
                     {menuLinks.map((link) => {
@@ -71,8 +77,11 @@ export default function Footer() {
                     <p className="py-2 px-4 rounded bg-primary-900 text-primary-100 body-1b">Support Us</p>
                 </Link>
                 <Link href="/contact">
-                    <p className="py-2 px-4 rounded bg-white text-primary-900 border-2 border-primary-900 body-1b">Contact Us</p>
+                    <p className="mb-8 py-2 px-4 rounded bg-white text-primary-900 border-2 border-primary-900 body-1b">Contact Us</p>
                 </Link>
+                <Image
+                    src={partnerLogo}
+                    alt="Greater Cleveland Food Bank Logo" height={60} width={192} quality={60} className="mb-1" />
             </div>
         </div>
     );
