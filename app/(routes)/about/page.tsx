@@ -214,8 +214,8 @@ export default function About() {
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(0, 3).map((member) => {
                   return (
-                    <Link href={member.link} >
-                      <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                    <Link key={member.name} href={member.link} >
+                      <BoardMember name={member.name} position={member.position} image={member.img} />
                     </Link>
                   )
                 })}
@@ -223,8 +223,8 @@ export default function About() {
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(3, 6).map((member) => {
                   return (
-                    <Link href={member.link} >
-                      <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                    <Link key={member.name} href={member.link} >
+                      <BoardMember name={member.name} position={member.position} image={member.img} />
                     </Link>
                   )
                 })}
@@ -235,8 +235,8 @@ export default function About() {
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(6, 9).map((member) => {
                   return (
-                    <Link href={member.link} >
-                      <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                    <Link key={member.name} href={member.link} >
+                      <BoardMember name={member.name} position={member.position} image={member.img} />
                     </Link>
                   )
                 })}
@@ -244,8 +244,8 @@ export default function About() {
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(9, 12).map((member) => {
                   return (
-                    <Link href={member.link} >
-                      <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                    <Link key={member.name} href={member.link} >
+                      <BoardMember name={member.name} position={member.position} image={member.img} />
                     </Link>
                   )
                 })}
