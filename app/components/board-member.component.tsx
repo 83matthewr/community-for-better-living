@@ -13,7 +13,8 @@ export default function BoardMember({ name, position, image }: { name: string, p
                         objectFit: 'cover',
                         width: '100%',
                         height: '100%',
-                        borderRadius: '999px'
+                        borderRadius: '999px',
+                        objectPosition: '0px 0px'
                     }}
                 />
             </div>

@@ -16,68 +16,89 @@ import paragraghImage from "../../../public/assets/about_paragraph_picture.jpg";
 import divider1 from "../../../public/assets/about_us_divider_1.jpg";
 import divider2 from "../../../public/assets/about_us_divider_2.jpg";
 import placeholderImage from "../../../public/assets/profile_placeholder.jpg";
+import dean_cinquemani from "../../../public/assets/dean_cinquemani.jpg";
+import tammi_cinquemani from "../../../public/assets/tammi_cinquemani.jpg";
+import glen_marek from "../../../public/assets/glen_marek.jpg";
+import polly_dengel from "../../../public/assets/polly_dengel.jpg";
+import jon_falkenstein from "../../../public/assets/jon_falkenstein.jpg";
+import lisa_falkenstein from "../../../public/assets/lisa_falkenstein.jpg";
+import gail_merda from "../../../public/assets/gail_merda.jpg";
+import matthew_roberts from "../../../public/assets/matthew_roberts.jpg";
+import Link from "next/link";
 
 
 const BOARD_MEMBERS = [
   {
     name: "Dean Cinquemani",
     position: "Board Chair",
-    img: placeholderImage
+    img: dean_cinquemani,
+    link: '/about/dcinquemani'
   },
   {
     name: "Glen Marek",
     position: "Treasurer",
-    img: placeholderImage
+    img: glen_marek,
+    link: '/about/gmarek'
   },
   {
     name: "Tammi Cinquemani",
     position: "Clerk",
-    img: placeholderImage
+    img: tammi_cinquemani,
+    link: '/about/tcinquemani'
   },
   {
     name: "Lisa Falkenstein",
     position: undefined,
-    img: placeholderImage
+    img: lisa_falkenstein,
+    link: '/about/lfalkenstein'
   },
   {
     name: "Jon Falkenstein",
     position: undefined,
-    img: placeholderImage
+    img: jon_falkenstein,
+    link: '/about/jfalkenstein'
   },
   {
     name: "Dr. Polly Dengel",
     position: undefined,
-    img: placeholderImage
+    img: polly_dengel,
+    link: '/about/pdengel'
   },
   {
     name: "Celeste Mills",
     position: undefined,
-    img: placeholderImage
+    img: placeholderImage,
+    link: '/about/cmills'
   },
   {
     name: "Cindy Oster",
     position: undefined,
-    img: placeholderImage
+    img: placeholderImage,
+    link: '/about/coster'
   },
   {
     name: "Gail Merda",
     position: undefined,
-    img: placeholderImage
+    img: gail_merda,
+    link: '/about/gmerda'
   },
   {
     name: "Matthew Roberts",
     position: undefined,
-    img: placeholderImage
+    img: matthew_roberts,
+    link: '/about/mroberts'
   },
   {
     name: "Nate Pratt",
     position: undefined,
-    img: placeholderImage
+    img: placeholderImage,
+    link: '/about/npratt'
   },
   {
     name: "Aaron Pratt",
     position: undefined,
-    img: placeholderImage
+    img: placeholderImage,
+    link: '/about/apratt'
   },
 ];
 
@@ -192,12 +213,20 @@ export default function About() {
             <div className="flex flex-col xl:flex-row gap-2 w-full">
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(0, 3).map((member) => {
-                  return <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                  return (
+                    <Link href={member.link} >
+                      <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                    </Link>
+                  )
                 })}
               </div>
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(3, 6).map((member) => {
-                  return <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                  return (
+                    <Link href={member.link} >
+                      <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                    </Link>
+                  )
                 })}
               </div>
             </div>
@@ -205,12 +234,20 @@ export default function About() {
             <div className="flex flex-col xl:flex-row gap-2 w-full">
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(6, 9).map((member) => {
-                  return <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                  return (
+                    <Link href={member.link} >
+                      <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                    </Link>
+                  )
                 })}
               </div>
               <div className="flex flex-col gap-2 w-full">
                 {BOARD_MEMBERS.slice(9, 12).map((member) => {
-                  return <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                  return (
+                    <Link href={member.link} >
+                      <BoardMember key={member.name} name={member.name} position={member.position} image={member.img} />
+                    </Link>
+                  )
                 })}
               </div>
             </div>
