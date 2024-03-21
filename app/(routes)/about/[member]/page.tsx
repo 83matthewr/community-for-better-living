@@ -51,7 +51,7 @@ const BOARD_MEMBERS = [
         key: "jfalkenstein",
         name: "Jon Falkenstein",
         position: undefined,
-        img: dark_jon_falkenstein,
+        img: jon_falkenstein,
         bio1: "Jon is a highly experienced and dedicated professional with a proven community outreach and board governance track record. With over 15 years of expertise in commercial and personal debt collections and a decade-long career progression within the manufacturing industry, he brings a unique blend of financial acumen and strategic insight to the table. Currently serving as an executive finance committee member at CBL, Jon thrives in dynamic environments where collaboration and innovation are key. As a customer service relations manager at a Fortune 500 company, his team leadership, negotiation, and mentoring skills have been instrumental in driving success. Passionate about community engagement and wellness initiatives, Jon is committed to positively impacting the local community."
     },
     {
