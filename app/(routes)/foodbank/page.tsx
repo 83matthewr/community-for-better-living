@@ -16,16 +16,6 @@ import allWelcome from "../../../public/assets/all_welcome.jpg";
 
 const FOODBANK_DATES = [
   {
-    date: "March 14, 2024",
-    abbr_date: "Mar 14, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "March 28, 2024",
-    abbr_date: "Mar 28, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
     date: "April 11, 2024",
     abbr_date: "Apr 11, 2024",
     time: "5:30pm-6:30pm"
