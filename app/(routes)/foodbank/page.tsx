@@ -16,31 +16,6 @@ import allWelcome from "../../../public/assets/all_welcome.jpg";
 
 const FOODBANK_DATES = [
   {
-    date: "April 11, 2024",
-    abbr_date: "Apr 11, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "April 25, 2024",
-    abbr_date: "Apr 25, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "May 9, 2024",
-    abbr_date: "May 9, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "May 23, 2024",
-    abbr_date: "May 23, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "June 13, 2024",
-    abbr_date: "June 13, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
     date: "June 27, 2024",
     abbr_date: "June 27, 2024",
     time: "5:30pm-6:30pm"
@@ -68,6 +43,36 @@ const FOODBANK_DATES = [
   {
     date: "September 26, 2024",
     abbr_date: "Sept 26, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "October 10, 2024",
+    abbr_date: "Oct 10, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "October 24, 2024",
+    abbr_date: "Oct 24, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "November 7, 2024",
+    abbr_date: "Nov 7, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "November 21, 2024",
+    abbr_date: "Nov 21, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "December 5, 2024",
+    abbr_date: "Dec 5, 2024",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "December 19, 2024",
+    abbr_date: "Dec 19, 2024",
     time: "5:30pm-6:30pm"
   },
 ]
