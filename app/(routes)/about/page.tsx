@@ -71,10 +71,10 @@ const BOARD_MEMBERS = [
     link: '/about/cmills'
   },
   {
-    name: "Cindy Oster",
+    name: "Cynthia Robbins",
     position: undefined,
     img: placeholderImage,
-    link: '/about/coster'
+    link: '/about/crobbins'
   },
   {
     name: "Gail Merda",

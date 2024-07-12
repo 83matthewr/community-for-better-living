@@ -69,12 +69,10 @@ const BOARD_MEMBERS = [
         img: placeholderImage,
     },
     {
-        key: "coster",
-        name: "Cindy Oster",
+        key: "crobbins",
+        name: "Cynthia Robbins",
         position: undefined,
         img: placeholderImage,
-        bio1: "Cynthia is a retired international journalist with over four decades of experience, with a primary focus on business, technology, science and health.  She was Editor-in-chief and Contributing Editor for many international and local publications, such as Bottom Line Weath, Bottom Line Personal, NewsBytes, IdeaBytes and Cleveland Magazine. With a life-long passion  for science and physics, Cynthia has given lectures and conducted workshops throughout northeast Ohio  on quantum physics and how our thoughts play a vital role in both creating our own future - and the future of the planet. ",
-        bio2: "She has volunteered most of her adult life, working closely with non-profits, charitable organizations and churches.  She's been with The Community for Better Living for over six years."
     },
     {
         key: "gmerda",
