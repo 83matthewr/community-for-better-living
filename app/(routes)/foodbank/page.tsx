@@ -16,12 +16,7 @@ import allWelcome from "../../../public/assets/all_welcome.jpg";
 
 const FOODBANK_DATES = [
   {
-    date: "June 27, 2024",
-    abbr_date: "June 27, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "July 11, 2024",
+    date: "July 25, 2024",
     abbr_date: "July 11, 2024",
     time: "5:30pm-6:30pm"
   },
