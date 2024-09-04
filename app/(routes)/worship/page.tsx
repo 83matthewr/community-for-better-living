@@ -19,47 +19,47 @@ const BELIEF_STATEMENTS = [
   {
     title: "The Creator God",
     text:
-      "We firmly believe in the existence of a loving and creative God who is the source of all life and creation. This divine Creator’s boundless wisdom and love are revealed through the beauty and diversity of the world around us"
+      "We firmly believe in the existence of a loving and creative God who is the source of all life and creation. This divine Creator’s boundless wisdom and love are revealed through the beauty and diversity of the world around us."
   },
   {
     title: "Jesus Christ, the Son",
     text:
-      "We acknowledge Jesus Christ as the Son of God and Savior of humanity. His life, teaching, death, and resurrection exemplify the depth of God’s love for us and provide a pathway to reconciliation and redemption"
+      "We acknowledge Jesus Christ as the Son of God and Savior of humanity. His life, teaching, death, and resurrection exemplify the depth of God’s love for us and provide a pathway to reconciliation and redemption."
   },
   {
     title: "The Inspired Bible",
     text:
-      "While recognizing that the Bible is inspired by God, we understand that it was written by imperfect humans in various historical and cultural contexts. We approach the Bible with humility, recognizing that its messages are conveyed through the lens of human experiences and cultural influences"
+      "While recognizing that the Bible is inspired by God, we understand that it was written by imperfect humans in various historical and cultural contexts. We approach the Bible with humility, recognizing that its messages are conveyed through the lens of human experiences and cultural influences."
   },
   {
     title: "Embracing Imperfection",
     text:
-      "As followers of Christ, we acknowledge our own imperfections and those of others. We understand that the Bible’s narratives include stories of people who struggled, made mistakes, and learned from their experiences. We humbly recognize that none of us are without flaws"
+      "As followers of Christ, we acknowledge our own imperfections and those of others. We understand that the Bible’s narratives include stories of people who struggled, made mistakes, and learned from their experiences. We humbly recognize that none of us are without flaws."
   },
   {
     title: "Christ as the Ultimate Example",
     text:
-      "We hold Jesus Christ as the ultimate example of the kind of people we are called to be. His love, compassion, humility, and selflessness guide us in our journey of faith. We seek to reflect these qualities in our interactions with others and our approach to life"
+      "We hold Jesus Christ as the ultimate example of the kind of people we are called to be. His love, compassion, humility, and selflessness guide us in our journey of faith. We seek to reflect these qualities in our interactions with others and our approach to life."
   },
   {
     title: "All Are Welcome",
     text:
-      "Just as Christ called all people to follow Him without exception, we embrace the differences of humanity. Regardless of one’s background, identity, history, or life circumstances, we acknowledge the inherent worth and dignity of every individual. All are invited to learn about the God of love and grace"
+      "Just as Christ called all people to follow Him without exception, we embrace the differences of humanity. Regardless of one’s background, identity, history, or life circumstances, we acknowledge the inherent worth and dignity of every individual. All are invited to learn about the God of love and grace."
   },
   {
     title: "Sharing Knowledge with Humility",
     text:
-      "We are committed to sharing the knowledge we have about God’s love and teachings with humility and respect. We recognize that our understanding is an ongoing journey, and we remain open to continuous learning and growth in our faith"
+      "We are committed to sharing the knowledge we have about God’s love and teachings with humility and respect. We recognize that our understanding is an ongoing journey, and we remain open to continuous learning and growth in our faith."
   },
   {
     title: "Judgement Free Community",
     text:
-      "In our community, we strive to create an environment free from judgment. We recognize that each person’s journey is unique, and we welcome all to join us in exploring and deepening their relationship with God without fear of condemnation or exclusion"
+      "In our community, we strive to create an environment free from judgment. We recognize that each person’s journey is unique, and we welcome all to join us in exploring and deepening their relationship with God without fear of condemnation or exclusion."
   },
   {
     title: "Love in Action",
     text:
-      "We believe that faith is not only expressed in words, but also in actions. We are called to embody Christ’s love by serving others, advocating for justice, and contributing to the well-being of our communities and the world"
+      "We believe that faith is not only expressed in words, but also in actions. We are called to embody Christ’s love by serving others, advocating for justice, and contributing to the well-being of our communities and the world."
   }
 ];
 
@@ -77,16 +77,13 @@ export default function Worship() {
 
       <Container>
         <ParagraphPicture image={introImage} alt="Bible Study">
-          <SectionHeading>Worship With Us</SectionHeading>
+          <SectionHeading>Explore the Bible with Us!</SectionHeading>
           <Paragraph>
-            Anyone and everyone is welcome to join us at the Community for Better Living for worship
-            services. We believe in learning more about the God who created and loves us all.
-            Our goal is to help people from different backgrounds develop a personal relationship
-            with Him by studying Jesus&apos; time on earth and the men who were closest to Him. If you&apos;re
-            seeking a relationship with Christ, you are more than welcome to join us. No obligations,
-            just an open mind, an open heart, and a desire to learn. We have no hidden agendas and we
-            strive not to judge others. Instead, our focus is on gaining knowledge of God through the
-            life of Christ and serving others as a way of life.
+            At the Community for Better Living, we believe in fostering a welcoming space for
+            anyone curious about the Bible. You can join our open discussions regardless of your
+            background or beliefs. Our focus isn&#39;t on doctrine but on exploring the stories and
+            teachings found within the Bible&#39;s pages. We aim to understand Jesus&#39;s life and His
+            impact on those closest to Him.
           </Paragraph>
         </ParagraphPicture>
 
@@ -110,16 +107,16 @@ export default function Worship() {
         <ParagraphPicture image={expectImage} alt="Bible Study">
           <SectionHeading>What To Expect</SectionHeading>
           <Paragraph>
-            We are a small, service oriented church located in the same building that serves 
-            as our food bank distribution center. As such, our meeting place is modest and 
-            humble, sharing space with storage freezers and other food bank supplies out of 
-            necessity. This setup represents our strong belief in serving Christ well. We don&apos;t 
-            follow or require any dress code and encourage visiters to dress however they feel 
-            comfortable. Sometimes we start our study by singing worship songs, other times 
-            we jump right into Bible Study. Our focus is intentionally non-doctrinal, 
-            understanding that people come from all different backgrounds. Our goal is 
-            to help you grow closer to God, not to make you fit a mold. We dive deep 
-            into a wide variety of topics with the goal of understanding what it means 
+            We are a small, service oriented church located in the same building that serves
+            as our food bank distribution center. As such, our meeting place is modest and
+            humble, sharing space with storage freezers and other food bank supplies out of
+            necessity. This setup represents our strong belief in serving Christ well. We don&apos;t
+            follow or require any dress code and encourage visiters to dress however they feel
+            comfortable. Sometimes we start our study by singing worship songs, other times
+            we jump right into Bible Study. Our focus is intentionally non-doctrinal,
+            understanding that people come from all different backgrounds. Our goal is
+            to help you grow closer to God, not to make you fit a mold. We dive deep
+            into a wide variety of topics with the goal of understanding what it means
             to be a true follower of Christ. Everyone is welcome to join our study.
           </Paragraph>
         </ParagraphPicture>
@@ -132,27 +129,27 @@ export default function Worship() {
           </div>
           <div className="py-8 flex flex-col gap-8">
             <BeliefContainer>
-              {BELIEF_STATEMENTS.slice(0,2).map((belief) => {
+              {BELIEF_STATEMENTS.slice(0, 2).map((belief) => {
                 return <BeliefStatement key={belief.title} title={belief.title} text={belief.text} />
               })}
             </BeliefContainer>
             <BeliefContainer>
-              {BELIEF_STATEMENTS.slice(2,4).map((belief) => {
+              {BELIEF_STATEMENTS.slice(2, 4).map((belief) => {
                 return <BeliefStatement key={belief.title} title={belief.title} text={belief.text} />
               })}
             </BeliefContainer>
             <BeliefContainer>
-              {BELIEF_STATEMENTS.slice(4,6).map((belief) => {
+              {BELIEF_STATEMENTS.slice(4, 6).map((belief) => {
                 return <BeliefStatement key={belief.title} title={belief.title} text={belief.text} />
               })}
             </BeliefContainer>
             <BeliefContainer>
-              {BELIEF_STATEMENTS.slice(6,8).map((belief) => {
+              {BELIEF_STATEMENTS.slice(6, 8).map((belief) => {
                 return <BeliefStatement key={belief.title} title={belief.title} text={belief.text} />
               })}
             </BeliefContainer>
             <BeliefContainer>
-              {BELIEF_STATEMENTS.slice(8,9).map((belief) => {
+              {BELIEF_STATEMENTS.slice(8, 9).map((belief) => {
                 return <BeliefStatement key={belief.title} title={belief.title} text={belief.text} />
               })}
             </BeliefContainer>

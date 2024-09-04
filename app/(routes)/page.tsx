@@ -36,16 +36,16 @@ const SERVICES = [
     title: "Food Bank",
     image: foodbank,
     text: "We are the westernmost distribution center for the Greater Cleveland Food Bank. " +
-          "Our drive-thru distribution service provides food to families throughout the " +
-          "community twice a month. Everyone is welcome to come.",
+      "Our drive-thru distribution service provides food to families throughout the " +
+      "community twice a month. Everyone is welcome to come.",
     link: "/foodbank"
   },
   {
     title: "Worship",
     image: worship,
     text: "We host a worship service starting 11:00am every Saturday. Our goal is to improve " +
-          "personal relationship and understanding of God by studying the Bible. We dont push " +
-          "doctrine or denominational differences, all are welcome to join.",
+      "personal relationship and understanding of God by studying the Bible. We dont push " +
+      "doctrine or denominational differences, all are welcome to join.",
     link: "/worship"
   },
   {
@@ -270,10 +270,12 @@ export default function Home() {
         >
           <SectionHeading>Making a Difference</SectionHeading>
           <Paragraph>
-            We are a 501c Community Service and Education Center located on the west side of Cleveland. We are supported by a volunteer network
-            of wonderful people dedicated to finding ways to serve and care for anyone in need, including education, direct service,
-            and family/community support. We host events to serve the community and also organize fun events to raise funds
-            and support this very worthy cause.<br /><br />
+            The Community for Better Living(CBL) is a 501(c) 3 community service and education
+            center on Cleveland&#39;s west side. Our mission is made possible by a community
+            volunteer network of people who are integral to finding ways to serve and care for
+            anyone in need. Our offerings include education, direct services, and family/community
+            support. In addition, we host events to serve the community, all while raising funds and
+            supporting this worthy cause.<br /><br />
 
             We are located on the Westside of Cleveland, just West of the Airport, at 7074 Columbia Rd, Olmsted Township, OH 44138.
           </Paragraph>
@@ -283,8 +285,8 @@ export default function Home() {
         <div className="px-8 pb-8 md:pb-16">
           <SectionHeading>Services</SectionHeading>
           <Paragraph attrs="mb-8 md:w-[70%] lg:w-[50%]">
-            The Community for Better Living is dedicated to serving and enriching the people in our local community. 
-            With this aim in mind, we offer a variety of services that are free and open to the public.
+            The Community for Better Living is dedicated to serving and enriching the people of our
+            local community. To this end, we offer a variety of free and open-to-the-public services.
           </Paragraph>
 
           <div className="flex flex-col lg:flex-row gap-6 mt-2">
@@ -305,9 +307,9 @@ export default function Home() {
               <div className="p-2 md:p-4 lg:p-0 xl:p-6">
                 <h3 className="display-4 md:display-3 text-primary-900 mb-4">Worship</h3>
                 <p className="body-2r md:body-1r text-neutral-900 h-[180px] xs:h-[128px] md:h-[120px] lg:h-[240px] xl:h-[200px]">
-                  We host a worship service starting 11:00am every Saturday. Our goal is to improve 
-                  personal relationship and understanding of God by studying the Bible. We dont push 
-                  doctrine or denominational differences, all are welcome to join.
+                  We host a worship service starting at 11:00 a.m. every Saturday. By studying the Bible, we aim to improve
+                  personal relationships and our understanding of God. We don&#39;t push doctrine or denominational
+                  differences; all are welcome to join, fostering a sense of community and acceptance.
                 </p>
                 <Link href="/worship" className="py-1 px-4 rounded bg-primary-900 text-white display-5">
                   Learn More

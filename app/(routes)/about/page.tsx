@@ -124,22 +124,27 @@ export default function About() {
           <SectionHeading>Our Story</SectionHeading>
           <div className="flex flex-col lg:flex-row gap-6">
             <Paragraph attrs="basis-1/2">
-              The Community for Better Living began in the very early 2000s with the challenge to become a beacon
-              of help and guidance in the community. We started by offering classes in healthy cooking, CPR,
-              autism awareness, financial planning, online identity protection, and healthy, judgment free
-              spirituality along with anything else we found that would be a help to the community. All of the classes
-              we offer have always been free to the public and designed to help our community live better, more fulfilling lives.
-              In 2010, we settled at our current location off Columbia Rd. While a sister organization, Walk of
-              Faith Community center, began to settle its roots on the west side of Cleveland partnering with the Greater
-              Cleveland Food Bank in serving that area as a pantry distribution center and hot breakfast for anyone in need.
+              The Community for Better Living began in the early 2000s with the challenge of
+              becoming a beacon of help and guidance. We started by offering classes in healthy
+              cooking, CPR, autism awareness, financial planning, online identity protection, healthy,
+              judgment-free spirituality, and anything else we found to help the community.
+              Importantly, all our classes have always been accessible to the public, ensuring
+              everyone in our community can benefit and live better, more fulfilling lives.<br /><br />
+
+              In 2010, we settled at our current location off Columbia Rd. Meanwhile, a sister
+              organization, Walk of Faith Community Center, began to pay its roots on the west side
+              of Cleveland, partnering with the Greater Cleveland Food Bank to serve that area as a
+              pantry distribution center and hot breakfast for anyone in need.
             </Paragraph>
             <Paragraph attrs="basis-1/2">
-              In 2014, both centers drew a bit closer as they began to share the same board chair and director and in 2016,
-              at the urging of the Greater Cleveland Food Bank, the Community for Better Living began food pantry service
-              on the second and fourth Thursdays of the month. Shortly thereafter the Walk of Faith Community center lost
-              their lease and the two centers merged and became one as the Community for Better Living. We continue to
-              run food pantry services twice a month and hold classes and event to help enrich our community. All are welcome
-              to join any of our services and become a part of our community.
+              In 2014, both centers drew a bit closer as they began to share the same board chair
+              and director, and in 2016, at the urging of the Greater Cleveland Food Bank, the
+              Community for Better Living began food pantry service on the second and fourth
+              Thursdays of the month. Shortly after that, the Walk of Faith Community Center lost its
+              lease, and the two centers merged and became the Community for Better Living. We
+              continue to run food pantry services twice a month and hold classes and events to help
+              enrich our community. All are welcome to join any of our services and become a part of
+              our community.
             </Paragraph>
           </div>
         </div>
@@ -183,7 +188,7 @@ export default function About() {
           <div className="bg-primary-300 p-4 md:p-10 rounded">
             <h3 className="display-4 md:display-3 text-primary-900">
               “Our mission is to identify the needs in our community, design programs to meet those needs, and support
-              individuals and families through education, resources, and encouragement”
+              individuals and families through education, resources, and encouragement.”
             </h3>
           </div>
         </div>
@@ -194,14 +199,16 @@ export default function About() {
         >
           <SectionHeading>Serving Our Community</SectionHeading>
           <Paragraph>
-            We have been dedicated to providing a range of services that meet the needs and interests of our community
-            members including a food pantry, community family events, classes on various topics and a weekly spiritual
-            group that meets on Saturdays.<br /><br />
-            We are fortunate to have a group of passionate volunteers who give their hearts to helping those they serve
-            in our community. Without them, we could not fulfill the mission of CBL.<br /><br />
-            We operate with integrity, transparency, and accountability in all that we do and all that we offer, and we
-            hold ourselves to the highest standards in all that we do. We finance our organization through grants and
-            contributions of compassionate donors that share our mission and vision.
+            The Community for Better Living strives to enrich the lives of our community members
+            in many ways. We offer a food pantry to help those in need, host fun and engaging
+            family events, provide educational classes on various topics, and even have a weekly
+            spiritual group that meets on Saturdays.<br /><br />
+            Our services and events wouldn&#39;t be possible without our incredible team of passionate
+            volunteers dedicated to serving others. Their hearts and hard work are the backbone of
+            the CBL mission. We operate with transparency, integrity, and accountability in
+            everything we do, holding ourselves to the highest standards. Financial support comes
+            through grants and contributions from compassionate donors who share our vision of a
+            better community.
           </Paragraph>
         </ParagraphPicture>
 

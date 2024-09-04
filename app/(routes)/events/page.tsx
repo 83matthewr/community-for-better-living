@@ -39,11 +39,17 @@ export default function Events() {
         <ParagraphPicture image={introImage} alt="An outdoor event">
           <SectionHeading>Community Events & Classes</SectionHeading>
           <Paragraph>
-            The Community for Better Living seeks to host events to enrich our surrounding 
-            community. We plan events to get to know our community better, to find different 
-            ways that we can provide services to help the community, to have fun, and occasionally 
-            to raise funds for our center. All of our events, including fund raisers, are free 
-            and open to the public. We welcome anyone and everyone to join in on our events.
+            The Community for Better Living fosters a vibrant and connected neighborhood. We host a variety of
+            engaging events designed to build relationships, fundraise, and have a blast!
+            Our events allow you to meet your neighbors, make new friends, and strengthen your community spirit.
+            Explore new interests, learn valuable skills, and find ways to contribute to the well-being of those around
+            you. We offer free, family-friendly events that bring laughter, joy, and a sense of belonging.<br /><br />
+
+            Whether you&#39;re a long-time resident or just getting to know the area, we welcome you with open arms.
+            Our events are open to the public, so come join the fun!
+            We&#39;re constantly planning exciting new events, so be sure to check back frequently for upcoming
+            offerings. You can also sign-up for our newsletter to receive updates directly in your inbox.
+            Together, let&#39;s make our community an even better place to live!
           </Paragraph>
         </ParagraphPicture>
 
