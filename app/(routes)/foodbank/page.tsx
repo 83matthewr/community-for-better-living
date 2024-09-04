@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import Container from "@/app/components/container.component";
 import MobileHero from "@/app/components/mobile-hero.component";
@@ -15,21 +15,6 @@ import allWelcome from "../../../public/assets/all_welcome.jpg";
 
 
 const FOODBANK_DATES = [
-  {
-    date: "July 25, 2024",
-    abbr_date: "July 11, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "August 8, 2024",
-    abbr_date: "Aug 8, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "August 22, 2024",
-    abbr_date: "Aug 22, 2024",
-    time: "5:30pm-6:30pm"
-  },
   {
     date: "September 12, 2024",
     abbr_date: "Sept 12, 2024",
@@ -70,11 +55,111 @@ const FOODBANK_DATES = [
     abbr_date: "Dec 19, 2024",
     time: "5:30pm-6:30pm"
   },
+  {
+    date: "January 9, 2025",
+    abbr_date: "Jan 9, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "January 23, 2025",
+    abbr_date: "Jan 23, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "February 13, 2025",
+    abbr_date: "Feb 13, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "February 27, 2025",
+    abbr_date: "Feb 27, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "March 13, 2025",
+    abbr_date: "Mar 13, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "March 27, 2025",
+    abbr_date: "Mar 27, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "April 10, 2025",
+    abbr_date: "Apr 10, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "April 24, 2025",
+    abbr_date: "Apr 24, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "May 8, 2025",
+    abbr_date: "May 8, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "May 22, 2025",
+    abbr_date: "May 22, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "June 12, 2025",
+    abbr_date: "Jun 12, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "June 26, 2025",
+    abbr_date: "Jun 26, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "July 10, 2025",
+    abbr_date: "Jul 10, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "July 24, 2025",
+    abbr_date: "Jul 24, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "August 14, 2025",
+    abbr_date: "Aug 14, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "August 28, 2025",
+    abbr_date: "Aug 28, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "September 11, 2025",
+    abbr_date: "Sept 11, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "September 25, 2025",
+    abbr_date: "Sept 25, 2025",
+    time: "5:30pm-6:30pm"
+  },
 ]
 
 export default function FoodBank() {
+  const [firstDateIndex, setFirstDateIndex] = useState(0);
   const [lastDateIndex, setLastDateIndex] = useState(4);
   const [loadDisabled, setLoadDisabled] = useState(false);
+
+  useEffect(() => {
+    let firstDate = new Date(FOODBANK_DATES[firstDateIndex].date).getTime();
+    let currentDate = new Date(Date.now()).getTime() - 100000000;
+    if (firstDate < currentDate) {
+      setFirstDateIndex(firstDateIndex + 1);
+      setLastDateIndex(lastDateIndex + 1);
+    }
+  }, [firstDateIndex, lastDateIndex])
 
   const loadMoreDates = () => {
     if (lastDateIndex + 4 >= FOODBANK_DATES.length) {
@@ -109,7 +194,7 @@ export default function FoodBank() {
             All are welcome to register and get food.
           </Paragraph>
           <div className="flex flex-col gap-4 pb-4 md:pb-8">
-            {FOODBANK_DATES.slice(0, lastDateIndex).map((date) => {
+            {FOODBANK_DATES.slice(firstDateIndex, lastDateIndex).map((date) => {
               return (
                 <div key={date.date} className="flex flex-row justify-between items-center py-2 px-4 md:py-4 md:px-8 bg-primary-300 rounded-md shadow-md">
                   <h3 className="xs:hidden display-4 md:display-3 text-primary-900">{date.abbr_date}</h3>
