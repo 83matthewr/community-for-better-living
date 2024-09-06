@@ -9,6 +9,8 @@ import ParagraphPicture from "@/app/components/paragraph-picture.component";
 import SectionHeading from "@/app/components/section-heading.component";
 import Paragraph from "@/app/components/paragraph.component";
 import CallToAction from "@/app/components/call-to-action.component";
+import DesktopDonation from "@/app/components/desktop-donation.component";
+import MobileDonation from "@/app/components/mobile-donation.component";
 
 import mobileHero from "../../../public/assets/brownbags.jpg";
 import allWelcome from "../../../public/assets/all_welcome.jpg";
@@ -295,7 +297,13 @@ export default function FoodBank() {
 
         {/* Call to Action */}
         <CallToAction text="Interested in helping provide food to hundreds of families in need?" />
+
+        {/* Mobile Donation */}
+        <MobileDonation />
       </Container>
+
+      {/* Desktop Donation */}
+      <DesktopDonation />
     </div>
   )
 }

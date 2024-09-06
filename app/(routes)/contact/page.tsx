@@ -4,6 +4,8 @@ import DesktopHeroSingle from "@/app/components/desktop-hero-single.component";
 import SectionHeading from "@/app/components/section-heading.component";
 import Paragraph from "@/app/components/paragraph.component";
 import MapWrapper from "@/app/components/map-wrapper.component";
+import DesktopDonation from "@/app/components/desktop-donation.component";
+import MobileDonation from "@/app/components/mobile-donation.component";
 
 import mobileHero from "../../../public/assets/contact_hero.jpg";
 import Link from "next/link";
@@ -51,13 +53,13 @@ export default function ContactUs() {
           <SectionHeading>How to Get In Touch</SectionHeading>
           <p className="body-2r text-neutral-900 md:w-[70%] lg:w-[50%]">
             You can reach us through any of the following contacts. Our
-            preference is that you contact us by email, as we are a volunteer-run 
+            preference is that you contact us by email, as we are a volunteer-run
             organization and can not always respond to every message immediately.
-            
+
           </p>
           <div className="flex flex-col lg:flex-row gap-4 py-8 lg:w-2/3">
-            <Link 
-              href="mailto:info@communityforbetterliving.org" 
+            <Link
+              href="mailto:info@communityforbetterliving.org"
               className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md">
               info@communityforbetterliving.org
             </Link>
@@ -67,7 +69,9 @@ export default function ContactUs() {
           </div>
         </div>
 
+        <MobileDonation variant="secondary" />
       </Container>
+      <DesktopDonation variant="secondary" />
     </div>
   )
 }

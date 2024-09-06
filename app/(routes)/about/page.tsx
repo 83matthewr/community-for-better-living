@@ -263,9 +263,9 @@ export default function About() {
 
         </div>
 
-        <MobileDonation />
+        <MobileDonation variant="secondary" />
       </Container>
-      <DesktopDonation />
+      <DesktopDonation variant="secondary" />
     </div>
   )
 }
