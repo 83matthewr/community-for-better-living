@@ -13,6 +13,8 @@ import introImage from "../../../public/assets/events_intro.jpg";
 import craftsImage from "../../../public/assets/crafts.jpg";
 import carshowImage from "../../../public/assets/car_show_event.jpg";
 import comingSoonImage from "../../../public/assets/coming_soon.jpg";
+import luncheonImage from "../../../public/assets/luncheon_event.jpg";
+import Link from "next/link";
 
 const EVENTS_DATA = [
   {
@@ -26,6 +28,15 @@ const EVENTS_DATA = [
     location1: "7074 Columbia Rd",
     location2: "Olmsted Township, OH 44138"
   },
+  {
+    image1: luncheonImage,
+    title: "Grateful Women's Luncheon",
+    subtitle: "hosted by Perk Cup Cafe",
+    date: "November 16, 2024",
+    time: "11:00am - 2:00pm",
+    location1: "561 Bagley Rd",
+    location2: "Berea, OH 44017"
+  }
 ];
 
 export default function Events() {
@@ -57,7 +68,7 @@ export default function Events() {
         <div className="px-8 py-4 md:py-16">
           <SectionHeading>Upcoming Events</SectionHeading>
           <div className="flex flex-col lg:flex-row gap-6 items-center justify-center">
-            {EVENTS_DATA.map((event) => {
+            { /* EVENTS_DATA.map((event) => {
               return (
                 <ImageCard key={event.title} image={event.image1} height="300px" alt="">
                   <div className="lg:h-[350px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
@@ -79,8 +90,67 @@ export default function Events() {
                   </div>
                 </ImageCard>
               )
-            })}
-            {(EVENTS_DATA.length % 2 === 1) && (
+            }) */}
+            <ImageCard image={carshowImage} height="300px" alt="">
+              <div className="lg:h-[624px] xl:h-[600px] 2xl:h-[554px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
+                <div>
+                  <h3 className="display-2 text-primary-900">Car & Craft Show Fundraiser</h3>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <h4 className="display-4 text-neutral-900">Date:</h4>
+                  <p className="body-1r text-neutral-900">October 6, 2024</p>
+                  <p className="body-1r text-neutral-900">1:00 p.m. - 4:00 p.m.</p>
+                  <p className="body-1r text-neutral-900">(Rain Date October 13)</p>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <h4 className="display-4 text-neutral-900">Location:</h4>
+                  <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
+                  <p className="body-1r text-neutral-900">Olmsted Township, OH 44138</p>
+                </div>
+                <div className="flex flex-col gap-4 lg:h-[224px] xl:h-[200px]">
+                  <p className="body-1r text neutral-900">
+                    An afternoon of classic cars, local homemade crafts, mouthwatering food, raffles and more!
+                    All proceeds will directly benefit the Community for Better Living's Food Pantry and other outreach services.
+                  </p>
+                  <p className="body-1b text neutral-900">$10 fee to enter your car into the show.</p>
+                  <p className="body-1b text neutral-900 mb-8">$30 fee for Craft Vendor Registration.</p>
+                </div>
+                <Link href="https:\\hello.dubsado.com/public/form/view/660ee4ac057c22003ae8353c" >
+                  <p className="sm:w-full lg:w-[300px] py-2 text-center rounded bg-primary-900 text-white display-4">Register Here</p>
+                </Link>
+              </div>
+            </ImageCard>
+            <ImageCard image={luncheonImage} height="300px" alt="">
+              <div className="lg:h-[624px] xl:h-[600px] 2xl:h-[554px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
+                <div>
+                  <h3 className="display-2 text-primary-900">Grateful Women's Luncheon</h3>
+                  <p className="display-s text-neutral-700">hosted by Perk Cup Cafe</p>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <h4 className="display-4 text-neutral-900">Date:</h4>
+                  <p className="body-1r text-neutral-900">Saturday, November 16, 2024</p>
+                  <p className="body-1r text-neutral-900">11:00 a.m. - 2:00 p.m.</p>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <h4 className="display-4 text-neutral-900">Location:</h4>
+                  <p className="body-1r text-neutral-900">561 W Bagley Rd</p>
+                  <p className="body-1r text-neutral-900">Berea, OH 44017</p>
+                </div>
+                <div className="flex flex-col gap-4 lg:h-[224px] xl:h-[200px]">
+                  <p className="body-1r text neutral-900">
+                    Join us for a lunch buffet, dessert, beverages, guest speaker, and raffles, all
+                    while helping raise funds for The Community For Better Living's Food Pantry.
+                  </p>
+                  <p className="body-1b text text-primary-900 mb-4">
+                    Registration is Required.
+                  </p>
+                </div>
+                <Link href="https:\\hello.dubsado.com/public/form/view/66a56fb579f4c3003a4b2e0d" >
+                  <p className="sm:w-full lg:w-[300px] py-2 text-center rounded bg-primary-900 text-white display-4">Register Here</p>
+                </Link>
+              </div>
+            </ImageCard>
+            { /*(EVENTS_DATA.length % 2 === 1) && (
               <ImageCard image={comingSoonImage} height="300px" alt="">
                 <div className="lg:h-[350px] px-0 py-8 lg:py-32 xs:px-2 lg:px-4 text-center">
                   <div>
@@ -89,7 +159,7 @@ export default function Events() {
                   </div>
                 </div>
               </ImageCard>
-            )}
+            ) */}
           </div>
         </div>
 
