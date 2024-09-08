@@ -83,7 +83,8 @@ export default function Worship() {
             anyone curious about the Bible. You can join our open discussions regardless of your
             background or beliefs. Our focus isn&#39;t on doctrine but on exploring the stories and
             teachings found within the Bible&#39;s pages. We aim to understand Jesus&#39;s life and His
-            impact on those closest to Him.
+            impact on those closest to Him. This is an open invitation to anyone seeking understanding, connection, and a deeper
+            appreciation for the Bible&#39;s wisdom. Come as you are, and let&#39;s explore together!
           </Paragraph>
         </ParagraphPicture>
 
@@ -105,20 +106,35 @@ export default function Worship() {
 
         {/* What to Expect */}
         <ParagraphPicture image={expectImage} alt="Bible Study">
-          <SectionHeading>What To Expect</SectionHeading>
-          <Paragraph>
-            We are a small, service oriented church located in the same building that serves
-            as our food bank distribution center. As such, our meeting place is modest and
-            humble, sharing space with storage freezers and other food bank supplies out of
-            necessity. This setup represents our strong belief in serving Christ well. We don&apos;t
-            follow or require any dress code and encourage visiters to dress however they feel
-            comfortable. Sometimes we start our study by singing worship songs, other times
-            we jump right into Bible Study. Our focus is intentionally non-doctrinal,
-            understanding that people come from all different backgrounds. Our goal is
-            to help you grow closer to God, not to make you fit a mold. We dive deep
-            into a wide variety of topics with the goal of understanding what it means
-            to be a true follower of Christ. Everyone is welcome to join our study.
-          </Paragraph>
+          <SectionHeading>Here&apos;s What You Can Expect</SectionHeading>
+          <p className="body-1r text-neutral-900 mb-2">
+            <span className="body-1b">A Safe and Welcoming Space: </span>
+            No pressure, judgment, or hidden agendas! We
+            prioritize open minds and hearts as we dive into the Bible together.
+          </p>
+          <p className="body-1r text-neutral-900 mb-2">
+            <span className="body-1b">A Down-to-Earth Setting: </span>
+            Don&#39;t be surprised by our humble meeting place! Sharing
+            space with our food bank reflects our commitment to serving others. Come as you are –
+            there&#39;s no dress code here!
+          </p>
+          <p className="body-1r text-neutral-900 mb-2">
+            <span className="body-1b">Open Discussions: </span>
+            We prioritize a non-judgmental approach, focusing on
+            understanding the Bible and Jesus&#39; teachings rather than doctrine. We welcome diverse
+            perspectives and encourage open discussion.
+          </p>
+          <p className="body-1r text-neutral-900 mb-2">
+            <span className="body-1b">Building a Relationship: </span>
+            Our goal is to help you develop a personal connection with
+            Christ, not to fit into a mold. We explore various topics to understand what it truly means
+            to follow Christ.
+          </p>
+          <p className="body-1r text-neutral-900 mb-2">
+            <span className="body-1b">Focus on Service: </span>
+            Our goal is not just learning but also living a life of service to others,
+            inspired by the teachings of Christ.
+          </p>
         </ParagraphPicture>
 
         {/* Beliefs Section */}

@@ -291,8 +291,6 @@ export default function FoodBank() {
               </div>
             </div>
           </div>
-
-
         </div>
 
         {/* Call to Action */}
