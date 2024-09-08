@@ -110,7 +110,7 @@ export default function Events() {
                 <div className="flex flex-col gap-4 lg:h-[224px] xl:h-[200px]">
                   <p className="body-1r text neutral-900">
                     An afternoon of classic cars, local homemade crafts, mouthwatering food, raffles and more!
-                    All proceeds will directly benefit the Community for Better Living's Food Pantry and other outreach services.
+                    All proceeds will directly benefit the Community for Better Living&apos;s Food Pantry and other outreach services.
                   </p>
                   <p className="body-1b text neutral-900">$10 fee to enter your car into the show.</p>
                   <p className="body-1b text neutral-900 mb-8">$30 fee for Craft Vendor Registration.</p>
@@ -123,7 +123,7 @@ export default function Events() {
             <ImageCard image={luncheonImage} height="300px" alt="">
               <div className="lg:h-[624px] xl:h-[600px] 2xl:h-[554px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
                 <div>
-                  <h3 className="display-2 text-primary-900">Grateful Women's Luncheon</h3>
+                  <h3 className="display-2 text-primary-900">Grateful Women&apos;s Luncheon</h3>
                   <p className="display-s text-neutral-700">hosted by Perk Cup Cafe</p>
                 </div>
                 <div className="flex flex-col gap-1">
@@ -139,7 +139,7 @@ export default function Events() {
                 <div className="flex flex-col gap-4 lg:h-[224px] xl:h-[200px]">
                   <p className="body-1r text neutral-900">
                     Join us for a lunch buffet, dessert, beverages, guest speaker, and raffles, all
-                    while helping raise funds for The Community For Better Living's Food Pantry.
+                    while helping raise funds for The Community For Better Living&apos;s Food Pantry.
                   </p>
                   <p className="body-1b text text-primary-900 mb-4">
                     Registration is Required.
