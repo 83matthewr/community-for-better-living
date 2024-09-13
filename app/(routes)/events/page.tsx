@@ -124,7 +124,7 @@ export default function Events() {
               <div className="lg:h-[624px] xl:h-[600px] 2xl:h-[554px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
                 <div>
                   <h3 className="display-2 text-primary-900">Grateful Women&apos;s Luncheon</h3>
-                  <p className="display-s text-neutral-700">hosted by Perk Cup Cafe</p>
+                  <p className="display-s text-neutral-700">Perk Cup Cafe</p>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h4 className="display-4 text-neutral-900">Date:</h4>
