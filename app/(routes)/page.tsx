@@ -5,7 +5,7 @@ import Image from "next/image"
 import Link from "next/link";
 
 import Container from "../components/container.component";
-import DesktopHeroSingle from "../components/desktop-hero-single.component";
+import DesktopHeroSingle from "../components/desktop-hero-homepage.component";
 import MobileHero from "../components/mobile-hero.component"
 import SectionHeading from "../components/section-heading.component";
 import Paragraph from "../components/paragraph.component";
