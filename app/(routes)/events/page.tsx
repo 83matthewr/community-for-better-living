@@ -140,7 +140,7 @@ export default function Events() {
                   <p className="body-1b text neutral-900">How to Participate:</p>
                   <ol className="body-1r list-decimal list-inside">
                     <li><span className="body-1b text neutral-900">Register:</span> Sign up to participate in the program by clicking the link below.</li>
-                    <li><span className="body-1b text neutral-900">Adopt a Family:</span> Once registered, you&apos;ll be assigned a family to sponsor. You'll receive information about the family's needs and preferences.</li>
+                    <li><span className="body-1b text neutral-900">Adopt a Family:</span> Once registered, you&apos;ll be assigned a family to sponsor. You&apos;ll receive information about the family&apos;s needs and preferences.</li>
                     <li><span className="body-1b text neutral-900">Purchase Gifts od Donate Money:</span> Shop for gifts that are appropriate for the family&apos;s age, interests, and needs. Consider including toys, clothing, books, or gift cards. You can also give a monetary donation and we can shop for you!</li>
                     <li><span className="body-1b text neutral-900">Drop Off Gifts:</span> Deliver your wrapped gifts to the designated drop-off location by December 17, 2024.</li>
                   </ol>
