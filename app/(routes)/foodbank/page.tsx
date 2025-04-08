@@ -18,76 +18,6 @@ import allWelcome from "../../../public/assets/all_welcome.jpg";
 
 const FOODBANK_DATES = [
   {
-    date: "September 12, 2024",
-    abbr_date: "Sept 12, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "September 26, 2024",
-    abbr_date: "Sept 26, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "October 10, 2024",
-    abbr_date: "Oct 10, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "October 24, 2024",
-    abbr_date: "Oct 24, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "November 7, 2024",
-    abbr_date: "Nov 7, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "November 21, 2024",
-    abbr_date: "Nov 21, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "December 5, 2024",
-    abbr_date: "Dec 5, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "December 19, 2024",
-    abbr_date: "Dec 19, 2024",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "January 9, 2025",
-    abbr_date: "Jan 9, 2025",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "January 23, 2025",
-    abbr_date: "Jan 23, 2025",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "February 13, 2025",
-    abbr_date: "Feb 13, 2025",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "February 27, 2025",
-    abbr_date: "Feb 27, 2025",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "March 13, 2025",
-    abbr_date: "Mar 13, 2025",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "March 27, 2025",
-    abbr_date: "Mar 27, 2025",
-    time: "5:30pm-6:30pm"
-  },
-  {
     date: "April 10, 2025",
     abbr_date: "Apr 10, 2025",
     time: "5:30pm-6:30pm"
@@ -145,6 +75,56 @@ const FOODBANK_DATES = [
   {
     date: "September 25, 2025",
     abbr_date: "Sept 25, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "October 9, 2025",
+    abbr_date: "Oct 9, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "October 23, 2025",
+    abbr_date: "Oct 23, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "November 6, 2025",
+    abbr_date: "Nov 6, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "November 20, 2025",
+    abbr_date: "Nov 20, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "December 4, 2025",
+    abbr_date: "Dec 4, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "December 18, 2025",
+    abbr_date: "Dec 18, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "January 8, 2025",
+    abbr_date: "Jan 8, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "January 22, 2025",
+    abbr_date: "Jan 22, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "February 12, 2025",
+    abbr_date: "Feb 12, 2025",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "February 26, 2025",
+    abbr_date: "Feb 26, 2025",
     time: "5:30pm-6:30pm"
   },
 ]
