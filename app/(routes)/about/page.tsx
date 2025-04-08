@@ -29,10 +29,10 @@ import Link from "next/link";
 
 const BOARD_MEMBERS = [
   {
-    name: "Dean Cinquemani",
+    name: "Lisa Falkenstein",
     position: "Board Chair",
-    img: dean_cinquemani,
-    link: '/about/dcinquemani'
+    img: lisa_falkenstein,
+    link: '/about/lfalkenstein'
   },
   {
     name: "Glen Marek",
@@ -47,58 +47,10 @@ const BOARD_MEMBERS = [
     link: '/about/tcinquemani'
   },
   {
-    name: "Lisa Falkenstein",
-    position: undefined,
-    img: lisa_falkenstein,
-    link: '/about/lfalkenstein'
-  },
-  {
-    name: "Jon Falkenstein",
-    position: undefined,
-    img: jon_falkenstein,
-    link: '/about/jfalkenstein'
-  },
-  {
-    name: "Dr. Polly Dengel",
-    position: undefined,
-    img: polly_dengel,
-    link: '/about/pdengel'
-  },
-  {
-    name: "Celeste Mills",
-    position: undefined,
-    img: placeholderImage,
-    link: '/about/cmills'
-  },
-  {
     name: "Cynthia Robbins",
     position: undefined,
     img: placeholderImage,
     link: '/about/crobbins'
-  },
-  {
-    name: "Gail Merda",
-    position: undefined,
-    img: gail_merda,
-    link: '/about/gmerda'
-  },
-  {
-    name: "Matthew Roberts",
-    position: undefined,
-    img: matthew_roberts,
-    link: '/about/mroberts'
-  },
-  {
-    name: "Nate Pratt",
-    position: undefined,
-    img: placeholderImage,
-    link: '/about/npratt'
-  },
-  {
-    name: "Aaron Pratt",
-    position: undefined,
-    img: placeholderImage,
-    link: '/about/apratt'
   },
 ];
 
@@ -213,13 +165,13 @@ export default function About() {
         </ParagraphPicture>
 
         {/* Board Members */}
-        <div className="px-8 pt-4 pb-12 md:pb-16 lg:pb-2">
+        <div className="px-8 pt-4 pb-12 md:pb-16 lg:pb-2 2xl-pb-0">
           <SectionHeading>Our Board</SectionHeading>
-          <div className="flex flex-col md:flex-row gap-2">
+          <div className="flex flex-col md:flex-row">
 
-            <div className="flex flex-col xl:flex-row gap-2 w-full">
+            <div className="flex flex-col lg:flex-row gap-2 w-full">
               <div className="flex flex-col gap-2 w-full">
-                {BOARD_MEMBERS.slice(0, 3).map((member) => {
+                {BOARD_MEMBERS.slice(0, 2).map((member) => {
                   return (
                     <Link key={member.name} href={member.link} >
                       <BoardMember name={member.name} position={member.position} image={member.img} />
@@ -228,28 +180,7 @@ export default function About() {
                 })}
               </div>
               <div className="flex flex-col gap-2 w-full">
-                {BOARD_MEMBERS.slice(3, 6).map((member) => {
-                  return (
-                    <Link key={member.name} href={member.link} >
-                      <BoardMember name={member.name} position={member.position} image={member.img} />
-                    </Link>
-                  )
-                })}
-              </div>
-            </div>
-
-            <div className="flex flex-col xl:flex-row gap-2 w-full">
-              <div className="flex flex-col gap-2 w-full">
-                {BOARD_MEMBERS.slice(6, 9).map((member) => {
-                  return (
-                    <Link key={member.name} href={member.link} >
-                      <BoardMember name={member.name} position={member.position} image={member.img} />
-                    </Link>
-                  )
-                })}
-              </div>
-              <div className="flex flex-col gap-2 w-full">
-                {BOARD_MEMBERS.slice(9, 12).map((member) => {
+                {BOARD_MEMBERS.slice(2, 4).map((member) => {
                   return (
                     <Link key={member.name} href={member.link} >
                       <BoardMember name={member.name} position={member.position} image={member.img} />
@@ -260,7 +191,6 @@ export default function About() {
             </div>
 
           </div>
-
         </div>
 
         <MobileDonation variant="secondary" />
