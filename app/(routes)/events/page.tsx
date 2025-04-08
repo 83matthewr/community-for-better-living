@@ -92,68 +92,52 @@ export default function Events() {
                 </ImageCard>
               )
             }) */}
-            <ImageCard image={luncheonImage} height="300px" alt="">
-              <div className="2xl:h-[680px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
+            <ImageCard image={carshowImage} height="300px" alt="">
+              <div className="2xl:h-[600px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
                 <div>
-                  <h3 className="display-2 text-primary-900">Grateful Women&apos;s Luncheon</h3>
-                  <p className="display-s text-neutral-700">Perk Cup Cafe</p>
+                  <h3 className="display-2 text-primary-900">3rd Annual Car Show Fundraiser</h3>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h4 className="display-4 text-neutral-900">Date:</h4>
-                  <p className="body-1r text-neutral-900">Saturday, November 16, 2024</p>
-                  <p className="body-1r text-neutral-900">11:00 a.m. - 2:00 p.m.</p>
+                  <p className="body-1r text-neutral-900">Sunday, October 5, 2025</p>
+                  <p className="body-1r text-neutral-900">1:00 p.m. - 4:00 p.m.</p>
                 </div>
                 <div className="flex flex-col gap-1">
                   <h4 className="display-4 text-neutral-900">Location:</h4>
-                  <p className="body-1r text-neutral-900">561 W Bagley Rd</p>
-                  <p className="body-1r text-neutral-900">Berea, OH 44017</p>
+                  <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
+                  <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
                 </div>
                 <div className="flex flex-col gap-4 2xl:h-[310px]">
                   <p className="body-1r text neutral-900">
-                    Join us for a lunch buffet, dessert, beverages, guest speaker, and raffles, all
-                    while helping raise funds for The Community For Better Living&apos;s Food Pantry.
+                    Join us for a day of cars, food, and raffles! All proceeds will go
+                    to the Community for Better Living. Rev up your engines and explore a stunning
+                    collection of classic and customized cars! Delight your taste buds with a mouthwatering
+                    selection of food truck treats! Participate in our exciting raffles for a chance
+                    to win fabulous prizes donated by our generous sponsors!
                   </p>
-                  <p className="body-1b text text-primary-900 mb-4">
-                    Registration is Required.
+                  <p className="body-1r text neutral-900">
+                    By participating in this event, you will make a difference in our community. All proceeds
+                    will directly benefit the Community for Better Living&apos;s Food Pantry and other outreach
+                    services, ensuring that families in need have access to essential resources and educational
+                    opportunities.
+                  </p>
+                  <p className="body-1r text neutral-900">
+                    Registration to enter your car into the car show is $10/per car. Each participant will receive a dash plaque.
+                    Trophies will be awarded for several categories.
                   </p>
                 </div>
-                <Link href="https:\\hello.dubsado.com/public/form/view/66a56fb579f4c3003a4b2e0d" >
-                  <p className="sm:w-full lg:w-[300px] py-2 text-center rounded bg-primary-900 text-white display-4">Register Here</p>
-                </Link>
               </div>
             </ImageCard>
-            <ImageCard image={ChristmasEventImage} height="300px" alt="">
-              <div className="2xl:h-[680px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
+
+            <ImageCard image={comingSoonImage} height="300px" alt="">
+              <div className="2xl:h-[600px] px-0 py-8 lg:py-48 xs:px-2 lg:px-4 text-center">
                 <div>
-                  <h3 className="display-2 text-primary-900">Adopt-A-Family for Christmas</h3>
+                  <h3 className="display-2 text-primary-900 mb-4">More Events Coming Soon...</h3>
+                  <p className="body-1b text-neutral-700">Check back later for more info</p>
                 </div>
-                <div className="flex flex-col gap-4">
-                  <p className="body-1r text neutral-900">
-                    This holiday season, join us in spreading joy and cheer to families in our community. CBL is hosting
-                    our annual Adopt-A-Family for Christmas program, where you can make a difference in the lives of local
-                    families by sponsoring a family for the holidays.
-                  </p>
-                  <p className="body-1r text neutral-900">
-                    By sponsoring a family, you&apos;ll provide them with gifts, food, and other essentials to make their Christmas
-                    season extra special. Your generosity will help bring smiles to the faces of children and adults alike.
-                  </p>
-                  <p className="body-1b text neutral-900">How to Participate:</p>
-                  <ol className="body-1r list-decimal list-inside">
-                    <li><span className="body-1b text neutral-900">Register:</span> Sign up to participate in the program by clicking the link below.</li>
-                    <li><span className="body-1b text neutral-900">Adopt a Family:</span> Once registered, you&apos;ll be assigned a family to sponsor. You&apos;ll receive information about the family&apos;s needs and preferences.</li>
-                    <li><span className="body-1b text neutral-900">Purchase Gifts od Donate Money:</span> Shop for gifts that are appropriate for the family&apos;s age, interests, and needs. Consider including toys, clothing, books, or gift cards. You can also give a monetary donation and we can shop for you!</li>
-                    <li><span className="body-1b text neutral-900">Drop Off Gifts:</span> Deliver your wrapped gifts to the designated drop-off location by December 17, 2024.</li>
-                  </ol>
-                  <p className="body-1b text neutral-900 mb-4">Join us in making a difference this holiday season!</p>
-                </div>
-                <Link href="https://hello.dubsado.com/public/form/view/670ff6d0bbc736003ae43e86" >
-                  <p className="sm:w-full lg:w-[300px] py-2 text-center rounded bg-primary-900 text-white display-4">Register Here</p>
-                </Link>
-                <Link href="https://www.paypal.com/ncp/payment/GMP8PPZ7FA2MN" >
-                  <p className="sm:w-full lg:w-[300px] py-2 text-center rounded bg-primary-900 text-white display-4">Donate Here</p>
-                </Link>
               </div>
             </ImageCard>
+
             { /*(EVENTS_DATA.length % 2 === 1) && (
               <ImageCard image={comingSoonImage} height="300px" alt="">
                 <div className="lg:h-[350px] px-0 py-8 lg:py-32 xs:px-2 lg:px-4 text-center">
