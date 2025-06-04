@@ -92,6 +92,7 @@ export default function Events() {
                 </ImageCard>
               )
             }) */}
+
             <ImageCard image={carshowImage} height="300px" alt="">
               <div className="2xl:h-[600px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
                 <div>
@@ -129,6 +130,48 @@ export default function Events() {
               </div>
             </ImageCard>
 
+            <ImageCard image={luncheonImage} height="300px" alt="">
+              <div className="2xl:h-[600px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
+                <div>
+                  <h3 className="display-2 text-primary-900">2nd Annual Grateful Women&apos;s Luncheon</h3>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <h4 className="display-4 text-neutral-900">Date:</h4>
+                  <p className="body-1r text-neutral-900">Saturday, November 8, 2025</p>
+                  <p className="body-1r text-neutral-900">11:00 a.m. - 2:00 p.m.</p>
+                </div>
+                <div className="flex flex-col gap-1">
+                  <h4 className="display-4 text-neutral-900">Location:</h4>
+                  <p className="body-1r text-neutral-900">Hosted by Matteo&apos;s Italian Restaurant</p>
+                  <p className="body-1r text-neutral-900">8072 Columbia Rd</p>
+                  <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
+                </div>
+                <div className="flex flex-col gap-4 2xl:h-[310px]">
+                  <p className="body-1r text neutral-900">
+                    Join us for a lunch buffet, dessert, beverages, a guest speaker, and raffles, all while helping raise
+                    funds for The Community for Better Living&apos; Food Pantry and classes.
+                  </p>
+                  <p className="body-1r text neutral-900 mb-4">
+                    $45/per Plate and all proceeds go directly to the Community for Better Living&apos;s Food Pantry. Please 
+                    register and pay ahead of time to reserve your seat!
+                  </p>
+                  <Link 
+                    href="https://portal.dubsado.com/public/form/view/66a56fb579f4c3003a4b2e0d?" 
+                    className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md"
+                  >
+                    Register
+                  </Link>
+                  <Link 
+                    href="https://www.paypal.com/ncp/payment/8NRH7GBX2T97G" 
+                    className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md"
+                  >
+                    Pay
+                  </Link>
+                </div>
+              </div>
+            </ImageCard>
+
+            {/*  
             <ImageCard image={comingSoonImage} height="300px" alt="">
               <div className="2xl:h-[600px] px-0 py-8 lg:py-48 xs:px-2 lg:px-4 text-center">
                 <div>
@@ -137,6 +180,7 @@ export default function Events() {
                 </div>
               </div>
             </ImageCard>
+            */}
 
             { /*(EVENTS_DATA.length % 2 === 1) && (
               <ImageCard image={comingSoonImage} height="300px" alt="">

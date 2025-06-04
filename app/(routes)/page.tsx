@@ -281,26 +281,7 @@ export default function Home() {
           </Paragraph>
         </ParagraphPicture>
 
-        {/* Testimonial */}
-        <div className="px-8 pt-4 pb-8 lg:pt-12 lg:pb-24">
-          <div className="bg-primary-300 p-4 lg:p-8 rounded-md">
-            <h4 className="display-5 lg:display-4 text-primary-900 mb-4">
-              &quot;Thank you so much for providing food while I&#39;ve been off work and homeless. My job was
-              downsized in April, and I didn&#39;t see it coming. I&#39;m a worker, but it felt like my whole life stopped.
-              Everything was blocked. Even though I know God has this situation under control and it&#39;s not too
-              hard for him, it&#39;s way too big for me.
-            </h4>
-            <h4 className="display-5 lg:display-4 text-primary-900 mb-4">
-              The food you provided made an immediate difference. I didn&#39;t realize the reason I didn&#39;t feel well
-              might have been because I wasn&#39;t eating right. Thank you! Your kindness alleviated the stress and
-              feelings of overwhelm, too. Thank you for the loving work you do on behalf of others, even me.&quot;
-            </h4>
-            <h4 className="display-5 lg:display-4 text-primary-900">
-              - Carol, CBL Client
-            </h4>
-          </div>
-        </div>
-
+        
         {/* Services */}
         <div className="px-8 pb-8 md:pb-16">
           <SectionHeading>Services</SectionHeading>
@@ -351,7 +332,26 @@ export default function Home() {
           </div>
         </div>
 
-        
+        {/* Testimonial */}
+        <div className="px-8 pt-4 pb-8 lg:pt-12 lg:pb-24">
+          <div className="bg-primary-300 p-4 lg:p-8 rounded-md">
+            <h4 className="display-5 lg:display-4 text-primary-900 mb-4">
+              &quot;Thank you so much for providing food while I&#39;ve been off work and homeless. My job was
+              downsized in April, and I didn&#39;t see it coming. I&#39;m a worker, but it felt like my whole life stopped.
+              Everything was blocked. Even though I know God has this situation under control and it&#39;s not too
+              hard for him, it&#39;s way too big for me.
+            </h4>
+            <h4 className="display-5 lg:display-4 text-primary-900 mb-4">
+              The food you provided made an immediate difference. I didn&#39;t realize the reason I didn&#39;t feel well
+              might have been because I wasn&#39;t eating right. Thank you! Your kindness alleviated the stress and
+              feelings of overwhelm, too. Thank you for the loving work you do on behalf of others, even me.&quot;
+            </h4>
+            <h4 className="display-5 lg:display-4 text-primary-900">
+              - Carol, CBL Client
+            </h4>
+          </div>
+        </div>
+
 
         {/* Values 
         <div className="px-8 pb-8">
