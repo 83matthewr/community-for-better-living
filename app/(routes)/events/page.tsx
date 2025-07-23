@@ -152,7 +152,7 @@ export default function Events() {
                     funds for The Community for Better Living&apos; Food Pantry and classes.
                   </p>
                   <p className="body-1r text neutral-900 mb-4">
-                    $45/per Plate and all proceeds go directly to the Community for Better Living&apos;s Food Pantry. Please 
+                    $50/per Plate and all proceeds go directly to the Community for Better Living&apos;s Food Pantry. Please 
                     register and pay ahead of time to reserve your seat!
                   </p>
                   <Link 
