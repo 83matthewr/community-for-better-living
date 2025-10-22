@@ -12,7 +12,7 @@ import desktopHero from "../../../public/assets/events_hero.jpg";
 import introImage from "../../../public/assets/events_intro.jpg";
 import craftsImage from "../../../public/assets/crafts.jpg";
 import carshowImage from "../../../public/assets/car_show_event.jpg";
-import ChristmasEventImage from "../../../public/assets/adopt_christmas_event.jpg";
+import ChristmasEventImage from "../../../public/assets/2025christmas.jpg";
 import comingSoonImage from "../../../public/assets/coming_soon.jpg";
 import luncheonImage from "../../../public/assets/luncheon_event.jpg";
 import Link from "next/link";
@@ -93,81 +93,96 @@ export default function Events() {
               )
             }) */}
 
-            <ImageCard image={carshowImage} height="300px" alt="">
-              <div className="2xl:h-[600px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
-                <div>
-                  <h3 className="display-2 text-primary-900">3rd Annual Car Show Fundraiser</h3>
-                </div>
-                <div className="flex flex-col gap-1">
-                  <h4 className="display-4 text-neutral-900">Date:</h4>
-                  <p className="body-1r text-neutral-900">Sunday, October 5, 2025</p>
-                  <p className="body-1r text-neutral-900">1:00 p.m. - 4:00 p.m.</p>
-                </div>
-                <div className="flex flex-col gap-1">
-                  <h4 className="display-4 text-neutral-900">Location:</h4>
-                  <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
-                  <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
-                </div>
-                <div className="flex flex-col gap-4 2xl:h-[310px]">
-                  <p className="body-1r text neutral-900">
-                    Join us for a day of cars, food, and raffles! All proceeds will go
-                    to the Community for Better Living. Rev up your engines and explore a stunning
-                    collection of classic and customized cars! Delight your taste buds with a mouthwatering
-                    selection of food truck treats! Participate in our exciting raffles for a chance
-                    to win fabulous prizes donated by our generous sponsors!
-                  </p>
-                  <p className="body-1r text neutral-900">
-                    By participating in this event, you will make a difference in our community. All proceeds
-                    will directly benefit the Community for Better Living&apos;s Food Pantry and other outreach
-                    services, ensuring that families in need have access to essential resources and educational
-                    opportunities.
-                  </p>
-                  <p className="body-1r text neutral-900">
-                    Registration to enter your car into the car show is $10/per car. Each participant will receive a dash plaque.
-                    Trophies will be awarded for several categories.
-                  </p>
-                </div>
-              </div>
-            </ImageCard>
-
             <ImageCard image={luncheonImage} height="300px" alt="">
-              <div className="2xl:h-[600px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
-                <div>
-                  <h3 className="display-2 text-primary-900">2nd Annual Grateful Women&apos;s Luncheon</h3>
+              <div className="2xl:h-[620px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <h3 className="display-2 text-primary-900">2nd Annual Grateful Women&apos;s Luncheon</h3>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Date:</h4>
+                    <p className="body-1r text-neutral-900">Saturday, November 8, 2025</p>
+                    <p className="body-1r text-neutral-900">11:00 a.m. - 2:00 p.m.</p>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Location:</h4>
+                    <p className="body-1r text-neutral-900">Hosted by Matteo&apos;s Italian Restaurant</p>
+                    <p className="body-1r text-neutral-900">8072 Columbia Rd</p>
+                    <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <p className="body-1r text neutral-900">
+                      Join us for a lunch buffet, dessert, beverages, a guest speaker, and raffles, all while helping raise
+                      funds for The Community for Better Living&apos; Food Pantry and classes.
+                    </p>
+                    <p className="body-1r text neutral-900 mb-4">
+                      $50/per Plate and all proceeds go directly to the Community for Better Living&apos;s Food Pantry. Please
+                      register and pay ahead of time to reserve your seat!
+                    </p>
+                  </div>
                 </div>
-                <div className="flex flex-col gap-1">
-                  <h4 className="display-4 text-neutral-900">Date:</h4>
-                  <p className="body-1r text-neutral-900">Saturday, November 8, 2025</p>
-                  <p className="body-1r text-neutral-900">11:00 a.m. - 2:00 p.m.</p>
-                </div>
-                <div className="flex flex-col gap-1">
-                  <h4 className="display-4 text-neutral-900">Location:</h4>
-                  <p className="body-1r text-neutral-900">Hosted by Matteo&apos;s Italian Restaurant</p>
-                  <p className="body-1r text-neutral-900">8072 Columbia Rd</p>
-                  <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
-                </div>
-                <div className="flex flex-col gap-4 2xl:h-[310px]">
-                  <p className="body-1r text neutral-900">
-                    Join us for a lunch buffet, dessert, beverages, a guest speaker, and raffles, all while helping raise
-                    funds for The Community for Better Living&apos; Food Pantry and classes.
-                  </p>
-                  <p className="body-1r text neutral-900 mb-4">
-                    $50/per Plate and all proceeds go directly to the Community for Better Living&apos;s Food Pantry. Please 
-                    register and pay ahead of time to reserve your seat!
-                  </p>
-                  <Link 
-                    href="https://portal.dubsado.com/public/form/view/66a56fb579f4c3003a4b2e0d?" 
+                <div className="flex flex-col gap-4">
+                  <Link
+                    href="https://portal.dubsado.com/public/form/view/66a56fb579f4c3003a4b2e0d?"
                     className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md"
                   >
                     Register
                   </Link>
-                  <Link 
-                    href="https://www.paypal.com/ncp/payment/8NRH7GBX2T97G" 
+                  <Link
+                    href="https://www.paypal.com/ncp/payment/8NRH7GBX2T97G"
                     className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md"
                   >
                     Pay
                   </Link>
                 </div>
+
+              </div>
+            </ImageCard>
+
+            <ImageCard image={ChristmasEventImage} height="300px" alt="">
+              <div className="2xl:h-[620px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <h3 className="display-2 text-primary-900">5th Annual Adopt-a-Family</h3>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Location:</h4>
+                    <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
+                    <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <p className="body-1r text neutral-900">
+                      The Community for Better Living is seeking sponsors for our
+                      5th annual Adopt-a-Family program. As a non-profit that serves the local community,
+                      we are able to identify families in need during the holidays.
+                      We primarily server the westside of Cleveland and have a client base
+                      that includes Olmsted Falls/Township, Columbia Station, North Olmsted,
+                      Westlake, Lakewood, Bay Village, Rocky River, Berea, Middleburg Heights,
+                      Strongsville, Parma, and beyond.
+                    </p>
+                    <p className="body-1r text neutral-900 xl:py-6">
+                      Help bring joy to local familiies this holiday!
+                      By sponsoring a family, you'll provide them with gifts to make their holiday season
+                      brighter. Your generosity can make a real difference in someone's life!
+                      To learn more of to become a sponsor, please click the registration link below:
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-4">
+                  <Link
+                    href="http://bit.ly/4oocJel"
+                    className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md"
+                  >
+                    Register
+                  </Link>
+                  <Link
+                    href="https://www.paypal.com/ncp/payment/GMP8PPZ7FA2MN"
+                    className="w-full py-2 bg-primary-900 text-primary-100 body-2b md:body-1b lg:body-2b xl:body-1b text-center rounded-md"
+                  >
+                    Donate
+                  </Link>
+                </div>
+
               </div>
             </ImageCard>
 
