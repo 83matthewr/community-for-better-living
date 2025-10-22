@@ -162,8 +162,8 @@ export default function Events() {
                     </p>
                     <p className="body-1r text neutral-900 xl:py-6">
                       Help bring joy to local familiies this holiday!
-                      By sponsoring a family, you'll provide them with gifts to make their holiday season
-                      brighter. Your generosity can make a real difference in someone's life!
+                      By sponsoring a family, you&apos;ll provide them with gifts to make their holiday season
+                      brighter. Your generosity can make a real difference in someone&apos;s life!
                       To learn more of to become a sponsor, please click the registration link below:
                     </p>
                   </div>
