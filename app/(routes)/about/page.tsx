@@ -35,6 +35,12 @@ const BOARD_MEMBERS = [
     link: '/about/lfalkenstein'
   },
   {
+    name: "Cynthia Robbins",
+    position: "Co-Chair",
+    img: placeholderImage,
+    link: '/about/crobbins'
+  },
+  {
     name: "Glen Marek",
     position: "Treasurer",
     img: glen_marek,
@@ -45,12 +51,6 @@ const BOARD_MEMBERS = [
     position: "Clerk",
     img: tammi_cinquemani,
     link: '/about/tcinquemani'
-  },
-  {
-    name: "Cynthia Robbins",
-    position: undefined,
-    img: placeholderImage,
-    link: '/about/crobbins'
   },
 ];
 
