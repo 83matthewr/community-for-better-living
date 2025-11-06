@@ -30,7 +30,7 @@ import Link from "next/link";
 const BOARD_MEMBERS = [
   {
     name: "Lisa Falkenstein",
-    position: "Board Chair",
+    position: "Co-Chair",
     img: lisa_falkenstein,
     link: '/about/lfalkenstein'
   },
