@@ -18,113 +18,118 @@ import allWelcome from "../../../public/assets/all_welcome.jpg";
 
 const FOODBANK_DATES = [
   {
-    date: "April 10, 2025",
-    abbr_date: "Apr 10, 2025",
+    date: "January 22, 2026",
+    abbr_date: "Jan 22, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "April 24, 2025",
-    abbr_date: "Apr 24, 2025",
+    date: "February 12, 2026",
+    abbr_date: "Feb 12, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "May 8, 2025",
-    abbr_date: "May 8, 2025",
+    date: "February 26, 2026",
+    abbr_date: "Feb 26, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "May 22, 2025",
-    abbr_date: "May 22, 2025",
+    date: "March 12, 2026",
+    abbr_date: "Mar 12, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "June 12, 2025",
-    abbr_date: "Jun 12, 2025",
+    date: "March 26, 2026",
+    abbr_date: "Feb 12, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "June 26, 2025",
-    abbr_date: "Jun 26, 2025",
+    date: "April 9, 2026",
+    abbr_date: "April 9, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "July 10, 2025",
-    abbr_date: "Jul 10, 2025",
+    date: "April 23, 2026",
+    abbr_date: "April 23, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "July 24, 2025",
-    abbr_date: "Jul 24, 2025",
+    date: "May 14, 2026",
+    abbr_date: "May 14, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "August 14, 2025",
-    abbr_date: "Aug 14, 2025",
+    date: "May 28, 2026",
+    abbr_date: "May 28, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "August 28, 2025",
-    abbr_date: "Aug 28, 2025",
+    date: "June 11, 2026",
+    abbr_date: "June 11, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "September 11, 2025",
-    abbr_date: "Sept 11, 2025",
+    date: "June 25, 2026",
+    abbr_date: "June 25, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "September 25, 2025",
-    abbr_date: "Sept 25, 2025",
+    date: "July 9, 2026",
+    abbr_date: "July 9, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "October 9, 2025",
-    abbr_date: "Oct 9, 2025",
+    date: "July 23, 2026",
+    abbr_date: "July 23, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "October 23, 2025",
-    abbr_date: "Oct 23, 2025",
+    date: "August 13, 2026",
+    abbr_date: "Aug 13, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "November 6, 2025",
-    abbr_date: "Nov 6, 2025",
+    date: "August 27, 2026",
+    abbr_date: "Aug 27, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "November 20, 2025",
-    abbr_date: "Nov 20, 2025",
+    date: "September 10, 2026",
+    abbr_date: "Sept 10, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "December 4, 2025",
-    abbr_date: "Dec 4, 2025",
+    date: "September 24, 2026",
+    abbr_date: "Sept 24, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "December 18, 2025",
-    abbr_date: "Dec 18, 2025",
+    date: "October 8, 2026",
+    abbr_date: "Oct 8, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "January 8, 2025",
-    abbr_date: "Jan 8, 2025",
+    date: "October 22, 2026",
+    abbr_date: "Oct 22, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "January 22, 2025",
-    abbr_date: "Jan 22, 2025",
+    date: "November 5, 2026",
+    abbr_date: "Nov 5, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "February 12, 2025",
-    abbr_date: "Feb 12, 2025",
+    date: "November 19, 2026",
+    abbr_date: "Nov 19, 2026",
     time: "5:30pm-6:30pm"
   },
   {
-    date: "February 26, 2025",
-    abbr_date: "Feb 26, 2025",
+    date: "December 3, 2026",
+    abbr_date: "Dec 3, 2026",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "December 17, 2026",
+    abbr_date: "Dec 17, 2026",
     time: "5:30pm-6:30pm"
   },
 ]
