@@ -90,10 +90,11 @@ export default function Events() {
                   </div>
                   <div className="flex flex-col gap-4">
                     <p className="body-1r text neutral-900">
-                      Join us for FREE classes on simple and adaptable healthy cooking.
+                      Join us for FREE classes on simple and adaptable healthy cooking. Featuring an 
+                      educational talk, live demonstration, and opportunity to taste-test recipes.
                     </p>
-                    <p className="body-1r text neutral-900 mb-4">
-                      Featuring an educational talk, live demonstration, and opportunity to taste-test recipes.
+                    <p className="body-1r body-1b neutral-900 mb-4">
+                      Call (400) 541-7829 to register.
                     </p>
                   </div>
                 </div>
