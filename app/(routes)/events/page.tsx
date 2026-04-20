@@ -16,6 +16,7 @@ import ChristmasEventImage from "../../../public/assets/2025christmas.jpg";
 import comingSoonImage from "../../../public/assets/coming_soon.jpg";
 import luncheonImage from "../../../public/assets/luncheon_event.jpg";
 import BingoEventImage from "../../../public/assets/bingo.jpg";
+import DanceEventImage from "../../../public/assets/dancingEvent.jpg";
 import Link from "next/link";
 
 const EVENTS_DATA = [
@@ -67,35 +68,40 @@ export default function Events() {
         </ParagraphPicture>
 
         {/* Events Section */}
-        <div className="px-8 py-4 md:py-16">
+        <div className="flex flex-col gap-6 px-8 py-4 md:py-16">
           <SectionHeading>Upcoming Events</SectionHeading>
           <div className="flex flex-col 2xl:flex-row gap-6 items-center justify-center">
-            { /* EVENTS_DATA.map((event) => {
-              return (
-                <ImageCard key={event.title} image={event.image1} height="300px" alt="">
-                  <div className="lg:h-[350px] flex flex-col gap-4 p-0 xs:p-2 lg:p-4">
-                    <div>
-                      <h3 className="display-2 text-primary-900">{event.title}</h3>
-                      {event.subtitle && <p className="display-s text-neutral-700">{event.subtitle}</p>}
-                    </div>
-                    <div className="flex flex-col gap-1">
-                      <h4 className="display-4 text-neutral-900">Date:</h4>
-                      <p className="body-1r text-neutral-900">{event.date}</p>
-                      <p className="body-1r text-neutral-900">{event.time}</p>
-                      {event.extra_date_info && <p className="body-1r text-neutral-900">{event.extra_date_info}</p>}
-                    </div>
-                    <div className="flex flex-col gap-1">
-                      <h4 className="display-4 text-neutral-900">Location:</h4>
-                      <p className="body-1r text-neutral-900">{event.location1}</p>
-                      <p className="body-1r text-neutral-900">{event.location2}</p>
-                    </div>
+
+            <ImageCard image={luncheonImage} height="300px" alt="">
+              <div className="2xl:h-[400px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <h3 className="display-2 text-primary-900">Cooking Classes</h3>
                   </div>
-                </ImageCard>
-              )
-            }) */}
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Date:</h4>
+                    <p className="body-1r text-neutral-900">May 18 - 21, 2026</p>
+                    <p className="body-1r text-neutral-900">7:00 pm</p>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Location:</h4>
+                    <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
+                    <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <p className="body-1r text neutral-900">
+                      Join us for FREE classes on simple and adaptable healthy cooking.
+                    </p>
+                    <p className="body-1r text neutral-900 mb-4">
+                      Featuring an educational talk, live demonstration, and opportunity to taste-test recipes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </ImageCard>
 
             <ImageCard image={BingoEventImage} height="300px" alt="">
-              <div className="2xl:h-[480px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+              <div className="2xl:h-[400px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
                 <div className="flex flex-col gap-4">
                   <div>
                     <h3 className="display-2 text-primary-900">Bingo Night</h3>
@@ -112,12 +118,9 @@ export default function Events() {
                   </div>
                   <div className="flex flex-col gap-4">
                     <p className="body-1r text neutral-900">
-                      Come join us for our family friendly Bingo Night Fundraiser! We will have prizes, raffle baskets, 
-                      popcorn, and drinks. As always, it&apos;s FREE to play! All proceeds go directly to the Community for Better 
-                      Living Food Bank. Bring your own dabbers, if you have them, and your game face!
-                    </p>
-                    <p className="body-1r text neutral-900 mb-4">
-                      If you&apos;d like to donate a raffle basket, gift card, game prize, or sponsor a basket or prize, 
+                      Come join us for our family friendly Bingo Night Fundraiser! We will have prizes, raffle baskets,
+                      popcorn, and drinks. As always, it&apos;s FREE to play! All proceeds go directly to the Community for Better
+                      Living Food Bank. If you&apos;d like to donate a raffle basket, gift card, game prize, or sponsor a basket or prize,
                       please reach out and let us know!
                     </p>
                   </div>
@@ -125,6 +128,60 @@ export default function Events() {
               </div>
             </ImageCard>
 
+          </div>
+
+          <div className="flex flex-col 2xl:flex-row gap-6 items-center justify-center">
+
+            <ImageCard image={DanceEventImage} height="300px" alt="">
+              <div className="2xl:h-[320px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <h3 className="display-2 text-primary-900">Beginner&apos;s Line Dancing (Save the Date)</h3>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Date:</h4>
+                    <p className="body-1r text-neutral-900">Saturday, September 12, 2026</p>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Location:</h4>
+                    <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
+                    <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <p className="body-1r text neutral-900">
+                      More details coming soon.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </ImageCard>
+
+            <ImageCard image={carshowImage} height="300px" alt="">
+              <div className="2xl:h-[320px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+                <div className="flex flex-col gap-4">
+                  <div>
+                    <h3 className="display-2 text-primary-900">4th Annual Car Show (Save the Date)</h3>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Date:</h4>
+                    <p className="body-1r text-neutral-900">Sunday, October 4, 2026</p>
+                    <p className="body-1r text-neutral-900">1:00 - 4:00pm</p>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Location:</h4>
+                    <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
+                    <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <p className="body-1r text neutral-900">
+                      More details coming soon.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </ImageCard>
+
+            {/*
             <ImageCard image={comingSoonImage} height="300px" alt="">
               <div className="2xl:h-[480px] px-0 py-8 lg:py-48 xs:px-2 lg:px-4 text-center">
                 <div>
@@ -133,18 +190,8 @@ export default function Events() {
                 </div>
               </div>
             </ImageCard>
-  
+            */}
 
-            { /*(EVENTS_DATA.length % 2 === 1) && (
-              <ImageCard image={comingSoonImage} height="300px" alt="">
-                <div className="lg:h-[350px] px-0 py-8 lg:py-32 xs:px-2 lg:px-4 text-center">
-                  <div>
-                    <h3 className="display-2 text-primary-900 mb-4">More Events Coming Soon...</h3>
-                    <p className="body-1b text-neutral-700">Check back later for more info</p>
-                  </div>
-                </div>
-              </ImageCard>
-            ) */}
           </div>
         </div>
 
