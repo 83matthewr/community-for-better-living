@@ -27,6 +27,10 @@ const menuLinks = [
         path: '/worship'
     },
     {
+        text: 'Recipes',
+        path: '/recipes'
+    },
+    {
         text: 'Support Us',
         path: '/support'
     },
