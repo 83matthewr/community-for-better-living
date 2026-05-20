@@ -13,128 +13,16 @@ import cookingService from "../../../public/assets/cooking_service.jpg"
 
 const RECIPES = [
   {
-    name: "Vegan Spinach Puffs",
-    link: '/recipes/vegan-spinach-puffs'
-  },
-  {
     name: "Apple Crisp",
     link: '/recipes/apple-crisp'
-  },
-  {
-    name: "Roast Sweet Potato Wedges",
-    link: '/recipes/sweet-potato-wedges'
-  },
-  {
-    name: "Tapioca Pudding",
-    link: '/recipes/tapioca-pudding'
-  },
-  {
-    name: "Zucchini Casserole",
-    link: '/recipes/zucchini-casserole'
-  },
-  {
-    name: "Mushroom Gravy",
-    link: '/recipes/mushroom-gravy'
-  },
-  {
-    name: "Lentil Roast",
-    link: '/recipes/lentil-roast'
-  },
-  {
-    name: "Sweet and Sour Vege-Burger Roast",
-    link: '/recipes/sweet-and-sour-vege-burger'
-  },
-  {
-    name: "Spring Roll Bowl",
-    link: '/recipes/spring-roll-bowl'
-  },
-  {
-    name: "Peanut Sauce",
-    link: '/recipes/peanut-sauce'
-  },
-  {
-    name: "Eggplant Parmesan",
-    link: '/recipes/eggplant-parmesan'
-  },
-  {
-    name: "Potato Lover's Bowl",
-    link: '/recipes/potato-lovers-bowl'
-  },
-  {
-    name: "Romesco sauce",
-    link: '/recipes/romesco-sauce'
-  },
-  {
-    name: "Cream of Fresh Vegetable Soup",
-    link: '/recipes/cream-of-fresh-vegetable-soup'
-  },
-  {
-    name: "Minestrone Soup",
-    link: '/recipes/minestrone-soup'
-  },
-  {
-    name: "Cheater's chili",
-    link: '/recipes/cheaters-chili'
-  },
-  {
-    name: "Butter Lettuce and Green Pea Salad",
-    link: '/recipes/butter-lettuce-green-pea-salad'
-  },
-  {
-    name: "Cilantro Cashew dressing",
-    link: '/recipes/cilantro-cashew-dressing'
-  },
-  {
-    name: "Grilled Corn, Avocado, and Tomato Salad with Honey Lime dressing",
-    link: '/recipes/grilled-corn-honey-lime-salad'
-  },
-  {
-    name: "Peanut Butter Balls",
-    link: '/recipes/peanut-butter-balls'
-  },
-  {
-    name: "Bruschetta",
-    link: '/recipes/bruschetta'
-  },
-  {
-    name: "Meatless Meatballs",
-    link: '/recipes/meatless-meatballs'
-  },
-  {
-    name: "Eggless Egg Salad",
-    link: '/recipes/egg-salad'
-  },
-  {
-    name: "“Chicken” Stuffed Buns",
-    link: '/recipes/chicken-buns'
-  },
-  {
-    name: "Scrambled Tofu",
-    link: '/recipes/scrambled-tofu'
-  },
-  {
-    name: "Maple Nut Granola",
-    link: '/recipes/maple-nut-granola'
   },
   {
     name: "Avocado Wrap",
     link: '/recipes/avocado-wrap'
   },
   {
-    name: "Guilt-Free Guacamole",
-    link: '/recipes/guacamole'
-  },
-  {
-    name: "The No-Oil-Added Chocolate Torte",
-    link: '/recipes/chocolate-torte'
-  },
-  {
-    name: "Breakfast Rice Pudding (Vegan)",
-    link: '/recipes/rice-pudding'
-  },
-  {
-    name: "Chocolate Pancakes",
-    link: '/recipes/chocolate-pancakes'
+    name: "Berry French Toast Casserole",
+    link: '/recipes/berry-french-toast'
   },
   {
     name: "Blueberry Lemon Energy Bites",
@@ -145,8 +33,40 @@ const RECIPES = [
     link: '/recipes/breakfast-beans'
   },
   {
-    name: "Berry French Toast Casserole",
-    link: '/recipes/berry-french-toast'
+    name: "Breakfast Rice Pudding (Vegan)",
+    link: '/recipes/rice-pudding'
+  },
+  {
+    name: "Bruschetta",
+    link: '/recipes/bruschetta'
+  },
+  {
+    name: "Butter Lettuce and Green Pea Salad",
+    link: '/recipes/butter-lettuce-green-pea-salad'
+  },
+  {
+    name: "Buttermilk Squash Soup ",
+    link: '/recipes/squash-soup'
+  },
+  {
+    name: "Cream of Fresh Vegetable Soup",
+    link: '/recipes/cream-of-fresh-vegetable-soup'
+  },
+  {
+    name: "Cheater's chili",
+    link: '/recipes/cheaters-chili'
+  },
+  {
+    name: "“Chicken” Stuffed Buns",
+    link: '/recipes/chicken-buns'
+  },
+  {
+    name: "Chocolate Pancakes",
+    link: '/recipes/chocolate-pancakes'
+  },
+  {
+    name: "Cilantro Cashew dressing",
+    link: '/recipes/cilantro-cashew-dressing'
   },
   {
     name: "Creamy Cranberry Quinoa ",
@@ -157,8 +77,88 @@ const RECIPES = [
     link: '/recipes/asparagus-soup'
   },
   {
-    name: "Buttermilk Squash Soup ",
-    link: '/recipes/squash-soup'
+    name: "Eggless Egg Salad",
+    link: '/recipes/egg-salad'
+  },
+  {
+    name: "Eggplant Parmesan",
+    link: '/recipes/eggplant-parmesan'
+  },
+  {
+    name: "Grilled Corn, Avocado, and Tomato Salad with Honey Lime dressing",
+    link: '/recipes/grilled-corn-honey-lime-salad'
+  },
+  {
+    name: "Guilt-Free Guacamole",
+    link: '/recipes/guacamole'
+  },
+  {
+    name: "Lentil Roast",
+    link: '/recipes/lentil-roast'
+  },
+  {
+    name: "Maple Nut Granola",
+    link: '/recipes/maple-nut-granola'
+  },
+  {
+    name: "Meatless Meatballs",
+    link: '/recipes/meatless-meatballs'
+  },
+  {
+    name: "Minestrone Soup",
+    link: '/recipes/minestrone-soup'
+  },
+  {
+    name: "Mushroom Gravy",
+    link: '/recipes/mushroom-gravy'
+  },
+  {
+    name: "Peanut Butter Balls",
+    link: '/recipes/peanut-butter-balls'
+  },
+  {
+    name: "Peanut Sauce",
+    link: '/recipes/peanut-sauce'
+  },
+  {
+    name: "Potato Lover's Bowl",
+    link: '/recipes/potato-lovers-bowl'
+  },
+  {
+    name: "Roast Sweet Potato Wedges",
+    link: '/recipes/sweet-potato-wedges'
+  },
+  {
+    name: "Romesco sauce",
+    link: '/recipes/romesco-sauce'
+  },
+  {
+    name: "Scrambled Tofu",
+    link: '/recipes/scrambled-tofu'
+  },
+  {
+    name: "Spring Roll Bowl",
+    link: '/recipes/spring-roll-bowl'
+  },
+  {
+    name: "Sweet and Sour Vege-Burger Roast",
+    link: '/recipes/sweet-and-sour-vege-burger'
+  },
+  {
+    name: "Tapioca Pudding",
+    link: '/recipes/tapioca-pudding'
+  },
+  {
+    name: "The No-Oil-Added Chocolate Torte",
+    link: '/recipes/chocolate-torte'
+  },
+  {
+    name: "Vegan Spinach Puffs",
+    link: '/recipes/vegan-spinach-puffs'
+  },
+  {
+    name: "Zucchini Casserole",
+    link: '/recipes/zucchini-casserole'
   },
 ];
 
@@ -310,7 +310,7 @@ export default function Recipes() {
           </div>
 
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
-            {RECIPES.slice(36, 38).map((recipe) => {
+            {RECIPES.slice(36, 37).map((recipe) => {
               return (
                 <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
@@ -318,6 +318,10 @@ export default function Recipes() {
                 </div>
               )
             })}
+            <div className="w-full p-8">
+            </div>
+            <div className="w-full p-8">
+            </div>
           </div>
 
         </div>
