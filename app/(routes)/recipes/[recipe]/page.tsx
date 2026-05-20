@@ -412,7 +412,7 @@ export default function Member({ params }: { params: { recipe: string } }) {
                     <Link href="/recipes" className='bg-primary-300 text-primary-900 display-4 py-2 px-4 rounded hover:shadow-md'>
                         Back to Recipes
                     </Link>
-                    <h1 className="display-1 text-primary-900 my-8">Cheater's chili</h1>
+                    <h1 className="display-1 text-primary-900 my-8">Cheater&apos;s chili</h1>
                     <SectionHeading>Ingredients</SectionHeading>
                     <ul className="list-disc list-inside mb-6">
                         <li>3/4 cup Bulgar</li>

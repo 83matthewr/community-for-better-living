@@ -180,7 +180,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(0, 3).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -191,7 +191,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(3, 6).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -202,7 +202,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(6, 9).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -213,7 +213,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(9, 12).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -224,7 +224,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(12, 15).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -235,7 +235,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(15, 18).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -246,7 +246,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(18, 21).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -257,7 +257,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(21, 24).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -268,7 +268,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(24, 27).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -279,7 +279,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(27, 30).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -290,7 +290,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(30, 33).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -301,7 +301,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(33, 36).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
@@ -312,7 +312,7 @@ export default function Recipes() {
           <div className="flex flex-col lg:flex-row gap-6 mt-2 mb-4">
             {RECIPES.slice(36, 38).map((recipe) => {
               return (
-                <div className="w-full bg-secondary-100 rounded-md shadow-md p-8">
+                <div key={recipe.name} className="w-full bg-secondary-100 rounded-md shadow-md p-8">
                   <h3 className="display-4 md:display-3 text-primary-900 mb-6">{recipe.name}</h3>
                   <Link href={recipe.link} className="py-2 px-4 rounded bg-primary-900 text-white body-2b lg:body-1b">See Recipe</Link>
                 </div>
