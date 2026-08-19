@@ -72,45 +72,16 @@ export default function Events() {
           <SectionHeading>Upcoming Events</SectionHeading>
           <div className="flex flex-col 2xl:flex-row gap-6 items-center justify-center">
 
-            <ImageCard image={luncheonImage} height="300px" alt="">
-              <div className="2xl:h-[400px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
-                <div className="flex flex-col gap-4">
-                  <div>
-                    <h3 className="display-2 text-primary-900">Cooking Classes</h3>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <h4 className="display-4 text-neutral-900">Date:</h4>
-                    <p className="body-1r text-neutral-900">May 18 - 21, 2026</p>
-                    <p className="body-1r text-neutral-900">7:00 pm</p>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <h4 className="display-4 text-neutral-900">Location:</h4>
-                    <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
-                    <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
-                  </div>
-                  <div className="flex flex-col gap-4">
-                    <p className="body-1r text neutral-900">
-                      Join us for FREE classes on simple and adaptable healthy cooking. Featuring an 
-                      educational talk, live demonstration, and opportunity to taste-test recipes.
-                    </p>
-                    <p className="body-1r body-1b neutral-900 mb-4">
-                      Call (400) 541-7829 to register.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </ImageCard>
-
             <ImageCard image={BingoEventImage} height="300px" alt="">
-              <div className="2xl:h-[400px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+              <div className="2xl:h-[600px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
                 <div className="flex flex-col gap-4">
                   <div>
-                    <h3 className="display-2 text-primary-900">Bingo Night</h3>
+                    <h3 className="display-2 text-primary-900">Fall Bingo Night</h3>
                   </div>
                   <div className="flex flex-col gap-1">
                     <h4 className="display-4 text-neutral-900">Date:</h4>
-                    <p className="body-1r text-neutral-900">Saturday, May 30, 2026</p>
-                    <p className="body-1r text-neutral-900">6:00 - 8:00pm (Doors open at 5:30pm)</p>
+                    <p className="body-1r text-neutral-900">Saturday, October 24, 2026</p>
+                    <p className="body-1r text-neutral-900">6:00 - 8:00pm</p>
                   </div>
                   <div className="flex flex-col gap-1">
                     <h4 className="display-4 text-neutral-900">Location:</h4>
@@ -119,22 +90,26 @@ export default function Events() {
                   </div>
                   <div className="flex flex-col gap-4">
                     <p className="body-1r text neutral-900">
-                      Come join us for our family friendly Bingo Night Fundraiser! We will have prizes, raffle baskets,
-                      popcorn, and drinks. As always, it&apos;s FREE to play! All proceeds go directly to the Community for Better
-                      Living Food Bank. If you&apos;d like to donate a raffle basket, gift card, game prize, or sponsor a basket or prize,
-                      please reach out and let us know!
+                      Welcome to our Bingo Night Fundraiser, Fall Event. This event will be family friendly and open to all! All kids must accompany an adult, 
+                      please. Popcorn and drinks will be provided. We will have prizes for the games and raffles to enter, if you would like. Entering raffles 
+                      is not required, but appreciated. All funds raised from the raffles go directly to the food bank to help us feed more families in need. 
+                    </p>
+                    <ul className="list-disc list-inside">
+                      <li>Raffle tickets are $1 or 12 for $10 </li>
+                      <li>Raffle winners must be present to win</li>
+                      <li>If you wear a costume, you get an extra raffle ticket (please keep all costumes family friendly)</li>
+                      <li>It is free to play. We will provide the stamper, if you need one, and the game cards</li>
+                    </ul>
+                    <p className="body-1r text neutral-900">
+                      Come out and have some fun!
                     </p>
                   </div>
                 </div>
               </div>
             </ImageCard>
-
-          </div>
-
-          <div className="flex flex-col 2xl:flex-row gap-6 items-center justify-center">
 
             <ImageCard image={DanceEventImage} height="300px" alt="">
-              <div className="2xl:h-[320px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+              <div className="2xl:h-[600px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
                 <div className="flex flex-col gap-4">
                   <div>
                     <h3 className="display-2 text-primary-900">Beginner&apos;s Line Dancing (Save the Date)</h3>
@@ -157,8 +132,12 @@ export default function Events() {
               </div>
             </ImageCard>
 
+          </div>
+
+          <div className="flex flex-col 2xl:flex-row gap-6 items-center justify-center">
+
             <ImageCard image={carshowImage} height="300px" alt="">
-              <div className="2xl:h-[320px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
+              <div className="2xl:h-[680px] flex flex-col gap-4 justify-between p-0 xs:p-2 lg:p-4">
                 <div className="flex flex-col gap-4">
                   <div>
                     <h3 className="display-2 text-primary-900">4th Annual Car Show (Save the Date)</h3>
@@ -173,25 +152,33 @@ export default function Events() {
                     <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
                     <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
                   </div>
+                  <div className="flex flex-col gap-1">
+                    <h4 className="display-4 text-neutral-900">Registration:</h4>
+                    <p className="body-1r text-neutral-900">$10 per car (Participants receive a dash plaque!)</p>
+                  </div>
                   <div className="flex flex-col gap-4">
                     <p className="body-1r text neutral-900">
-                      More details coming soon.
+                      Rev those engines for a cause! We are thrilled to invite you to our 4th Annual Car Show Fundraiser benefitting The Community for Better Living (CBL).<br/><br/>
+
+                      Join us for a day filled with incredible cars, great food, and exciting raffles. Whether you&apos;re showing off your pride and joy or just coming to enjoy the view, 
+                      your support helps us continue our mission of providing food pantry services and community support in partnership with the Greater Cleveland Food Bank.<br/><br/>
+
+                      Trophies will be awarded across several categories! Could you be our next 2026 winner?<br/><br/>
+                      All proceeds go directly to helping our neighbors in need. Let&apos;s make this our biggest year yet!
                     </p>
                   </div>
                 </div>
               </div>
             </ImageCard>
 
-            {/*
             <ImageCard image={comingSoonImage} height="300px" alt="">
-              <div className="2xl:h-[480px] px-0 py-8 lg:py-48 xs:px-2 lg:px-4 text-center">
+              <div className="2xl:h-[680px] px-0 py-8 lg:py-48 xs:px-2 lg:px-4 text-center">
                 <div>
                   <h3 className="display-2 text-primary-900 mb-4">More Events Coming Soon...</h3>
                   <p className="body-1b text-neutral-700">Check back later for more info</p>
                 </div>
               </div>
             </ImageCard>
-            */}
 
           </div>
         </div>
