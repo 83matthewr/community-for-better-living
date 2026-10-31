@@ -18,101 +18,6 @@ import allWelcome from "../../../public/assets/all_welcome.jpg";
 
 const FOODBANK_DATES = [
   {
-    date: "January 22, 2026",
-    abbr_date: "Jan 22, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "February 12, 2026",
-    abbr_date: "Feb 12, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "February 26, 2026",
-    abbr_date: "Feb 26, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "March 12, 2026",
-    abbr_date: "Mar 12, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "March 26, 2026",
-    abbr_date: "Feb 12, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "April 9, 2026",
-    abbr_date: "April 9, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "April 23, 2026",
-    abbr_date: "April 23, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "May 14, 2026",
-    abbr_date: "May 14, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "May 28, 2026",
-    abbr_date: "May 28, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "June 11, 2026",
-    abbr_date: "June 11, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "June 25, 2026",
-    abbr_date: "June 25, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "July 9, 2026",
-    abbr_date: "July 9, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "July 23, 2026",
-    abbr_date: "July 23, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "August 13, 2026",
-    abbr_date: "Aug 13, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "August 27, 2026",
-    abbr_date: "Aug 27, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "September 10, 2026",
-    abbr_date: "Sept 10, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "September 24, 2026",
-    abbr_date: "Sept 24, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "October 8, 2026",
-    abbr_date: "Oct 8, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
-    date: "October 22, 2026",
-    abbr_date: "Oct 22, 2026",
-    time: "5:30pm-6:30pm"
-  },
-  {
     date: "November 5, 2026",
     abbr_date: "Nov 5, 2026",
     time: "5:30pm-6:30pm"
@@ -132,6 +37,106 @@ const FOODBANK_DATES = [
     abbr_date: "Dec 17, 2026",
     time: "5:30pm-6:30pm"
   },
+  {
+    date: "January 14, 2027",
+    abbr_date: "Jan 14, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "January 28, 2027",
+    abbr_date: "Jan 28, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "February 11, 2027",
+    abbr_date: "Feb 11, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "February 25, 2027",
+    abbr_date: "Feb 25, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "March 11, 2027",
+    abbr_date: "Mar 11, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "March 25, 2027",
+    abbr_date: "Mar 25, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "April 8, 2027",
+    abbr_date: "April 8, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "April 22, 2027",
+    abbr_date: "April 22, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "May 13, 2027",
+    abbr_date: "May 13, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "May 27, 2027",
+    abbr_date: "May 27, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "June 10, 2027",
+    abbr_date: "June 10, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "June 24, 2027",
+    abbr_date: "June 24, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "July 8, 2027",
+    abbr_date: "July 8, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "July 22, 2027",
+    abbr_date: "July 22, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "August 12, 2027",
+    abbr_date: "Aug 12, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "August 26, 2027",
+    abbr_date: "Aug 26, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "September 9, 2027",
+    abbr_date: "Sept 9, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "September 23, 2027",
+    abbr_date: "Sept 23, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "October 14, 2027",
+    abbr_date: "Oct 14, 2027",
+    time: "5:30pm-6:30pm"
+  },
+  {
+    date: "October 28, 2027",
+    abbr_date: "Oct 28, 2027",
+    time: "5:30pm-6:30pm"
+  }
 ]
 
 export default function FoodBank() {
