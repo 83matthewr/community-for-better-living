@@ -15,6 +15,7 @@ import MobileDonation from "@/app/components/mobile-donation.component";
 import mobileHero from "../../../public/assets/brownbags.jpg";
 import allWelcome from "../../../public/assets/all_welcome.jpg";
 
+// adding comment
 
 const FOODBANK_DATES = [
   {
