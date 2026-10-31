@@ -83,17 +83,19 @@ export default function Events() {
                       The drop-off date for presents will be Saturday, December 5th, between 1 - 3 pm. Please place all presents in a box or bag 
                       with the individual or family number clearly labeled on the outside.
                     </p>
-                    <h3 className="display-3 text-neutral-900 mb-4">To Register, please call or text Tammi at (440) 541-7829</h3>
                   </div>
                   <div className="flex flex-col gap-1">
                     <h4 className="display-4 text-neutral-900">Drop-off Date:</h4>
                     <p className="body-1r text-neutral-900">December 5, 2026</p>
                     <p className="body-1r text-neutral-900">1:00 - 3:00pm</p>
                   </div>
-                  <div className="flex flex-col gap-1">
+                  <div className="flex flex-col gap-1 mb-6">
                     <h4 className="display-4 text-neutral-900">Drop-off Location:</h4>
                     <p className="body-1r text-neutral-900">7074 Columbia Rd</p>
                     <p className="body-1r text-neutral-900">Olmsted Falls, OH 44138</p>
+                  </div>
+                  <div className="flex flex-col gap-1">
+                    <h3 className="display-3 text-primary-900">To Register, please call or text Tammi at (440) 541-7829</h3>
                   </div>
                 </div>
               </div>
