@@ -62,7 +62,7 @@ export default function Events() {
                       We are looking for donors and sponsors to adopt families in need this Christmas season to ensure every family can enjoy a joyful holiday season.<br/><br/>
 
                       Our families are identified through our Food Pantry as being in need, and each one meets the income eligibility requirements set by the Greater 
-                      Cleveland Food Bank. When you adopt a family, you're helping neighbors right here in our surrounding communities.<br/><br/>
+                      Cleveland Food Bank. When you adopt a family, you&apos;re helping neighbors right here in our surrounding communities.<br/><br/>
                     </p>
                   </div>
                   <div className="flex flex-col gap-4">
@@ -73,7 +73,7 @@ export default function Events() {
 
                       2. Please purchase practical items and something fun from the list provided.<br/><br/>
 
-                      3. Presents should be wrapped and labeled with the child's name and family number.<br/><br/>
+                      3. Presents should be wrapped and labeled with the child&apos;s name and family number.<br/><br/>
 
                       4. If the gift requires batteries, please include them.<br/><br/>
 
